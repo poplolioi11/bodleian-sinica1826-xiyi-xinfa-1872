@@ -1,0 +1,381 @@
+{
+  "dataset_id": "bodleian-sinica1826",
+  "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/d07550d1-b969-4d5a-a5f3-5bd10634b21c.json",
+  "manifest_sha256": "e1a2beaee1aa183590dd2363e8c1e9d3ba9829225ed48406f7b092eff7cc3356",
+  "retrieved_date": "2026-11-05",
+  "image_scope": "25 official 3000px-wide source captures; 44 numbered physical faces in transcription scope; images and crops excluded.",
+  "images_redistributed": false,
+  "canvases": [
+    {
+      "page_id": "f001",
+      "index": 1,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b0a62f77-ed27-45e3-a180-f100b5004e9e.json",
+      "official_label": "Upper cover",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b0a62f77-ed27-45e3-a180-f100b5004e9e/full/3000,/0/default.jpg",
+      "image_sha256": "e659f8075fb5012ebce595956a2830c751d8fafe26812ab234c6ed882c4aa0fd",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": []
+    },
+    {
+      "page_id": "f002",
+      "index": 2,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/39623737-d743-4426-9bdc-8c672b99a094.json",
+      "official_label": "Inside upper cover and p. [1]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/39623737-d743-4426-9bdc-8c672b99a094/full/3000,/0/default.jpg",
+      "image_sha256": "50ba83c648a42d126a07924b14871a6c59f231ddf7d3ca4e536670386a7e078d",
+      "width": 3000,
+      "height": 2726,
+      "manifest_width": 5955,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f003",
+      "index": 3,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/aeb2de22-627f-4844-922b-51bdab1f68cd.json",
+      "official_label": "pp. [2]-[3]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/aeb2de22-627f-4844-922b-51bdab1f68cd/full/3000,/0/default.jpg",
+      "image_sha256": "f7354204ef3d1e5d27dd2827eb07b088f64695a717e7105c812ff49503a84baa",
+      "width": 3000,
+      "height": 2726,
+      "manifest_width": 5955,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f004",
+      "index": 4,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/dcef3848-ca3f-4e32-8261-f19af210940f.json",
+      "official_label": "pp. [4]-[5]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcef3848-ca3f-4e32-8261-f19af210940f/full/3000,/0/default.jpg",
+      "image_sha256": "562bde55dafea63064b34714212b84cebc7ccb85e945058b1d26a5e15ffdc3b1",
+      "width": 3000,
+      "height": 2726,
+      "manifest_width": 5955,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f005",
+      "index": 5,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5b364793-0be8-4be9-9416-196051aeddd4.json",
+      "official_label": "pp. [6]-[7]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5b364793-0be8-4be9-9416-196051aeddd4/full/3000,/0/default.jpg",
+      "image_sha256": "9a4d85838d66f86774b0de963685d2018062199e929da2c0ebed2f4033f76003",
+      "width": 3000,
+      "height": 2726,
+      "manifest_width": 5955,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f006",
+      "index": 6,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d9105892-5cfd-46db-a345-4d3bb42a60b4.json",
+      "official_label": "pp. [8]-[9]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d9105892-5cfd-46db-a345-4d3bb42a60b4/full/3000,/0/default.jpg",
+      "image_sha256": "45c1607b5b66e97fb924dd3b8e0b2b1372a8853c06c51bb2ba25871d00f0e77f",
+      "width": 3000,
+      "height": 2726,
+      "manifest_width": 5955,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f007",
+      "index": 7,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/7b87d46a-ce98-4380-9b71-5eeb58cf79d8.json",
+      "official_label": "pp. [10]-[11]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7b87d46a-ce98-4380-9b71-5eeb58cf79d8/full/3000,/0/default.jpg",
+      "image_sha256": "268c34d4fe09214f3cf71ffcdf7af99f6cd68fc9f6af8e77eaffc6f144d4945d",
+      "width": 3000,
+      "height": 2726,
+      "manifest_width": 5955,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f008",
+      "index": 8,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d4ef883b-e32d-41f5-825c-48880920fb08.json",
+      "official_label": "pp. [12]-[13]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d4ef883b-e32d-41f5-825c-48880920fb08/full/3000,/0/default.jpg",
+      "image_sha256": "48dfe7278ab8f9762184e69f630da980d96e51f5e08a915817bf06422ef8c955",
+      "width": 3000,
+      "height": 2726,
+      "manifest_width": 5955,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f009",
+      "index": 9,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9ebf6f24-d1c1-4164-aed6-56deedc0dd83.json",
+      "official_label": "pp. [14]-[15]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9ebf6f24-d1c1-4164-aed6-56deedc0dd83/full/3000,/0/default.jpg",
+      "image_sha256": "6c14858723a5de4896c99b8f5855f8d20973e926c9b4830931bdd6f160d24eda",
+      "width": 3000,
+      "height": 2726,
+      "manifest_width": 5955,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f010",
+      "index": 10,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/506e48dc-b118-48ea-a0ac-6e241c174f01.json",
+      "official_label": "pp. [16]-[17]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/506e48dc-b118-48ea-a0ac-6e241c174f01/full/3000,/0/default.jpg",
+      "image_sha256": "2721b94dea0a02dafca76d73831e7abcd3a7d01913237ed00691c5a8db6e13ab",
+      "width": 3000,
+      "height": 2718,
+      "manifest_width": 5973,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f011",
+      "index": 11,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e9f30f8a-35f1-48d4-8df7-a9d19876abc9.json",
+      "official_label": "pp. [18]-[19]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e9f30f8a-35f1-48d4-8df7-a9d19876abc9/full/3000,/0/default.jpg",
+      "image_sha256": "a70bc5bb5e9fca3bacaa9ebff3d33e376ac94cd2934c38ce9b5002aaf1e99e5c",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f012",
+      "index": 12,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/1dfcce24-72c1-45f8-872e-3201a8b80b0f.json",
+      "official_label": "pp. [20]-[21]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1dfcce24-72c1-45f8-872e-3201a8b80b0f/full/3000,/0/default.jpg",
+      "image_sha256": "197a6632177437bce8ab37d7cdda610137774401caf05f1583fde3e7512de324",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f013",
+      "index": 13,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/eb2453fb-514f-46a8-a45f-89165592fdfc.json",
+      "official_label": "pp. [22]-[23]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eb2453fb-514f-46a8-a45f-89165592fdfc/full/3000,/0/default.jpg",
+      "image_sha256": "ccc007a6cbcd447f9db8dfbd95eb573e992310f4502091472129471e5a840123",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f014",
+      "index": 14,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/abdbb34c-e78f-441f-857d-baaf97652501.json",
+      "official_label": "pp. [24]-[25]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/abdbb34c-e78f-441f-857d-baaf97652501/full/3000,/0/default.jpg",
+      "image_sha256": "14b5853e1c946ea67aa7eff94e51d86fc9df019344571c398309d246438de0f4",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f015",
+      "index": 15,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/91a36f3b-6efc-4f39-9f6c-498b6285370a.json",
+      "official_label": "pp. [26]-[27]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a36f3b-6efc-4f39-9f6c-498b6285370a/full/3000,/0/default.jpg",
+      "image_sha256": "415675836b6783297c367ddd311723ff94eb2b14b074ccb4e43366fc07860a42",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f016",
+      "index": 16,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f736dcb6-ff40-4dc0-8da4-59c5ad9c180b.json",
+      "official_label": "pp. [28]-[29]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f736dcb6-ff40-4dc0-8da4-59c5ad9c180b/full/3000,/0/default.jpg",
+      "image_sha256": "be7f382ed11f1f4c80b6805305a4050ad0c8bc84da2c4bda01815bd5cec8548b",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f017",
+      "index": 17,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e794d2df-bbed-43d8-be4e-ee14b11b3566.json",
+      "official_label": "pp. [30]-[31]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e794d2df-bbed-43d8-be4e-ee14b11b3566/full/3000,/0/default.jpg",
+      "image_sha256": "1f67574781aaed47c487266823c5b90f1321547f73bfef4363c1229e39ce4b6f",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f018",
+      "index": 18,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d98086e2-77bd-4886-8c78-73ebcf0416f9.json",
+      "official_label": "pp. [32]-[33]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d98086e2-77bd-4886-8c78-73ebcf0416f9/full/3000,/0/default.jpg",
+      "image_sha256": "a0e59f43c0415fbc2cc944beb44ed398031aac6a2a7d92d434b4aedc00e57ede",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f019",
+      "index": 19,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ed938056-3189-4da4-808f-fb3e18abb9a2.json",
+      "official_label": "pp. [34]-[35]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ed938056-3189-4da4-808f-fb3e18abb9a2/full/3000,/0/default.jpg",
+      "image_sha256": "c03a4427a339a028a18919181ccaa9bfe0cd5ee276c26e17944e467f0108a1ed",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f020",
+      "index": 20,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/611b065f-a213-439f-8e7f-8eed2157aef1.json",
+      "official_label": "pp. [36]-[37]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/611b065f-a213-439f-8e7f-8eed2157aef1/full/3000,/0/default.jpg",
+      "image_sha256": "03390d77dcc4d5aa3c93d487a6f819d76a8a3a325df097974dd4d196fd206acc",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f021",
+      "index": 21,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c12dc91d-8d17-4f44-b0a3-3f154c43af3a.json",
+      "official_label": "pp. [38]-[39]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12dc91d-8d17-4f44-b0a3-3f154c43af3a/full/3000,/0/default.jpg",
+      "image_sha256": "42a6130469d8d515d8e8463efd476e30ad5053ae664609848a96f6d25b2ffc6c",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f022",
+      "index": 22,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/850ae62d-45ae-481f-916f-2fe08eccd57f.json",
+      "official_label": "pp. [40]-[41]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/850ae62d-45ae-481f-916f-2fe08eccd57f/full/3000,/0/default.jpg",
+      "image_sha256": "0d87d95d52dc5b3cfac3a5a4b0bcf466be9272f29878535b8abe6439c2577bf1",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f023",
+      "index": 23,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0ccc40b5-3f62-46b3-b58b-7750b5730df8.json",
+      "official_label": "pp. [42]-[43]",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0ccc40b5-3f62-46b3-b58b-7750b5730df8/full/3000,/0/default.jpg",
+      "image_sha256": "1b63f7f4f3e323bc5ea1182512dc2ad4d7b9b09e33ae0718da832db6207f90ee",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f024",
+      "index": 24,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bae8eebe-a9ae-493e-84ec-ec4806203910.json",
+      "official_label": "p. [44] and inside lower cover",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bae8eebe-a9ae-493e-84ec-ec4806203910/full/3000,/0/default.jpg",
+      "image_sha256": "9240b0ed7e78e2d0c1409d107cf82e1d7fc394941a65919ade47526d5c72e507",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": [
+        "original-print"
+      ]
+    },
+    {
+      "page_id": "f025",
+      "index": 25,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cb611dea-4ce6-463f-b5d2-ddef89a8c585.json",
+      "official_label": "Lower cover",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb611dea-4ce6-463f-b5d2-ddef89a8c585/full/3000,/0/default.jpg",
+      "image_sha256": "419d7ba1c4775c4b99ab528c794c2ff024fa701c93fbaa80ff066147c8adef1a",
+      "width": 3000,
+      "height": 2688,
+      "manifest_width": 6041,
+      "manifest_height": 5412,
+      "required_layers": []
+    }
+  ]
+}

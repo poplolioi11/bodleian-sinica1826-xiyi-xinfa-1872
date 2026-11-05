@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: Cite the fixed version and verify quotations against the Bodleian images.
+type: dataset
+title: '西醫新法（[1872]；Bodleian Sinica 1826） / Xi yi xin fa [New methods of Western medicine]:
+  Transcription dataset'
+authors:
+- family-names: Chu
+  given-names: Chen-Yu
+  orcid: https://orcid.org/0009-0003-9738-6914
+  website: https://github.com/poplolioi11
+version: 0.1.0
+date-released: '2026-11-05'
+abstract: Xi yi xin fa [New methods of Western medicine] is a late-Qing Chinese medical
+  work concerning surgery and bandaging, credited to John Glasgow Kerr (嘉約翰) for oral
+  translation and Lin Xiangdong (林湘東) for written rendering. The official fixed catalogue
+  for Bodleian Libraries, Sinica 1826, supplies [Canton] and [1872]. Derived from
+  the Bodleian digital images, this dataset offers an initial transcription of original
+  printed text across six figure faces, thirty-seven main-text faces, and one face
+  with an original printed frame and a blank body. TXT, JSON, and TEI XML retain readings,
+  uncertainties, and physical-face-to-image mappings for research on late-Qing surgical
+  and bandaging terminology in translation, image-text relationships, and print history.
+  This is an AI initial transcription with uncertainty records; full human double
+  collation and expert review have not been performed.
+keywords:
+- 西醫新法
+- Xi yi xin fa
+- 嘉約翰
+- John Glasgow Kerr
+- 林湘東
+- Lin Xiangdong
+- 晚清醫學翻譯
+- late-Qing medical translation
+- 包紮史
+- history of bandaging
+- 外科史
+- history of surgery
+- 圖文關係
+- image-text relationships
+- 印刷史
+- print history
+- Sinica 1826
+url: https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872

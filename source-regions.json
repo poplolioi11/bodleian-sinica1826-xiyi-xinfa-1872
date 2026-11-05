@@ -1,0 +1,263 @@
+{
+  "dataset_id": "bodleian-sinica1826",
+  "source_version": "bodleian1826-fixed3000-v1",
+  "bbox_convention": "Raw coordinates copied without reinterpretation; no character geometry inferred. Consult the declared coordinate convention before spatial reuse.",
+  "unresolved_source_regions": [
+    {
+      "id": "region-0001",
+      "page_id": "p16",
+      "frame": "f010",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/506e48dc-b118-48ea-a0ac-6e241c174f01/full/3000,/0/default.jpg",
+      "image_sha256": "2721b94dea0a02dafca76d73831e7abcd3a7d01913237ed00691c5a8db6e13ab",
+      "bbox": [
+        2660,
+        580,
+        2755,
+        2120
+      ],
+      "extent": "unknown",
+      "reason": "右側外緣字跡於原圖右緣／書葉邊緣截斷；本頁版心或鄰頁邊條之歸屬尚未裁定。未按左頁、數列或文意補足，也未把尚未編碼的邊界區誤列來源不可辨。"
+    },
+    {
+      "id": "region-0002",
+      "page_id": "p18",
+      "frame": "f011",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e9f30f8a-35f1-48d4-8df7-a9d19876abc9/full/3000,/0/default.jpg",
+      "image_sha256": "a70bc5bb5e9fca3bacaa9ebff3d33e376ac94cd2934c38ce9b5002aaf1e99e5c",
+      "bbox": [
+        2655,
+        575,
+        2750,
+        2100
+      ],
+      "extent": "unknown",
+      "reason": "右側外緣字跡於原圖右緣／書葉邊緣截斷；本頁版心或鄰頁邊條之歸屬尚未裁定。未按左頁、數列或文意補足，也未把尚未編碼的邊界區誤列來源不可辨。"
+    },
+    {
+      "id": "region-0003",
+      "page_id": "p20",
+      "frame": "f012",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1dfcce24-72c1-45f8-872e-3201a8b80b0f/full/3000,/0/default.jpg",
+      "image_sha256": "197a6632177437bce8ab37d7cdda610137774401caf05f1583fde3e7512de324",
+      "bbox": [
+        2650,
+        555,
+        2745,
+        2080
+      ],
+      "extent": "unknown",
+      "reason": "右側外緣字跡於原圖右緣／書葉邊緣截斷；本頁版心或鄰頁邊條之歸屬尚未裁定。未按左頁、數列或文意補足，也未把尚未編碼的邊界區誤列來源不可辨。"
+    },
+    {
+      "id": "region-0004",
+      "page_id": "p22",
+      "frame": "f013",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eb2453fb-514f-46a8-a45f-89165592fdfc/full/3000,/0/default.jpg",
+      "image_sha256": "ccc007a6cbcd447f9db8dfbd95eb573e992310f4502091472129471e5a840123",
+      "bbox": [
+        2665,
+        1500,
+        2750,
+        1900
+      ],
+      "extent": "unknown",
+      "reason": "右側外緣字跡於原圖右緣／書葉邊緣截斷；本頁版心或鄰頁邊條之歸屬尚未裁定。未按左頁、數列或文意補足，也未把尚未編碼的邊界區誤列來源不可辨。"
+    },
+    {
+      "id": "region-0005",
+      "page_id": "p24",
+      "frame": "f014",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/abdbb34c-e78f-441f-857d-baaf97652501/full/3000,/0/default.jpg",
+      "image_sha256": "14b5853e1c946ea67aa7eff94e51d86fc9df019344571c398309d246438de0f4",
+      "bbox": [
+        2675,
+        1500,
+        2770,
+        1900
+      ],
+      "extent": "unknown",
+      "reason": "右側外緣字跡於原圖右緣／書葉邊緣截斷；本頁版心或鄰頁邊條之歸屬尚未裁定。未按左頁、數列或文意補足，也未把尚未編碼的邊界區誤列來源不可辨。"
+    },
+    {
+      "id": "region-0006",
+      "page_id": "p26",
+      "frame": "f015",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a36f3b-6efc-4f39-9f6c-498b6285370a/full/3000,/0/default.jpg",
+      "image_sha256": "415675836b6783297c367ddd311723ff94eb2b14b074ccb4e43366fc07860a42",
+      "bbox": [
+        2685,
+        1500,
+        2775,
+        1900
+      ],
+      "extent": "unknown",
+      "reason": "右側外緣字跡於原圖右緣／書葉邊緣截斷；本頁版心或鄰頁邊條之歸屬尚未裁定。未按左頁、數列或文意補足，也未把尚未編碼的邊界區誤列來源不可辨。"
+    },
+    {
+      "id": "region-0007",
+      "page_id": "p28",
+      "frame": "f016",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f736dcb6-ff40-4dc0-8da4-59c5ad9c180b/full/3000,/0/default.jpg",
+      "image_sha256": "be7f382ed11f1f4c80b6805305a4050ad0c8bc84da2c4bda01815bd5cec8548b",
+      "bbox": [
+        2675,
+        1500,
+        2760,
+        1900
+      ],
+      "extent": "unknown",
+      "reason": "右側外緣字跡於原圖右緣／書葉邊緣截斷；本頁版心或鄰頁邊條之歸屬尚未裁定。未按左頁、數列或文意補足，也未把尚未編碼的邊界區誤列來源不可辨。"
+    },
+    {
+      "id": "region-0008",
+      "page_id": "p30",
+      "frame": "f017",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e794d2df-bbed-43d8-be4e-ee14b11b3566/full/3000,/0/default.jpg",
+      "image_sha256": "1f67574781aaed47c487266823c5b90f1321547f73bfef4363c1229e39ce4b6f",
+      "bbox": [
+        2678,
+        1510,
+        2740,
+        1810
+      ],
+      "extent": "unknown",
+      "reason": "照片右邊折界外見局部原印筆畫，無法單憑本面確認為本面版心頁碼或鄰面折邊；未猜錄。"
+    },
+    {
+      "id": "region-0009",
+      "page_id": "p32",
+      "frame": "f018",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d98086e2-77bd-4886-8c78-73ebcf0416f9/full/3000,/0/default.jpg",
+      "image_sha256": "a0e59f43c0415fbc2cc944beb44ed398031aac6a2a7d92d434b4aedc00e57ede",
+      "bbox": [
+        2695,
+        1500,
+        2764,
+        1810
+      ],
+      "extent": "unknown",
+      "reason": "右外折邊局部原印筆畫未能確認歸屬，不重複猜錄版心頁碼。"
+    },
+    {
+      "id": "region-0010",
+      "page_id": "p34",
+      "frame": "f019",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ed938056-3189-4da4-808f-fb3e18abb9a2/full/3000,/0/default.jpg",
+      "image_sha256": "c03a4427a339a028a18919181ccaa9bfe0cd5ee276c26e17944e467f0108a1ed",
+      "bbox": [
+        2688,
+        472,
+        2755,
+        2112
+      ],
+      "extent": "unknown",
+      "reason": "右外折邊原印版心與下部十四形筆畫可見，整體歸屬未確定；不將鄰面折邊猜作本面文字。"
+    },
+    {
+      "id": "region-0011",
+      "page_id": "p36",
+      "frame": "f020",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/611b065f-a213-439f-8e7f-8eed2157aef1/full/3000,/0/default.jpg",
+      "image_sha256": "03390d77dcc4d5aa3c93d487a6f819d76a8a3a325df097974dd4d196fd206acc",
+      "bbox": [
+        2700,
+        500,
+        2760,
+        2090
+      ],
+      "extent": "unknown",
+      "reason": "右外折邊原印版心局部筆畫歸屬未確定，不重複猜錄。"
+    },
+    {
+      "id": "region-0012",
+      "page_id": "p38",
+      "frame": "f021",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12dc91d-8d17-4f44-b0a3-3f154c43af3a/full/3000,/0/default.jpg",
+      "image_sha256": "42a6130469d8d515d8e8463efd476e30ad5053ae664609848a96f6d25b2ffc6c",
+      "bbox": [
+        2695,
+        500,
+        2749,
+        2118
+      ],
+      "extent": "unknown",
+      "reason": "右外折邊原印局部筆畫歸屬未解，不猜錄版心頁碼。"
+    },
+    {
+      "id": "region-0013",
+      "page_id": "p40",
+      "frame": "f022",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/850ae62d-45ae-481f-916f-2fe08eccd57f/full/3000,/0/default.jpg",
+      "image_sha256": "0d87d95d52dc5b3cfac3a5a4b0bcf466be9272f29878535b8abe6439c2577bf1",
+      "bbox": [
+        2690,
+        500,
+        2750,
+        2118
+      ],
+      "extent": "unknown",
+      "reason": "右外折邊原印局部筆畫歸屬未解，不猜錄版心頁碼。"
+    },
+    {
+      "id": "region-0014",
+      "page_id": "p42",
+      "frame": "f023",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0ccc40b5-3f62-46b3-b58b-7750b5730df8/full/3000,/0/default.jpg",
+      "image_sha256": "1b63f7f4f3e323bc5ea1182512dc2ad4d7b9b09e33ae0718da832db6207f90ee",
+      "bbox": [
+        2695,
+        500,
+        2750,
+        2118
+      ],
+      "extent": "unknown",
+      "reason": "右外折邊局部原印筆畫歸屬未解，不猜錄版心頁碼。"
+    },
+    {
+      "id": "region-0015",
+      "page_id": "p44",
+      "frame": "f024",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bae8eebe-a9ae-493e-84ec-ec4806203910/full/3000,/0/default.jpg",
+      "image_sha256": "9240b0ed7e78e2d0c1409d107cf82e1d7fc394941a65919ade47526d5c72e507",
+      "bbox": [
+        2694,
+        500,
+        2760,
+        1090
+      ],
+      "extent": "unknown",
+      "reason": "右外折邊框線旁只餘局部短筆，無法確認是否為本面被遮原印字或鄰面折邊；除可見十九外不猜錄。"
+    }
+  ],
+  "unit_source_regions": [
+    {
+      "unit_id": "p44-u001",
+      "page_id": "p44",
+      "frame": "f024",
+      "side": "right",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bae8eebe-a9ae-493e-84ec-ec4806203910/full/3000,/0/default.jpg",
+      "image_sha256": "9240b0ed7e78e2d0c1409d107cf82e1d7fc394941a65919ade47526d5c72e507",
+      "bbox": [
+        2700,
+        1695,
+        2760,
+        1790
+      ]
+    }
+  ]
+}
