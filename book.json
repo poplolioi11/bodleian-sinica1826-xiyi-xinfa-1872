@@ -1,15 +1,20 @@
 {
   "dataset_id": "bodleian-sinica1826",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "title": "西醫新法（[1872]；Bodleian Sinica 1826） / Xi yi xin fa [New methods of Western medicine]: Transcription dataset",
   "quality": {
-    "status": "AI-initial-transcription-unreviewed",
-    "independent_reading_applied": false,
+    "status": "AI-assisted-source-revision-provisional",
+    "independent_reading_applied": true,
     "human_double_collation": "not-performed",
     "expert_review": "not-performed",
     "peer_review": "not-performed",
     "accuracy_measured": false,
-    "unknown_regions_are_not_unprocessed": true
+    "unknown_regions_are_not_unprocessed": true,
+    "second_observation_coverage": "44 physical faces: usable Gemini observations15 faces/10 frames; native source-only supplements29 faces",
+    "comparison_candidates": 1130,
+    "unresolved_comparison_candidates": 215,
+    "source_review": "nonblind AI source review; both readings exposed",
+    "traceability_status": "incomplete; exact native model identity and unit observation coverage for added review activities remain unknown"
   },
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/",
@@ -26,8 +31,8 @@
     "original_frame_body_blank_faces": 1,
     "excluded_cover_faces": 4,
     "units": 472,
-    "codepoints": 9100,
-    "uncertainty_records": 69,
+    "codepoints": 9189,
+    "uncertainty_records": 71,
     "unresolved_source_regions": 15,
     "unit_source_regions": 1,
     "square_placeholders": 0,
@@ -51,16 +56,39 @@
         "source_sha256": "50ba83c648a42d126a07924b14871a6c59f231ddf7d3ca4e536670386a7e078d",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p01",
+          "frame": "f002",
+          "side": "left",
+          "source_sha256": "50ba83c648a42d126a07924b14871a6c59f231ddf7d3ca4e536670386a7e078d",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "分格線描圖版；可見錐形／束狀／團狀物、幾何布片與開槽布片等；圖像僅描述，不重建。",
+            "第二排依畫面右至左的圖號為第四圖、第六圖、第五圖，保留來源次序。",
+            "頁下圓形館藏章及框外尺規色卡不屬原書，未轉錄。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "分格線描圖版；可見錐形／束狀／團狀物、幾何布片與開槽布片等；圖像僅描述，不重建。",
-          "第二排依畫面右至左的圖號為第四圖、第六圖、第五圖，保留來源次序。",
-          "頁下圓形館藏章及框外尺規色卡不屬原書，未轉錄。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 15,
+          "selected_literal_operations": 0,
+          "changed_original_units": 0,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 0,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p02",
@@ -69,16 +97,39 @@
         "source_sha256": "f7354204ef3d1e5d27dd2827eb07b088f64695a717e7105c812ff49503a84baa",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p02",
+          "frame": "f003",
+          "side": "right",
+          "source_sha256": "f7354204ef3d1e5d27dd2827eb07b088f64695a717e7105c812ff49503a84baa",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "分格線描圖版；可見層疊方形物、布片、捲帶、手臂、頸部與局部軀幹等；沒有辨得額外圖中文字。",
+            "左下同格的合併圖號照錄為第二十四二十五圖，不加分隔字。",
+            "右面書口僅見框線與下方數字細小筆畫，未據對面補入書名。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "分格線描圖版；可見層疊方形物、布片、捲帶、手臂、頸部與局部軀幹等；沒有辨得額外圖中文字。",
-          "左下同格的合併圖號照錄為第二十四二十五圖，不加分隔字。",
-          "右面書口僅見框線與下方數字細小筆畫，未據對面補入書名。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 0,
+          "changed_original_units": 0,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 1,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p03",
@@ -87,15 +138,38 @@
         "source_sha256": "f7354204ef3d1e5d27dd2827eb07b088f64695a717e7105c812ff49503a84baa",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p03",
+          "frame": "f003",
+          "side": "left",
+          "source_sha256": "f7354204ef3d1e5d27dd2827eb07b088f64695a717e7105c812ff49503a84baa",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "線描圖版，包含包帶中的手臂、手、腿部及上半身；圖號以外沒有辨得圖內字。",
+            "左上同格圖號照錄為第二十七二十八圖。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "線描圖版，包含包帶中的手臂、手、腿部及上半身；圖號以外沒有辨得圖內字。",
-          "左上同格圖號照錄為第二十七二十八圖。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 9,
+          "selected_literal_operations": 0,
+          "changed_original_units": 0,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 0,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p04",
@@ -104,14 +178,37 @@
         "source_sha256": "562bde55dafea63064b34714212b84cebc7ccb85e945058b1d26a5e15ffdc3b1",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p04",
+          "frame": "f004",
+          "side": "right",
+          "source_sha256": "562bde55dafea63064b34714212b84cebc7ccb85e945058b1d26a5e15ffdc3b1",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "分格線描圖版；有人物頭部、上半身與布片等；圖號以外沒有辨得圖內字。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "分格線描圖版；有人物頭部、上半身與布片等；圖號以外沒有辨得圖內字。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 7,
+          "selected_literal_operations": 0,
+          "changed_original_units": 0,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 1,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p05",
@@ -120,14 +217,37 @@
         "source_sha256": "562bde55dafea63064b34714212b84cebc7ccb85e945058b1d26a5e15ffdc3b1",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p05",
+          "frame": "f004",
+          "side": "left",
+          "source_sha256": "562bde55dafea63064b34714212b84cebc7ccb85e945058b1d26a5e15ffdc3b1",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "四格線描圖版；有人物半身、腰腿部及環帶形物；圖號以外沒有辨得圖內字。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "四格線描圖版；有人物半身、腰腿部及環帶形物；圖號以外沒有辨得圖內字。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 6,
+          "selected_literal_operations": 0,
+          "changed_original_units": 0,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 0,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p06",
@@ -136,15 +256,38 @@
         "source_sha256": "9a4d85838d66f86774b0de963685d2018062199e929da2c0ebed2f4033f76003",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p06",
+          "frame": "f005",
+          "side": "right",
+          "source_sha256": "9a4d85838d66f86774b0de963685d2018062199e929da2c0ebed2f4033f76003",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "分格線描圖版；可見帶狀物、上半身、腰腿及足部等。第四十八、四十九圖的圖旁直排短文分欄實錄。",
+            "囘、脚照所見字形保留；未改寫為現代術語或用途。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "分格線描圖版；可見帶狀物、上半身、腰腿及足部等。第四十八、四十九圖的圖旁直排短文分欄實錄。",
-          "囘、脚照所見字形保留；未改寫為現代術語或用途。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 11,
+          "selected_literal_operations": 4,
+          "changed_original_units": 3,
+          "current_uncertainty_records": 3,
+          "unresolved_comparison_candidates": 1,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p07",
@@ -153,15 +296,38 @@
         "source_sha256": "9a4d85838d66f86774b0de963685d2018062199e929da2c0ebed2f4033f76003",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p07",
+          "frame": "f005",
+          "side": "left",
+          "source_sha256": "9a4d85838d66f86774b0de963685d2018062199e929da2c0ebed2f4033f76003",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "正文起頁；書名、國籍／籍貫與譯述署名、篇題及六條直排正文欄均實讀。",
+            "本文頓點依影像錄為、；署名中可見空隙以一個全形空白表示，不推估原字位數。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "正文起頁；書名、國籍／籍貫與譯述署名、篇題及六條直排正文欄均實讀。",
-          "本文頓點依影像錄為、；署名中可見空隙以一個全形空白表示，不推估原字位數。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 4,
+          "changed_original_units": 2,
+          "current_uncertainty_records": 6,
+          "unresolved_comparison_candidates": 2,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p08",
@@ -170,15 +336,38 @@
         "source_sha256": "45c1607b5b66e97fb924dd3b8e0b2b1372a8853c06c51bb2ba25871d00f0e77f",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p08",
+          "frame": "f006",
+          "side": "right",
+          "source_sha256": "45c1607b5b66e97fb924dd3b8e0b2b1372a8853c06c51bb2ba25871d00f0e77f",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "十個正文直排欄；第二、第四、九欄為較短欄，照實分列。",
+            "本面右書口邊緣無可完整讀取之書名，未補。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "十個正文直排欄；第二、第四、九欄為較短欄，照實分列。",
-          "本面右書口邊緣無可完整讀取之書名，未補。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 11,
+          "selected_literal_operations": 2,
+          "changed_original_units": 2,
+          "current_uncertainty_records": 4,
+          "unresolved_comparison_candidates": 6,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p09",
@@ -187,14 +376,37 @@
         "source_sha256": "45c1607b5b66e97fb924dd3b8e0b2b1372a8853c06c51bb2ba25871d00f0e77f",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p09",
+          "frame": "f006",
+          "side": "left",
+          "source_sha256": "45c1607b5b66e97fb924dd3b8e0b2b1372a8853c06c51bb2ba25871d00f0e77f",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "十個正文直排欄及左書口書名、頁碼；保留候選眞、畧等所見字形。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "十個正文直排欄及左書口書名、頁碼；保留候選眞、畧等所見字形。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 1,
+          "changed_original_units": 1,
+          "current_uncertainty_records": 3,
+          "unresolved_comparison_candidates": 4,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p10",
@@ -203,14 +415,37 @@
         "source_sha256": "268c34d4fe09214f3cf71ffcdf7af99f6cd68fc9f6af8e77eaffc6f144d4945d",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p10",
+          "frame": "f007",
+          "side": "right",
+          "source_sha256": "268c34d4fe09214f3cf71ffcdf7af99f6cd68fc9f6af8e77eaffc6f144d4945d",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "十個正文直排欄；頁末行延續於下一面，但只按本面所見編碼。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "十個正文直排欄；頁末行延續於下一面，但只按本面所見編碼。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 11,
+          "selected_literal_operations": 9,
+          "changed_original_units": 7,
+          "current_uncertainty_records": 3,
+          "unresolved_comparison_candidates": 4,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p11",
@@ -219,15 +454,38 @@
         "source_sha256": "268c34d4fe09214f3cf71ffcdf7af99f6cd68fc9f6af8e77eaffc6f144d4945d",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p11",
+          "frame": "f007",
+          "side": "left",
+          "source_sha256": "268c34d4fe09214f3cf71ffcdf7af99f6cd68fc9f6af8e77eaffc6f144d4945d",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "十個正文直排欄；圖見第一／第二的較小字與其所屬正文同欄順讀。",
+            "笋、様照所見初錄，不進行異體統一。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "十個正文直排欄；圖見第一／第二的較小字與其所屬正文同欄順讀。",
-          "笋、様照所見初錄，不進行異體統一。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 10,
+          "changed_original_units": 6,
+          "current_uncertainty_records": 3,
+          "unresolved_comparison_candidates": 3,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p12",
@@ -236,15 +494,38 @@
         "source_sha256": "48dfe7278ab8f9762184e69f630da980d96e51f5e08a915817bf06422ef8c955",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p12",
+          "frame": "f008",
+          "side": "right",
+          "source_sha256": "48dfe7278ab8f9762184e69f630da980d96e51f5e08a915817bf06422ef8c955",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "十個正文直排欄；第三／第四圖的小字依所屬欄順讀。",
+            "欄末小、天等續下頁字均保留，不因跨頁裁句。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "十個正文直排欄；第三／第四圖的小字依所屬欄順讀。",
-          "欄末小、天等續下頁字均保留，不因跨頁裁句。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 11,
+          "selected_literal_operations": 14,
+          "changed_original_units": 10,
+          "current_uncertainty_records": 5,
+          "unresolved_comparison_candidates": 4,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p13",
@@ -253,15 +534,38 @@
         "source_sha256": "48dfe7278ab8f9762184e69f630da980d96e51f5e08a915817bf06422ef8c955",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p13",
+          "frame": "f008",
+          "side": "left",
+          "source_sha256": "48dfe7278ab8f9762184e69f630da980d96e51f5e08a915817bf06422ef8c955",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "十個正文直排欄；布包圖號第五的小字納入。",
+            "杜乾、口易埋等所見字串保留，沒有默改為流暢語句。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "十個正文直排欄；布包圖號第五的小字納入。",
-          "杜乾、口易埋等所見字串保留，沒有默改為流暢語句。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 7,
+          "changed_original_units": 5,
+          "current_uncertainty_records": 4,
+          "unresolved_comparison_candidates": 0,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p14",
@@ -270,15 +574,38 @@
         "source_sha256": "6c14858723a5de4896c99b8f5855f8d20973e926c9b4830931bdd6f160d24eda",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p14",
+          "frame": "f009",
+          "side": "right",
+          "source_sha256": "6c14858723a5de4896c99b8f5855f8d20973e926c9b4830931bdd6f160d24eda",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "十個正文直排欄；第六／第七圖的小字納入，十字布包條目照頁末保留。",
+            "僅編碼本 frame 的右面；左面不在本批範圍，未抄錄。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "十個正文直排欄；第六／第七圖的小字納入，十字布包條目照頁末保留。",
-          "僅編碼本 frame 的右面；左面不在本批範圍，未抄錄。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 11,
+          "selected_literal_operations": 10,
+          "changed_original_units": 7,
+          "current_uncertainty_records": 3,
+          "unresolved_comparison_candidates": 3,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p15",
@@ -287,12 +614,35 @@
         "source_sha256": "6c14858723a5de4896c99b8f5855f8d20973e926c9b4830931bdd6f160d24eda",
         "width": 3000,
         "height": 2726,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p15",
+          "frame": "f009",
+          "side": "left",
+          "source_sha256": "6c14858723a5de4896c99b8f5855f8d20973e926c9b4830931bdd6f160d24eda",
+          "width": 3000,
+          "height": 2726,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": []
         },
-        "gaps": [],
-        "notes": []
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 4,
+          "changed_original_units": 4,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 1,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p16",
@@ -301,14 +651,37 @@
         "source_sha256": "2721b94dea0a02dafca76d73831e7abcd3a7d01913237ed00691c5a8db6e13ab",
         "width": 3000,
         "height": 2718,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p16",
+          "frame": "f010",
+          "side": "right",
+          "source_sha256": "2721b94dea0a02dafca76d73831e7abcd3a7d01913237ed00691c5a8db6e13ab",
+          "width": 3000,
+          "height": 2718,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 3,
+          "changed_original_units": 3,
+          "current_uncertainty_records": 2,
+          "unresolved_comparison_candidates": 8,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p17",
@@ -317,12 +690,35 @@
         "source_sha256": "2721b94dea0a02dafca76d73831e7abcd3a7d01913237ed00691c5a8db6e13ab",
         "width": 3000,
         "height": 2718,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p17",
+          "frame": "f010",
+          "side": "left",
+          "source_sha256": "2721b94dea0a02dafca76d73831e7abcd3a7d01913237ed00691c5a8db6e13ab",
+          "width": 3000,
+          "height": 2718,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": []
         },
-        "gaps": [],
-        "notes": []
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 1,
+          "changed_original_units": 1,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 6,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p18",
@@ -331,15 +727,38 @@
         "source_sha256": "a70bc5bb5e9fca3bacaa9ebff3d33e376ac94cd2934c38ce9b5002aaf1e99e5c",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p18",
+          "frame": "f011",
+          "side": "right",
+          "source_sha256": "a70bc5bb5e9fca3bacaa9ebff3d33e376ac94cd2934c38ce9b5002aaf1e99e5c",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "第三欄「即隔紙膏」為原刻小字；按欄內位置錄入。",
+            "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "第三欄「即隔紙膏」為原刻小字；按欄內位置錄入。",
-          "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 5,
+          "changed_original_units": 5,
+          "current_uncertainty_records": 2,
+          "unresolved_comparison_candidates": 9,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p19",
@@ -348,14 +767,37 @@
         "source_sha256": "a70bc5bb5e9fca3bacaa9ebff3d33e376ac94cd2934c38ce9b5002aaf1e99e5c",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p19",
+          "frame": "f011",
+          "side": "left",
+          "source_sha256": "a70bc5bb5e9fca3bacaa9ebff3d33e376ac94cd2934c38ce9b5002aaf1e99e5c",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "第六、七欄安士下小字「量」按原位置錄入；不補現代名稱或標點。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "第六、七欄安士下小字「量」按原位置錄入；不補現代名稱或標點。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 5,
+          "changed_original_units": 4,
+          "current_uncertainty_records": 3,
+          "unresolved_comparison_candidates": 6,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p20",
@@ -364,14 +806,37 @@
         "source_sha256": "197a6632177437bce8ab37d7cdda610137774401caf05f1583fde3e7512de324",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p20",
+          "frame": "f012",
+          "side": "right",
+          "source_sha256": "197a6632177437bce8ab37d7cdda610137774401caf05f1583fde3e7512de324",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 3,
+          "changed_original_units": 3,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 11,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p21",
@@ -380,12 +845,35 @@
         "source_sha256": "197a6632177437bce8ab37d7cdda610137774401caf05f1583fde3e7512de324",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p21",
+          "frame": "f012",
+          "side": "left",
+          "source_sha256": "197a6632177437bce8ab37d7cdda610137774401caf05f1583fde3e7512de324",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": []
         },
-        "gaps": [],
-        "notes": []
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 3,
+          "changed_original_units": 2,
+          "current_uncertainty_records": 3,
+          "unresolved_comparison_candidates": 11,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p22",
@@ -394,14 +882,37 @@
         "source_sha256": "ccc007a6cbcd447f9db8dfbd95eb573e992310f4502091472129471e5a840123",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p22",
+          "frame": "f013",
+          "side": "right",
+          "source_sha256": "ccc007a6cbcd447f9db8dfbd95eb573e992310f4502091472129471e5a840123",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 3,
+          "changed_original_units": 3,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 9,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p23",
@@ -410,12 +921,35 @@
         "source_sha256": "ccc007a6cbcd447f9db8dfbd95eb573e992310f4502091472129471e5a840123",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p23",
+          "frame": "f013",
+          "side": "left",
+          "source_sha256": "ccc007a6cbcd447f9db8dfbd95eb573e992310f4502091472129471e5a840123",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": []
         },
-        "gaps": [],
-        "notes": []
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 1,
+          "changed_original_units": 1,
+          "current_uncertainty_records": 2,
+          "unresolved_comparison_candidates": 7,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p24",
@@ -424,14 +958,37 @@
         "source_sha256": "14b5853e1c946ea67aa7eff94e51d86fc9df019344571c398309d246438de0f4",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p24",
+          "frame": "f014",
+          "side": "right",
+          "source_sha256": "14b5853e1c946ea67aa7eff94e51d86fc9df019344571c398309d246438de0f4",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 2,
+          "changed_original_units": 2,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 10,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p25",
@@ -440,12 +997,35 @@
         "source_sha256": "14b5853e1c946ea67aa7eff94e51d86fc9df019344571c398309d246438de0f4",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p25",
+          "frame": "f014",
+          "side": "left",
+          "source_sha256": "14b5853e1c946ea67aa7eff94e51d86fc9df019344571c398309d246438de0f4",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": []
         },
-        "gaps": [],
-        "notes": []
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 4,
+          "changed_original_units": 4,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 6,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p26",
@@ -454,14 +1034,37 @@
         "source_sha256": "415675836b6783297c367ddd311723ff94eb2b14b074ccb4e43366fc07860a42",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p26",
+          "frame": "f015",
+          "side": "right",
+          "source_sha256": "415675836b6783297c367ddd311723ff94eb2b14b074ccb4e43366fc07860a42",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 2,
+          "changed_original_units": 2,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 7,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p27",
@@ -470,12 +1073,35 @@
         "source_sha256": "415675836b6783297c367ddd311723ff94eb2b14b074ccb4e43366fc07860a42",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p27",
+          "frame": "f015",
+          "side": "left",
+          "source_sha256": "415675836b6783297c367ddd311723ff94eb2b14b074ccb4e43366fc07860a42",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": []
         },
-        "gaps": [],
-        "notes": []
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 2,
+          "changed_original_units": 2,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 18,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p28",
@@ -484,14 +1110,37 @@
         "source_sha256": "be7f382ed11f1f4c80b6805305a4050ad0c8bc84da2c4bda01815bd5cec8548b",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p28",
+          "frame": "f016",
+          "side": "right",
+          "source_sha256": "be7f382ed11f1f4c80b6805305a4050ad0c8bc84da2c4bda01815bd5cec8548b",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "正文10欄已編碼；右側外緣可見頁碼狀殘筆，與鄰頁邊條歸屬未定，未收入units，故全頁仍列pending。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 1,
+          "changed_original_units": 1,
+          "current_uncertainty_records": 3,
+          "unresolved_comparison_candidates": 1,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p29",
@@ -500,14 +1149,37 @@
         "source_sha256": "be7f382ed11f1f4c80b6805305a4050ad0c8bc84da2c4bda01815bd5cec8548b",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p29",
+          "frame": "f016",
+          "side": "left",
+          "source_sha256": "be7f382ed11f1f4c80b6805305a4050ad0c8bc84da2c4bda01815bd5cec8548b",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原圖句讀核對；僅將可見短撇形旁記以「、」編碼，未依語意增添現代句讀。已處理而未解的字形或來源歸屬分列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原圖句讀核對；僅將可見短撇形旁記以「、」編碼，未依語意增添現代句讀。已處理而未解的字形或來源歸屬分列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 0,
+          "changed_original_units": 0,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 14,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p30",
@@ -516,14 +1188,37 @@
         "source_sha256": "1f67574781aaed47c487266823c5b90f1321547f73bfef4363c1229e39ce4b6f",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p30",
+          "frame": "f017",
+          "side": "right",
+          "source_sha256": "1f67574781aaed47c487266823c5b90f1321547f73bfef4363c1229e39ce4b6f",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原圖句讀核對；可見短撇形旁記以「、」、點形旁記以「·」暫記，未依語意增添現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原圖句讀核對；可見短撇形旁記以「、」、點形旁記以「·」暫記，未依語意增添現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 2,
+          "changed_original_units": 2,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 4,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p31",
@@ -532,14 +1227,37 @@
         "source_sha256": "1f67574781aaed47c487266823c5b90f1321547f73bfef4363c1229e39ce4b6f",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p31",
+          "frame": "f017",
+          "side": "left",
+          "source_sha256": "1f67574781aaed47c487266823c5b90f1321547f73bfef4363c1229e39ce4b6f",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原圖句讀核對；可見短撇形旁記以「、」、點形旁記以「·」暫記，未依語意增添現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原圖句讀核對；可見短撇形旁記以「、」、點形旁記以「·」暫記，未依語意增添現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 7,
+          "changed_original_units": 6,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 10,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p32",
@@ -548,14 +1266,37 @@
         "source_sha256": "a0e59f43c0415fbc2cc944beb44ed398031aac6a2a7d92d434b4aedc00e57ede",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p32",
+          "frame": "f018",
+          "side": "right",
+          "source_sha256": "a0e59f43c0415fbc2cc944beb44ed398031aac6a2a7d92d434b4aedc00e57ede",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 12,
+          "changed_original_units": 6,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 2,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p33",
@@ -564,14 +1305,37 @@
         "source_sha256": "a0e59f43c0415fbc2cc944beb44ed398031aac6a2a7d92d434b4aedc00e57ede",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p33",
+          "frame": "f018",
+          "side": "left",
+          "source_sha256": "a0e59f43c0415fbc2cc944beb44ed398031aac6a2a7d92d434b4aedc00e57ede",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 4,
+          "changed_original_units": 4,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 1,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p34",
@@ -580,14 +1344,37 @@
         "source_sha256": "c03a4427a339a028a18919181ccaa9bfe0cd5ee276c26e17944e467f0108a1ed",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p34",
+          "frame": "f019",
+          "side": "right",
+          "source_sha256": "c03a4427a339a028a18919181ccaa9bfe0cd5ee276c26e17944e467f0108a1ed",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 6,
+          "changed_original_units": 4,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 3,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p35",
@@ -596,14 +1383,37 @@
         "source_sha256": "c03a4427a339a028a18919181ccaa9bfe0cd5ee276c26e17944e467f0108a1ed",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p35",
+          "frame": "f019",
+          "side": "left",
+          "source_sha256": "c03a4427a339a028a18919181ccaa9bfe0cd5ee276c26e17944e467f0108a1ed",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 12,
+          "changed_original_units": 7,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 3,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p36",
@@ -612,14 +1422,37 @@
         "source_sha256": "03390d77dcc4d5aa3c93d487a6f819d76a8a3a325df097974dd4d196fd206acc",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p36",
+          "frame": "f020",
+          "side": "right",
+          "source_sha256": "03390d77dcc4d5aa3c93d487a6f819d76a8a3a325df097974dd4d196fd206acc",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 8,
+          "changed_original_units": 5,
+          "current_uncertainty_records": 4,
+          "unresolved_comparison_candidates": 6,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p37",
@@ -628,14 +1461,37 @@
         "source_sha256": "03390d77dcc4d5aa3c93d487a6f819d76a8a3a325df097974dd4d196fd206acc",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p37",
+          "frame": "f020",
+          "side": "left",
+          "source_sha256": "03390d77dcc4d5aa3c93d487a6f819d76a8a3a325df097974dd4d196fd206acc",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 14,
+          "changed_original_units": 8,
+          "current_uncertainty_records": 2,
+          "unresolved_comparison_candidates": 4,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p38",
@@ -644,14 +1500,37 @@
         "source_sha256": "42a6130469d8d515d8e8463efd476e30ad5053ae664609848a96f6d25b2ffc6c",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p38",
+          "frame": "f021",
+          "side": "right",
+          "source_sha256": "42a6130469d8d515d8e8463efd476e30ad5053ae664609848a96f6d25b2ffc6c",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 12,
+          "changed_original_units": 8,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 3,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p39",
@@ -660,14 +1539,37 @@
         "source_sha256": "42a6130469d8d515d8e8463efd476e30ad5053ae664609848a96f6d25b2ffc6c",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p39",
+          "frame": "f021",
+          "side": "left",
+          "source_sha256": "42a6130469d8d515d8e8463efd476e30ad5053ae664609848a96f6d25b2ffc6c",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；僅按實見短撇形旁記編「、」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 9,
+          "changed_original_units": 5,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 2,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p40",
@@ -676,14 +1578,37 @@
         "source_sha256": "0d87d95d52dc5b3cfac3a5a4b0bcf466be9272f29878535b8abe6439c2577bf1",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p40",
+          "frame": "f022",
+          "side": "right",
+          "source_sha256": "0d87d95d52dc5b3cfac3a5a4b0bcf466be9272f29878535b8abe6439c2577bf1",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；按實見短撇形旁記編「、」、點形旁記暫記「·」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；按實見短撇形旁記編「、」、點形旁記暫記「·」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 11,
+          "changed_original_units": 7,
+          "current_uncertainty_records": 2,
+          "unresolved_comparison_candidates": 7,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p41",
@@ -692,14 +1617,37 @@
         "source_sha256": "0d87d95d52dc5b3cfac3a5a4b0bcf466be9272f29878535b8abe6439c2577bf1",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p41",
+          "frame": "f022",
+          "side": "left",
+          "source_sha256": "0d87d95d52dc5b3cfac3a5a4b0bcf466be9272f29878535b8abe6439c2577bf1",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；按實見短撇形旁記編「、」、點形旁記暫記「·」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；按實見短撇形旁記編「、」、點形旁記暫記「·」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 12,
+          "selected_literal_operations": 7,
+          "changed_original_units": 4,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 5,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p42",
@@ -708,14 +1656,37 @@
         "source_sha256": "1b63f7f4f3e323bc5ea1182512dc2ad4d7b9b09e33ae0718da832db6207f90ee",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p42",
+          "frame": "f023",
+          "side": "right",
+          "source_sha256": "1b63f7f4f3e323bc5ea1182512dc2ad4d7b9b09e33ae0718da832db6207f90ee",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "已逐欄讀字並作一次有界原像素句讀核對；按實見短撇形旁記編「、」、點形旁記暫記「·」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "已逐欄讀字並作一次有界原像素句讀核對；按實見短撇形旁記編「、」、點形旁記暫記「·」，未依語意新增現代句讀。已處理未解者另列疑讀/來源區域。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 10,
+          "selected_literal_operations": 9,
+          "changed_original_units": 6,
+          "current_uncertainty_records": 1,
+          "unresolved_comparison_candidates": 11,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p43",
@@ -724,14 +1695,37 @@
         "source_sha256": "1b63f7f4f3e323bc5ea1182512dc2ad4d7b9b09e33ae0718da832db6207f90ee",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p43",
+          "frame": "f023",
+          "side": "left",
+          "source_sha256": "1b63f7f4f3e323bc5ea1182512dc2ad4d7b9b09e33ae0718da832db6207f90ee",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "正文逐欄實讀；已對原像素裁片作一次有界小標記核對，本面未見足以確定編碼的獨立句讀，不按文意補加。左版心頁碼受照片邊緣截切，另列疑讀。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "正文逐欄實讀；已對原像素裁片作一次有界小標記核對，本面未見足以確定編碼的獨立句讀，不按文意補加。左版心頁碼受照片邊緣截切，另列疑讀。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 11,
+          "selected_literal_operations": 2,
+          "changed_original_units": 2,
+          "current_uncertainty_records": 3,
+          "unresolved_comparison_candidates": 1,
+          "source_edge_observation_locator_count": 0,
+          "source_edge_ownership_resolved": null,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       },
       {
         "page_id": "p44",
@@ -740,14 +1734,37 @@
         "source_sha256": "9240b0ed7e78e2d0c1409d107cf82e1d7fc394941a65919ade47526d5c72e507",
         "width": 3000,
         "height": 2688,
-        "layout_reviewed": true,
-        "layer_states": {
-          "faithful": "complete"
+        "historical_initial_observation": {
+          "page_id": "p44",
+          "frame": "f024",
+          "side": "right",
+          "source_sha256": "9240b0ed7e78e2d0c1409d107cf82e1d7fc394941a65919ade47526d5c72e507",
+          "width": 3000,
+          "height": 2688,
+          "layout_reviewed": true,
+          "layer_states": {
+            "faithful": "complete"
+          },
+          "gaps": [],
+          "notes": [
+            "完整圖實看；右面原框內正文空白，未造正文。右緣原印十九可見，其他框線與魚尾不編成文字；左鄰空白面、尺規與色卡不混入。"
+          ]
         },
-        "gaps": [],
-        "notes": [
-          "完整圖實看；右面原框內正文空白，未造正文。右緣原印十九可見，其他框線與魚尾不編成文字；左鄰空白面、尺規與色卡不混入。"
-        ]
+        "revision_status": {
+          "version": "0.2.0",
+          "status": "AI-assisted-source-revision-provisional",
+          "current_units_included": 1,
+          "selected_literal_operations": 0,
+          "changed_original_units": 0,
+          "current_uncertainty_records": 0,
+          "unresolved_comparison_candidates": 0,
+          "source_edge_observation_locator_count": 1,
+          "source_edge_ownership_resolved": false,
+          "note": "The historical_initial_observation is an unchanged initial-reader metadata snapshot. Its batch scope, old glyph descriptions and pending statements do not declare the current edition status. Current strings and uncertainty records are the fixed revised release; unresolved readings and source-edge ownership remain provisional.",
+          "note_zh": "historical_initial_observation 原樣保存初錄當時的頁註與狀態；其中批次範圍、舊字形及 pending 不代表本版現況。本版以固定修訂字串與現在疑讀為準，未解讀法及頁邊歸屬仍保留。",
+          "human_review": false,
+          "accuracy_measured": false
+        }
       }
     ],
     "uncertainty_declarations": [
@@ -757,7 +1774,8 @@
         "candidates": [
           "一"
         ],
-        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核"
+        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p04-u007",
@@ -765,7 +1783,8 @@
         "candidates": [
           "二"
         ],
-        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核"
+        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p06-u011",
@@ -773,16 +1792,18 @@
         "candidates": [
           "三"
         ],
-        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核"
+        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p06-u009",
-        "target": "裏",
+        "target": "裹",
         "candidates": [
           "裏",
           "裹"
         ],
-        "reason": "圖旁下方淡印，衣部中間結構不夠清楚，保留所見候選"
+        "reason": "AI修訂後暫錄「裹」；保留原疑讀「裏」及其理由：圖旁下方淡印，衣部中間結構不夠清楚，保留所見候選",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p07-u004",
@@ -791,26 +1812,31 @@
           "裹",
           "裏"
         ],
-        "reason": "標題中間字印色較淡，裹／裏的內部組件待覆核"
+        "reason": "標題中間字印色較淡，裹／裏的內部組件待覆核",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p07-u005",
-        "target": "胷",
+        "target": "胃",
         "candidates": [
           "胷",
           "胃",
           "胸"
         ],
-        "reason": "字上部淡印，暫以所見上下結構錄胷，未據語義定字"
+        "reason": "AI修訂後暫錄「胃」；保留原疑讀「胷」及其理由：字上部淡印，暫以所見上下結構錄胷，未據語義定字",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p07-u009",
         "target": "瘡",
         "candidates": [
           "瘡",
-          "烟"
+          "烟",
+          "理",
+          "裡"
         ],
-        "reason": "字內筆畫淡，曾查看左側三欄原像素裁片，候選仍未裁定"
+        "reason": "字內筆畫淡，曾查看左側三欄原像素裁片，候選仍未裁定；補充疑讀：Actual crop suggests another left component; no settled reading.",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p07-u009",
@@ -819,25 +1845,28 @@
           "速",
           "遠"
         ],
-        "reason": "行尾走之部的內件淡印，保留所見速及候選遠"
+        "reason": "行尾走之部的內件淡印，保留所見速及候選遠",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p07-u010",
-        "target": "速",
+        "target": "遲",
         "candidates": [
           "速",
           "遠"
         ],
-        "reason": "此欄第二次相近字形內件淡印，未依前欄統一裁定"
+        "reason": "AI修訂後暫錄「遲」；保留原疑讀「速」及其理由：此欄第二次相近字形內件淡印，未依前欄統一裁定",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p07-u010",
-        "target": "蓋",
+        "target": "精",
         "candidates": [
           "蓋",
           "昔"
         ],
-        "reason": "艹與下部部分細筆淡，先存所見及替代候選"
+        "reason": "AI修訂後暫錄「精」；保留原疑讀「蓋」及其理由：艹與下部部分細筆淡，先存所見及替代候選",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p08-u011",
@@ -845,7 +1874,8 @@
         "candidates": [
           "一"
         ],
-        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核"
+        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p08-u004",
@@ -854,26 +1884,29 @@
           "窘",
           "望"
         ],
-        "reason": "臨時後一字印色極淡，原像素單欄裁片仍有組件缺筆"
+        "reason": "臨時後一字印色極淡，原像素單欄裁片仍有組件缺筆",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p08-u006",
-        "target": "兩直二鉸剪",
+        "target": "曲直二鉸剪",
         "candidates": [
           "兩直二鉸剪",
           "兩直二紋剪"
         ],
-        "reason": "器具名稱及數字連接處有淡筆，照見字串存候選，不改寫或補入詞語"
+        "reason": "AI修訂後暫錄「曲直二鉸剪」；保留原疑讀「兩直二鉸剪」及其理由：器具名稱及數字連接處有淡筆，照見字串存候選，不改寫或補入詞語",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p08-u010",
-        "target": "趕",
+        "target": "褪",
         "candidates": [
           "趕",
           "繫",
           "遶"
         ],
-        "reason": "線即後一字細筆不清，先保留所見候選，未以後文推改"
+        "reason": "AI修訂後暫錄「褪」；保留原疑讀「趕」及其理由：線即後一字細筆不清，先保留所見候選，未以後文推改",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p09-u003",
@@ -882,7 +1915,8 @@
           "衲",
           "痢"
         ],
-        "reason": "單欄裁片所見左部近衣旁，字內淡筆，暫錄衲並留候選"
+        "reason": "單欄裁片所見左部近衣旁，字內淡筆，暫錄衲並留候選",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p09-u008",
@@ -892,7 +1926,8 @@
           "腐",
           "膚"
         ],
-        "reason": "欄末原字細密且淡印，原像素裁片仍不能確定完整部件；不按語義校改"
+        "reason": "欄末原字細密且淡印，原像素裁片仍不能確定完整部件；不按語義校改",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p09-u010",
@@ -901,7 +1936,8 @@
           "之口",
           "之□"
         ],
-        "reason": "句中之後字形與口相近但邊筆淡，原字串照錄，該候選僅為一字"
+        "reason": "句中之後字形與口相近但邊筆淡，原字串照錄，該候選僅為一字",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p10-u011",
@@ -909,7 +1945,8 @@
         "candidates": [
           "二"
         ],
-        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核"
+        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p10-u003",
@@ -918,43 +1955,48 @@
           "穰",
           "糠"
         ],
-        "reason": "麻絲後詞第二字右部細密，先錄穰，不據現代材料名稱裁定"
+        "reason": "麻絲後詞第二字右部細密，先錄穰，不據現代材料名稱裁定",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p10-u007",
-        "target": "閩或",
+        "target": "間或",
         "candidates": [
           "閩或",
           "間或"
         ],
-        "reason": "國／門框內下部細線重疊，先錄所見閩或，候選間或"
+        "reason": "AI修訂後暫錄「間或」；保留原疑讀「閩或」及其理由：國／門框內下部細線重疊，先錄所見閩或，候選間或",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p11-u001",
-        "target": "笋様",
+        "target": "筍樣",
         "candidates": [
           "笋様",
           "筍樣"
         ],
-        "reason": "圖形名稱字體細筆保留笋様，不統一為現代字形；竹頭內部與様部件可再覆核"
+        "reason": "AI修訂後暫錄「筍樣」；保留原疑讀「笋様」及其理由：圖形名稱字體細筆保留笋様，不統一為現代字形；竹頭內部與様部件可再覆核",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p11-u002",
-        "target": "綿笋",
+        "target": "綿筍",
         "candidates": [
           "綿笋",
           "絨笋"
         ],
-        "reason": "圖形名稱第一字細筆密，暫存綿笋，候選絨笋"
+        "reason": "AI修訂後暫錄「綿筍」；保留原疑讀「綿笋」及其理由：圖形名稱第一字細筆密，暫存綿笋，候選絨笋",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p11-u009",
-        "target": "浸",
+        "target": "淫",
         "candidates": [
           "浸",
           "淫"
         ],
-        "reason": "水旁後內件細筆略糊，所見字串暫錄浸"
+        "reason": "AI修訂後暫錄「淫」；保留原疑讀「浸」及其理由：水旁後內件細筆略糊，所見字串暫錄浸",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p12-u011",
@@ -962,7 +2004,8 @@
         "candidates": [
           "三"
         ],
-        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核"
+        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p12-u003",
@@ -971,7 +2014,8 @@
           "毬",
           "毯"
         ],
-        "reason": "線後字毛旁內細筆較淡，先錄毬，保留候選"
+        "reason": "線後字毛旁內細筆較淡，先錄毬，保留候選",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p12-u008",
@@ -980,7 +2024,8 @@
           "枳",
           "栓"
         ],
-        "reason": "單欄裁片所見木旁右部近只，未依用途改字"
+        "reason": "單欄裁片所見木旁右部近只，未依用途改字",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p12-u009",
@@ -990,7 +2035,8 @@
           "絨",
           "絲"
         ],
-        "reason": "麻後字所見近然；照錄淡印所見而不以詞義正字"
+        "reason": "麻後字所見近然；照錄淡印所見而不以詞義正字",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p12-u010",
@@ -1000,17 +2046,19 @@
           "撿",
           "撚"
         ],
-        "reason": "先後動詞左邊提手可辨，內件細筆未定"
+        "reason": "先後動詞左邊提手可辨，內件細筆未定",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p13-u001",
-        "target": "杜",
+        "target": "扯",
         "candidates": [
           "杜",
           "拭",
           "枯"
         ],
-        "reason": "原像素單欄裁片所見近木／手旁加土，照錄杜，不以語意校改"
+        "reason": "AI修訂後暫錄「扯」；保留原疑讀「杜」及其理由：原像素單欄裁片所見近木／手旁加土，照錄杜，不以語意校改",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p13-u001",
@@ -1019,17 +2067,19 @@
           "瘡",
           "痂"
         ],
-        "reason": "俾後字頂部與內件細筆淡，保留瘡及候選痂"
+        "reason": "俾後字頂部與內件細筆淡，保留瘡及候選痂",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p13-u010",
-        "target": "俾",
+        "target": "俟",
         "candidates": [
           "俾",
           "餘",
           "除"
         ],
-        "reason": "欄下段字印色淡，左右部件不能完全確認"
+        "reason": "AI修訂後暫錄「俟」；保留原疑讀「俾」及其理由：欄下段字印色淡，左右部件不能完全確認",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p13-u010",
@@ -1038,7 +2088,8 @@
           "裹之另用",
           "裹之外用"
         ],
-        "reason": "欄末另／外的細筆淡，保留已讀原串及候選，不據續頁補字"
+        "reason": "欄末另／外的細筆淡，保留已讀原串及候選，不據續頁補字",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p14-u011",
@@ -1046,16 +2097,18 @@
         "candidates": [
           "四"
         ],
-        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核"
+        "reason": "右面書口邊緣僅留細小筆畫，已查原像素邊緣裁片；所見數字暫錄，需回原圖覆核",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p14-u005",
-        "target": "安",
+        "target": "安妥",
         "candidates": [
           "安",
           "垚"
         ],
-        "reason": "短欄第二字薄印，獨立原像素裁片所見暫錄安，保留形近候選"
+        "reason": "原疑讀字在已核定局部換序中無一對一碼點位置，整段暫錄「安妥」；原疑讀「安」及理由仍保留：短欄第二字薄印，獨立原像素裁片所見暫錄安，保留形近候選",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p14-u003",
@@ -1064,7 +2117,8 @@
           "髀",
           "脾"
         ],
-        "reason": "行尾字骨／月旁及右部細筆重疊，先存髀"
+        "reason": "行尾字骨／月旁及右部細筆重疊，先存髀",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p15-u002",
@@ -1072,15 +2126,17 @@
         "candidates": [
           "自仿"
         ],
-        "reason": "原刻兩字依字形實讀，保留不據文意改字。"
+        "reason": "原刻兩字依字形實讀，保留不據文意改字。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p16-u002",
-        "target": "置",
+        "target": "單",
         "candidates": [
           "置"
         ],
-        "reason": "字形據完整原圖實讀；不據語意更改。"
+        "reason": "AI修訂後暫錄「單」；保留原疑讀「置」及其理由：字形據完整原圖實讀；不據語意更改。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p16-u008",
@@ -1089,7 +2145,8 @@
           "妥",
           "受"
         ],
-        "reason": "完整圖末字下部筆畫淡，暫讀妥。"
+        "reason": "完整圖末字下部筆畫淡，暫讀妥。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p17-u006",
@@ -1097,7 +2154,8 @@
         "candidates": [
           "自仿"
         ],
-        "reason": "依原刻字形保留，不據文意改字。"
+        "reason": "依原刻字形保留，不據文意改字。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p19-u002",
@@ -1105,16 +2163,18 @@
         "candidates": [
           "頸癧"
         ],
-        "reason": "原刻第二字內部細筆淡，依可見字形暫讀癧。"
+        "reason": "原刻第二字內部細筆淡，依可見字形暫讀癧。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p19-u003",
-        "target": "漬",
+        "target": "潰",
         "candidates": [
           "漬",
           "清"
         ],
-        "reason": "原像素裁片可見氵與右旁疊筆，暫讀漬。"
+        "reason": "AI修訂後暫錄「潰」；保留原疑讀「漬」及其理由：原像素裁片可見氵與右旁疊筆，暫讀漬。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p19-u007",
@@ -1122,7 +2182,8 @@
         "candidates": [
           "地廉"
         ],
-        "reason": "依字形實讀舊譯量名，不以現代譯名置換。"
+        "reason": "依字形實讀舊譯量名，不以現代譯名置換。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p20-u005",
@@ -1130,7 +2191,8 @@
         "candidates": [
           "秤"
         ],
-        "reason": "原像素裁片按禾旁與平形實讀，保留原刻詞形。"
+        "reason": "原像素裁片按禾旁與平形實讀，保留原刻詞形。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p21-u005",
@@ -1139,7 +2201,8 @@
           "煲",
           "煖"
         ],
-        "reason": "原圖火底小字筆畫淡，暫按可見結構讀煲。"
+        "reason": "原圖火底小字筆畫淡，暫按可見結構讀煲。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p21-u006",
@@ -1147,24 +2210,27 @@
         "candidates": [
           "秤"
         ],
-        "reason": "與p20原刻詞形相同，依字形保留。"
+        "reason": "與p20原刻詞形相同，依字形保留。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p21-u010",
-        "target": "庚",
+        "target": "硬、庶得",
         "candidates": [
           "庚",
           "度"
         ],
-        "reason": "原像素裁片可見广內交筆，下部不明，暫讀庚。"
+        "reason": "原疑讀字在已核定局部換序中無一對一碼點位置，整段暫錄「硬、庶得」；原疑讀「庚」及理由仍保留：原像素裁片可見广內交筆，下部不明，暫讀庚。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p22-u006",
-        "target": "敞剪",
+        "target": "絞剪",
         "candidates": [
           "敞剪"
         ],
-        "reason": "完整原圖末兩字暫按字形實讀，未以操作語意補改。"
+        "reason": "AI修訂後暫錄「絞剪」；保留原疑讀「敞剪」及其理由：完整原圖末兩字暫按字形實讀，未以操作語意補改。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p23-u001",
@@ -1173,7 +2239,8 @@
           "及",
           "反"
         ],
-        "reason": "原刻細筆連接近反字，按可見字形暫讀及。"
+        "reason": "原刻細筆連接近反字，按可見字形暫讀及。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p23-u006",
@@ -1182,25 +2249,28 @@
           "始",
           "如"
         ],
-        "reason": "原刻女旁及右部暫讀始，保留候選。"
+        "reason": "原刻女旁及右部暫讀始，保留候選。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p18-u004",
-        "target": "埋",
+        "target": "理",
         "candidates": [
           "埋",
           "理"
         ],
-        "reason": "原像素裁片左旁暫讀土，保留王旁候選。"
+        "reason": "AI修訂後暫錄「理」；保留原疑讀「埋」及其理由：原像素裁片左旁暫讀土，保留王旁候選。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p18-u010",
-        "target": "埋",
+        "target": "理",
         "candidates": [
           "埋",
           "理"
         ],
-        "reason": "原像素裁片左旁暫讀土，保留王旁候選。"
+        "reason": "AI修訂後暫錄「理」；保留原疑讀「埋」及其理由：原像素裁片左旁暫讀土，保留王旁候選。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p28-u009",
@@ -1209,7 +2279,8 @@
           "插",
           "揷"
         ],
-        "reason": "原刻扌旁與右部細筆依完整圖暫錄插，字形異體待核。"
+        "reason": "原刻扌旁與右部細筆依完整圖暫錄插，字形異體待核。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p28-u010",
@@ -1299,7 +2370,8 @@
           "、",
           "紙面點痕"
         ],
-        "reason": "source-mark：光滑旁可見點形，但短尾不確定；暫保留點形，未擴成現代斷句。"
+        "reason": "source-mark：光滑旁可見點形，但短尾不確定；暫保留點形，未擴成現代斷句。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p32-u003",
@@ -1318,7 +2390,8 @@
           "回",
           "白"
         ],
-        "reason": "原印回血管之首字框內筆畫淡，先錄近回形，未省去此字。"
+        "reason": "原印回血管之首字框內筆畫淡，先錄近回形，未省去此字。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p40-u002",
@@ -1327,7 +2400,8 @@
           "四",
           "回"
         ],
-        "reason": "二寸之後原印另有一框形字，先保留近四的實見讀法，不按度量文意刪改。"
+        "reason": "二寸之後原印另有一框形字，先保留近四的實見讀法，不按度量文意刪改。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p40-u006",
@@ -1337,7 +2411,8 @@
           "、",
           "紙面點痕"
         ],
-        "reason": "source-mark：功效旁點形可見，短尾未定，暫記點形；不依句義擴成句號。"
+        "reason": "source-mark：功效旁點形可見，短尾未定，暫記點形；不依句義擴成句號。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p41-u004",
@@ -1346,7 +2421,8 @@
           "髀",
           "臂"
         ],
-        "reason": "原像素裁片首題見近骨旁卑部，先讀髀，未因常用詞轉寫臂。"
+        "reason": "原像素裁片首題見近骨旁卑部，先讀髀，未因常用詞轉寫臂。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p42-u004",
@@ -1356,16 +2432,18 @@
           "、",
           "紙面點痕"
         ],
-        "reason": "source-mark：法旁點形可見，短尾與原印性質未定，暫記點形。"
+        "reason": "source-mark：法旁點形可見，短尾與原印性質未定，暫記點形。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p43-u007",
-        "target": "髀",
+        "target": "臍",
         "candidates": [
           "髀",
           "胯"
         ],
-        "reason": "原印髀下處首字左旁與右部淡，實見近髀，保留胯候選，不依臨床詞彙改字。"
+        "reason": "AI修訂後暫錄「臍」；保留原疑讀「髀」及其理由：原印髀下處首字左旁與右部淡，實見近髀，保留胯候選，不依臨床詞彙改字。",
+        "occurrence_index": 0
       },
       {
         "unit_id": "p43-u011",
@@ -1373,21 +2451,74 @@
         "candidates": [
           "十九"
         ],
-        "reason": "左外版心頁碼受照片邊緣截切，只餘兩組局部筆畫；暫讀十九，未由鄰面或頁序補字，需原圖邊界覆核。"
+        "reason": "左外版心頁碼受照片邊緣截切，只餘兩組局部筆畫；暫讀十九，未由鄰面或頁序補字，需原圖邊界覆核。",
+        "occurrence_index": 0
+      },
+      {
+        "unit_id": "p06-u008",
+        "target": "因",
+        "candidates": [
+          "因",
+          "圖"
+        ],
+        "reason": "Pale inner strokes after 此 remain unresolved.",
+        "occurrence_index": 0
+      },
+      {
+        "unit_id": "p43-u008",
+        "target": "囘",
+        "candidates": [
+          "同",
+          "囘",
+          "回"
+        ],
+        "reason": "AI修訂後暫錄「囘」；保留原疑讀「同」及其理由：非盲來源覆核暫以囘近似原框內收筆；囘／回碼位對應仍未定，不作通行字統一。",
+        "occurrence_index": 0
       }
     ],
     "source_version": "bodleian1826-fixed3000-v1",
     "original_language": "lzh",
     "documentation_language": "en; zh-Hant",
     "model_identity": {
-      "actual_model": null,
+      "initial_native_actual_model": null,
       "actual_effort": null,
       "actual_tokens": null,
-      "unknown_reason": "No verifiable exact model, effort or token report is available for this initial transcription."
+      "unknown_reason": "Exact native identities, effort and complete counters were not reported; unknown values are not zero."
     },
     "detailed_methods_public": false,
     "image_to_text_full_reproduction_provided": false,
-    "punctuation": "固定初稿字串原樣保留；原點號的原刻／後加性質未經人工核定。"
+    "punctuation": "Source-visible points have individually retained or revised provisional encodings; exact Unicode correspondence and original-print/later-added origin remain unresolved. No global punctuation normalization.",
+    "physical_face_metadata_scope": "historical_initial_observation is the unchanged initial-reader snapshot; revision_status describes this provisional v0.2.0 edition.",
+    "revision_stage": "adjudication",
+    "base_version": "0.1.0",
+    "revision_operations": 215,
+    "changed_original_units": 154,
+    "initial_uncertainties_preserved": 69,
+    "current_uncertainties": 71,
+    "unresolved_comparison_candidates": 215,
+    "second_observation_roles": {
+      "gemini": {
+        "actual_model": "gemini-3.8-flash-high",
+        "usable_frames": 10,
+        "usable_physical_faces": 15,
+        "submitted_jobs": 9,
+        "jobs_without_usable_body_transcription": 5
+      },
+      "native_supplement": {
+        "actual_model": null,
+        "actual_effort": null,
+        "actual_counters": null,
+        "physical_faces": 29
+      },
+      "source_adjudication": {
+        "actual_model": null,
+        "actual_effort": null,
+        "actual_counters": null,
+        "blind": false,
+        "human_review": false
+      }
+    },
+    "uncertainty_remapping": "Original uncertainty occurrences were fixed in the initial text and remapped through applied operations. Two reordered cases retain an explicitly expanded selected replacement context; no fuzzy relocation by searching the revised text."
   },
   "position_convention": "公開pages[]依25官方幀fNNN排列；unit ID的pNN是44個物理面。疑讀以Unicode碼點0起半開區間定位；raw occurrence_index為0起算。core bbox固定null，原稿非null框另存source-regions.json，未知extent不造一字□。",
   "pages": [
@@ -1400,7 +2531,7 @@
       "official_label": "Upper cover",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b0a62f77-ed27-45e3-a180-f100b5004e9e.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b0a62f77-ed27-45e3-a180-f100b5004e9e/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：無固定範圍物理面；封面另層排除。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：無固定範圍物理面；封面另層排除。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": false,
       "layer_states": {
         "original-print": "excluded-described-only",
@@ -1418,10 +2549,10 @@
       "official_label": "Inside upper cover and p. [1]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/39623737-d743-4426-9bdc-8c672b99a094.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/39623737-d743-4426-9bdc-8c672b99a094/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p01(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p01(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -1557,10 +2688,10 @@
       "official_label": "pp. [2]-[3]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/aeb2de22-627f-4844-922b-51bdab1f68cd.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/aeb2de22-627f-4844-922b-51bdab1f68cd/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p02(right)、p03(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p02(right)、p03(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -1758,10 +2889,10 @@
       "official_label": "pp. [4]-[5]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/dcef3848-ca3f-4e32-8261-f19af210940f.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcef3848-ca3f-4e32-8261-f19af210940f/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p04(right)、p05(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p04(right)、p05(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -1895,10 +3026,10 @@
       "official_label": "pp. [6]-[7]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5b364793-0be8-4be9-9416-196051aeddd4.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5b364793-0be8-4be9-9416-196051aeddd4/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p06(right)、p07(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p06(right)、p07(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -1947,7 +3078,7 @@
           "layer": "original-print",
           "role": "other-original-paratext",
           "side": "right",
-          "text": "脚生瘡先敷以合口膏",
+          "text": "腳生瘡先敷以合口膏",
           "bbox": null
         },
         {
@@ -1963,7 +3094,7 @@
           "layer": "original-print",
           "role": "figure-label",
           "side": "right",
-          "text": "第四十九圖 此因脚",
+          "text": "第四十九圖 此因腳",
           "bbox": null
         },
         {
@@ -1971,7 +3102,7 @@
           "layer": "original-print",
           "role": "other-original-paratext",
           "side": "right",
-          "text": "囘血管生大即用布裏",
+          "text": "回血管生大即用布裹",
           "bbox": null
         },
         {
@@ -2027,7 +3158,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "大凡割症、醫者須洞悉全體血管部位、並胷有定見、方可下刀、",
+          "text": "大凡割症、醫者須洞悉全體血管部位、並胃有定見、方可下刀、",
           "bbox": null
         },
         {
@@ -2067,7 +3198,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "者、有不宜於太速、蓋神而明之、存乎其人、至裹以布包、紮以布",
+          "text": "者、有不宜於太遲、精神而明之、待乎其人、至裹以布包、紮以布",
           "bbox": null
         },
         {
@@ -2106,8 +3237,8 @@
           "unit_id": "p06-u009",
           "start": 8,
           "end": 9,
-          "surface": "裏",
-          "reason": "圖旁下方淡印，衣部中間結構不夠清楚，保留所見候選",
+          "surface": "裹",
+          "reason": "AI修訂後暫錄「裹」；保留原疑讀「裏」及其理由：圖旁下方淡印，衣部中間結構不夠清楚，保留所見候選",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -2134,8 +3265,8 @@
           "unit_id": "p07-u005",
           "start": 18,
           "end": 19,
-          "surface": "胷",
-          "reason": "字上部淡印，暫以所見上下結構錄胷，未據語義定字",
+          "surface": "胃",
+          "reason": "AI修訂後暫錄「胃」；保留原疑讀「胷」及其理由：字上部淡印，暫以所見上下結構錄胷，未據語義定字",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -2150,12 +3281,14 @@
           "start": 22,
           "end": 23,
           "surface": "瘡",
-          "reason": "字內筆畫淡，曾查看左側三欄原像素裁片，候選仍未裁定",
+          "reason": "字內筆畫淡，曾查看左側三欄原像素裁片，候選仍未裁定；補充疑讀：Actual crop suggests another left component; no settled reading.",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
             "瘡",
-            "烟"
+            "烟",
+            "理",
+            "裡"
           ]
         },
         {
@@ -2177,8 +3310,8 @@
           "unit_id": "p07-u010",
           "start": 7,
           "end": 8,
-          "surface": "速",
-          "reason": "此欄第二次相近字形內件淡印，未依前欄統一裁定",
+          "surface": "遲",
+          "reason": "AI修訂後暫錄「遲」；保留原疑讀「速」及其理由：此欄第二次相近字形內件淡印，未依前欄統一裁定",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -2191,13 +3324,27 @@
           "unit_id": "p07-u010",
           "start": 9,
           "end": 10,
-          "surface": "蓋",
-          "reason": "艹與下部部分細筆淡，先存所見及替代候選",
+          "surface": "精",
+          "reason": "AI修訂後暫錄「精」；保留原疑讀「蓋」及其理由：艹與下部部分細筆淡，先存所見及替代候選",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
             "蓋",
             "昔"
+          ]
+        },
+        {
+          "id": "unc-0070",
+          "unit_id": "p06-u008",
+          "start": 7,
+          "end": 8,
+          "surface": "因",
+          "reason": "Pale inner strokes after 此 remain unresolved.",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "因",
+            "圖"
           ]
         }
       ]
@@ -2211,10 +3358,10 @@
       "official_label": "pp. [8]-[9]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d9105892-5cfd-46db-a345-4d3bb42a60b4.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d9105892-5cfd-46db-a345-4d3bb42a60b4/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p08(right)、p09(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p08(right)、p09(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -2263,7 +3410,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "鉗、與兩直二鉸剪、銀針坑針開藥膏刀及割刀鈎刀刺膿瘡",
+          "text": "鉗、與曲直二鉸剪、銀針坑針開藥膏刀及割刀鈎刀刺膿瘡",
           "bbox": null
         },
         {
@@ -2295,7 +3442,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一血管鉗蓋取其鉗口畧圓、用以拑起血管、而線即趕下綁實、",
+          "text": "一血管鉗蓋取其鉗口畧圓、用以拑起血管、而線即褪下綁實、",
           "bbox": null
         },
         {
@@ -2383,7 +3530,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "一銀丹筒、乃用銀製成、其形如筆管之口、其口畧較低筒口則",
+          "text": "一銀丹筒、乃用銀製成、其形如筆管之口、其口畧軟但筒口則",
           "bbox": null
         },
         {
@@ -2436,8 +3583,8 @@
           "unit_id": "p08-u006",
           "start": 3,
           "end": 8,
-          "surface": "兩直二鉸剪",
-          "reason": "器具名稱及數字連接處有淡筆，照見字串存候選，不改寫或補入詞語",
+          "surface": "曲直二鉸剪",
+          "reason": "AI修訂後暫錄「曲直二鉸剪」；保留原疑讀「兩直二鉸剪」及其理由：器具名稱及數字連接處有淡筆，照見字串存候選，不改寫或補入詞語",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -2450,8 +3597,8 @@
           "unit_id": "p08-u010",
           "start": 22,
           "end": 23,
-          "surface": "趕",
-          "reason": "線即後一字細筆不清，先保留所見候選，未以後文推改",
+          "surface": "褪",
+          "reason": "AI修訂後暫錄「褪」；保留原疑讀「趕」及其理由：線即後一字細筆不清，先保留所見候選，未以後文推改",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -2514,10 +3661,10 @@
       "official_label": "pp. [10]-[11]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/7b87d46a-ce98-4380-9b71-5eeb58cf79d8.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7b87d46a-ce98-4380-9b71-5eeb58cf79d8/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p10(right)、p11(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p10(right)、p11(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -2526,7 +3673,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "以白金為之尤妙、其或用骨用銀製者未幾必爛、至用銀丹",
+          "text": "以白金為之尤妙、其或用骨用銀製者·未幾必爛、至用銀丹",
           "bbox": null
         },
         {
@@ -2534,7 +3681,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "點眼、宜先以濕布擦磨務使其尖方見妙用、",
+          "text": "點眼、宜先以濕布擦磨務使其尖·方見妙用、",
           "bbox": null
         },
         {
@@ -2542,7 +3689,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一外治傷口有用撚絨棉花麻絲麥穰理口藥膏合口藥膏等",
+          "text": "一外治傷口·有用撚絨棉花·麻絲麥穰理口藥膏合口藥膏等",
           "bbox": null
         },
         {
@@ -2550,7 +3697,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "物、及用小布袋裹以棉花或布碎而藉以壓住傷口者、又有",
+          "text": "物、及用小布袋裹以棉花·或布碎而藉以壓住傷口者、又有",
           "bbox": null
         },
         {
@@ -2558,7 +3705,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "用大針穿其數線刺入皮肉時或動之而令其發膿者、且更",
+          "text": "用大針穿其數縷刺入皮肉時或動之而令其發膿者、且更",
           "bbox": null
         },
         {
@@ -2566,7 +3713,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "有淋水之法、俾病者除其熱去其污而使之安然也、",
+          "text": "有淋水之法、俾病者除其熱·去其污·而使之安然也、",
           "bbox": null
         },
         {
@@ -2574,7 +3721,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一撚絨體毛輕軟、閩或家中有自作撚絨者、法用白洋麻布一",
+          "text": "一撚絨體毛輕軟、間或家中有自作撚絨者、法用白洋麻布一",
           "bbox": null
         },
         {
@@ -2614,7 +3761,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "開、然後用法安排到妥、則隨意或作絨布或作線笋様、圖見",
+          "text": "開、然後用法安排到妥、則隨意或作絨布·或作線筍樣、圖見",
           "bbox": null
         },
         {
@@ -2622,7 +3769,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "第一或作線條様、圖見第二俱可蓋綿笋則在中間先用一",
+          "text": "第一或作線條樣、圖見第二俱可·蓋綿筍則在中間先用一",
           "bbox": null
         },
         {
@@ -2630,7 +3777,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "線綁緊、反轉自成笋様也、而用以開調膏藥俾貼傷處、甚妥、",
+          "text": "線綁緊、反轉自成筍樣也、而用以開調膏藥俾貼傷處、甚妥、",
           "bbox": null
         },
         {
@@ -2638,7 +3785,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "至線條、則用以塞入傷口令其口漸漸生潤俾易發膿也、",
+          "text": "至線條、則用以塞入傷口·令其口漸漸生潤俾易發膿也、",
           "bbox": null
         },
         {
@@ -2646,7 +3793,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "又法、先將黃蠟煮鎔即以海綿投入其內令其灌滿黃蠟、俟",
+          "text": "又法、先將黃蠟煮鎔·即以海綿投入其內令其灌滿黃蠟、俟",
           "bbox": null
         },
         {
@@ -2678,7 +3825,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "用之過多則反令傷口尤劇、若少則又易生膿而浸透未免",
+          "text": "用之過多則反令傷口尤劇、若少則又易生膿·而淫透未免",
           "bbox": null
         },
         {
@@ -2723,8 +3870,8 @@
         {
           "id": "unc-0019",
           "unit_id": "p10-u003",
-          "start": 14,
-          "end": 15,
+          "start": 16,
+          "end": 17,
           "surface": "穰",
           "reason": "麻絲後詞第二字右部細密，先錄穰，不據現代材料名稱裁定",
           "cause": "initial-reading-uncertainty",
@@ -2739,8 +3886,8 @@
           "unit_id": "p10-u007",
           "start": 8,
           "end": 10,
-          "surface": "閩或",
-          "reason": "國／門框內下部細線重疊，先錄所見閩或，候選間或",
+          "surface": "間或",
+          "reason": "AI修訂後暫錄「間或」；保留原疑讀「閩或」及其理由：國／門框內下部細線重疊，先錄所見閩或，候選間或",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -2751,10 +3898,10 @@
         {
           "id": "unc-0021",
           "unit_id": "p11-u001",
-          "start": 21,
-          "end": 23,
-          "surface": "笋様",
-          "reason": "圖形名稱字體細筆保留笋様，不統一為現代字形；竹頭內部與様部件可再覆核",
+          "start": 22,
+          "end": 24,
+          "surface": "筍樣",
+          "reason": "AI修訂後暫錄「筍樣」；保留原疑讀「笋様」及其理由：圖形名稱字體細筆保留笋様，不統一為現代字形；竹頭內部與様部件可再覆核",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -2765,10 +3912,10 @@
         {
           "id": "unc-0022",
           "unit_id": "p11-u002",
-          "start": 15,
-          "end": 17,
-          "surface": "綿笋",
-          "reason": "圖形名稱第一字細筆密，暫存綿笋，候選絨笋",
+          "start": 16,
+          "end": 18,
+          "surface": "綿筍",
+          "reason": "AI修訂後暫錄「綿筍」；保留原疑讀「綿笋」及其理由：圖形名稱第一字細筆密，暫存綿笋，候選絨笋",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -2779,10 +3926,10 @@
         {
           "id": "unc-0023",
           "unit_id": "p11-u009",
-          "start": 20,
-          "end": 21,
-          "surface": "浸",
-          "reason": "水旁後內件細筆略糊，所見字串暫錄浸",
+          "start": 21,
+          "end": 22,
+          "surface": "淫",
+          "reason": "AI修訂後暫錄「淫」；保留原疑讀「浸」及其理由：水旁後內件細筆略糊，所見字串暫錄浸",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -2801,10 +3948,10 @@
       "official_label": "pp. [12]-[13]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d4ef883b-e32d-41f5-825c-48880920fb08.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d4ef883b-e32d-41f5-825c-48880920fb08/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p12(right)、p13(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p12(right)、p13(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -2813,7 +3960,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "棉花麻絲代之、凡治肛門痔瘡、若用撚絨、宜先塗以膏藥後",
+          "text": "棉花麻絲代之、凡治肛門痔瘡、若用撚絨、宜先塗以膏藥·後",
           "bbox": null
         },
         {
@@ -2821,7 +3968,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "用銀針帶住插入令其肉芽、由下而漸漸生上、可也、間有",
+          "text": "用銀針帶住插入·令其肉芽、由下而漸漸生上可也、間有",
           "bbox": null
         },
         {
@@ -2829,7 +3976,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "以棉線而製成線毬様者、圖見第三即用以插入止血、或插",
+          "text": "以棉線而製成線毬樣者、圖見第三即用以插入止血、或插",
           "bbox": null
         },
         {
@@ -2837,7 +3984,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "進傷口使之發炎生膿亦妙、又有用白布一幅、裹以軟布",
+          "text": "進傷口·使之發炎生膿亦妙、又有用白布一幅、裹以軟布",
           "bbox": null
         },
         {
@@ -2845,7 +3992,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "碎、即將四圍綁緊使成小袱包様者、圖見第四彼小兒或小",
+          "text": "碎、即將四圍綁緊·使成小袱包樣者、圖見第四彼小兒或小",
           "bbox": null
         },
         {
@@ -2853,7 +4000,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "腸氣發、宜將此小袱包用帶纏實、以代氣夾之用、抑或將此",
+          "text": "腸氣發、宜將此小袱包·用帶纏實、以代氣夾之用、抑或將此",
           "bbox": null
         },
         {
@@ -2861,7 +4008,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "小袱包壓住血管用以止血、或向兩腋下處、亦用以止血管",
+          "text": "小袱包·壓住血管用以止血、或向兩腋下處、亦用以止血管",
           "bbox": null
         },
         {
@@ -2869,7 +4016,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "均妥、若脫牙後、其牙窩或血流不止、宜用刀削尖樽枳即",
+          "text": "均妥、若脫牙後、其牙窩或血流不止、宜用刀削尖樟枳即",
           "bbox": null
         },
         {
@@ -2877,7 +4024,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "纏以撚絨塞入窩內而血自止、至麻然與棉花可代撚絨",
+          "text": "纏以撚絨·塞入窩內而血自止、至麻然與棉花·可代撚絨",
           "bbox": null
         },
         {
@@ -2885,7 +4032,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "之功、但必先揀淨方可、若用棉花以裹湯火傷症固可免天",
+          "text": "之功、但必先揀淨·方可、若用棉花以裹湯火傷症·固可免天",
           "bbox": null
         },
         {
@@ -2901,7 +4048,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "氣侵入、且使之杜乾膿水、俾瘡易生、而口易埋也、已上數法、",
+          "text": "氣侵入、且使之扯乾膿水、俾瘡易生而口易埋也、已上數法、",
           "bbox": null
         },
         {
@@ -2917,7 +4064,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "一布包用以蓋護傷口、而或用絨布洋布並花洋布為之、俱可、",
+          "text": "一布包用以蓋護傷口、而或用絨布·洋布·並花洋布為之、俱可、",
           "bbox": null
         },
         {
@@ -2941,7 +4088,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "務宜平滑、且當先以恰可格式、合其傷處、而後纏之庶得安",
+          "text": "務宜平滑、且當先以恰可格式、合其傷處、而後纏之·庶得安",
           "bbox": null
         },
         {
@@ -2965,7 +4112,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "三角笋様是也、凡鋸斷手足敷藥後即用以包裹最妥、但裹",
+          "text": "三角符樣是也、凡鋸斷手足敷藥後即用以包裹最妥、但裹",
           "bbox": null
         },
         {
@@ -2973,7 +4120,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "時宜先摺起左右兩角後復摺起中間一角、俾此裹之另用",
+          "text": "時宜先摺起左右兩角後復摺起中間一角、俟此裹之另用",
           "bbox": null
         },
         {
@@ -3038,8 +4185,8 @@
         {
           "id": "unc-0027",
           "unit_id": "p12-u009",
-          "start": 15,
-          "end": 16,
+          "start": 16,
+          "end": 17,
           "surface": "然",
           "reason": "麻後字所見近然；照錄淡印所見而不以詞義正字",
           "cause": "initial-reading-uncertainty",
@@ -3070,8 +4217,8 @@
           "unit_id": "p13-u001",
           "start": 7,
           "end": 8,
-          "surface": "杜",
-          "reason": "原像素單欄裁片所見近木／手旁加土，照錄杜，不以語意校改",
+          "surface": "扯",
+          "reason": "AI修訂後暫錄「扯」；保留原疑讀「杜」及其理由：原像素單欄裁片所見近木／手旁加土，照錄杜，不以語意校改",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -3099,8 +4246,8 @@
           "unit_id": "p13-u010",
           "start": 18,
           "end": 19,
-          "surface": "俾",
-          "reason": "欄下段字印色淡，左右部件不能完全確認",
+          "surface": "俟",
+          "reason": "AI修訂後暫錄「俟」；保留原疑讀「俾」及其理由：欄下段字印色淡，左右部件不能完全確認",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -3134,10 +4281,10 @@
       "official_label": "pp. [14]-[15]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9ebf6f24-d1c1-4164-aed6-56deedc0dd83.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9ebf6f24-d1c1-4164-aed6-56deedc0dd83/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p14(right)、p15(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p14(right)、p15(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -3154,7 +4301,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一四角布包形、圖見第六仍用方布一幅先對摺兩度、成一長",
+          "text": "一四角布包形、圖見第六仍用方布一幅·先對摺兩度、成一長",
           "bbox": null
         },
         {
@@ -3162,7 +4309,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "形、再將兩頭一摺便成四角之形也、凡遇身胸手足及大髀",
+          "text": "形、再將兩頭一摺·便成四角之形也、凡遇身胸手足及大髀",
           "bbox": null
         },
         {
@@ -3170,7 +4317,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "等處受傷敷藥畢即當以此布包蓋護後復用帶纏緊、自得",
+          "text": "等處受傷·敷藥畢即當以此布包蓋護後復用帶纏緊、自得",
           "bbox": null
         },
         {
@@ -3178,7 +4325,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "妥安",
+          "text": "安妥",
           "bbox": null
         },
         {
@@ -3186,7 +4333,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一篩眼布包形、圖見第七法將方布一幅、一邊對摺數層即以",
+          "text": "一篩眼布包形、圖見第七法將方布一幅、一連對摺數層即以",
           "bbox": null
         },
         {
@@ -3210,7 +4357,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "令其膿血必由布眼流出且能助生肉芽而易告痊也、",
+          "text": "令其膿血·必由布眼流出·且能助生肉芽·而易告痊也、",
           "bbox": null
         },
         {
@@ -3218,7 +4365,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一十字布包形、法將方布一幅、連摺兩度、先摺成一小四方様、",
+          "text": "一十字布包形、法將方布一幅、連摺兩度、先摺成一小四方樣、",
           "bbox": null
         },
         {
@@ -3234,7 +4381,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "再摺成一三角符樣、圖見第八即將敞口之一角、剪開少許、",
+          "text": "再摺成一三角符樣、圖見第八即將散口之一角、剪開少許、",
           "bbox": null
         },
         {
@@ -3242,7 +4389,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "則展開而觀其剪口、自仿成十字之形圖見第九但此布包、",
+          "text": "則展開而觀其剪口、自仿成十字之形·圖見第九但此布包、",
           "bbox": null
         },
         {
@@ -3290,7 +4437,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "剪此各等布包之形、宜先以紙練習、剪到熟處、而後臨時、庶",
+          "text": "剪此各等布包之形、宜先以紙練習、剪到熟處、而後臨時庶",
           "bbox": null
         },
         {
@@ -3298,7 +4445,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "無窘手之弊、",
+          "text": "無窒手之弊、",
           "bbox": null
         },
         {
@@ -3343,10 +4490,10 @@
         {
           "id": "unc-0034",
           "unit_id": "p14-u005",
-          "start": 1,
+          "start": 0,
           "end": 2,
-          "surface": "安",
-          "reason": "短欄第二字薄印，獨立原像素裁片所見暫錄安，保留形近候選",
+          "surface": "安妥",
+          "reason": "原疑讀字在已核定局部換序中無一對一碼點位置，整段暫錄「安妥」；原疑讀「安」及理由仍保留：短欄第二字薄印，獨立原像素裁片所見暫錄安，保留形近候選",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -3357,8 +4504,8 @@
         {
           "id": "unc-0035",
           "unit_id": "p14-u003",
-          "start": 24,
-          "end": 25,
+          "start": 25,
+          "end": 26,
           "surface": "髀",
           "reason": "行尾字骨／月旁及右部細筆重疊，先存髀",
           "cause": "initial-reading-uncertainty",
@@ -3392,10 +4539,10 @@
       "official_label": "pp. [16]-[17]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/506e48dc-b118-48ea-a0ac-6e241c174f01.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/506e48dc-b118-48ea-a0ac-6e241c174f01/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p16(right)、p17(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p16(right)、p17(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -3412,7 +4559,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "十一凡遇割鋸置骨枝者、即當預備此帶、務使布心一孔、先",
+          "text": "十一凡遇割鋸單骨枝者、即當預備此帶、務使布心一孔、先",
           "bbox": null
         },
         {
@@ -3420,7 +4567,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "套緊骨枝、後將兩條帶尾牽住、用以蓋護肉體、然後鋸之、此",
+          "text": "套緊骨枝、復將兩條帶尾牽住、用以蓋護肉體、然後鋸之、此",
           "bbox": null
         },
         {
@@ -3460,7 +4607,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "後復扯緊三條帶尾、用以衛護肉體、而後鋸之、方得穩妥、",
+          "text": "後復扯緊三條帶尾、用以衞護肉體、而後鋸之、方得穩妥、",
           "bbox": null
         },
         {
@@ -3484,7 +4631,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "套緊、然後紮實、如此則凸較骨處免受壓自可愈也、西國",
+          "text": "套緊、然後紮實、如此則凸較骨庶免受壓自可愈也、西國",
           "bbox": null
         },
         {
@@ -3582,8 +4729,8 @@
           "unit_id": "p16-u002",
           "start": 6,
           "end": 7,
-          "surface": "置",
-          "reason": "字形據完整原圖實讀；不據語意更改。",
+          "surface": "單",
+          "reason": "AI修訂後暫錄「單」；保留原疑讀「置」及其理由：字形據完整原圖實讀；不據語意更改。",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -3628,10 +4775,10 @@
       "official_label": "pp. [18]-[19]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e9f30f8a-35f1-48d4-8df7-a9d19876abc9.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e9f30f8a-35f1-48d4-8df7-a9d19876abc9/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p18(right)、p19(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p18(right)、p19(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -3664,7 +4811,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "口自易埋也、但剪此膏時亦宜細驗布紋、方可下剪、至傷口",
+          "text": "口自易理也、但剪此膏時亦宜細驗布紋、方可下剪、至傷口",
           "bbox": null
         },
         {
@@ -3680,7 +4827,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "貼之法、又須先向傷口之邊下貼、而牽連合埋、惟須留一隙、",
+          "text": "貼之法、又須先向傷口之邊下貼、而牽連合理、惟須留一隙、",
           "bbox": null
         },
         {
@@ -3696,7 +4843,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "之法、又要先從首尾處扯起、及至傷口、宜輕輕扯去、以免牽",
+          "text": "之法、又要先從首尾處扯起、及至傷口、宜輕輕扯去、以免掣",
           "bbox": null
         },
         {
@@ -3704,7 +4851,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "開傷口、或並傷其肉芽可也、圖見十六間有爛瘡而用貼膏",
+          "text": "潤傷口、或並傷其肉芽可也、圖見十六間有爛瘡而用貼膏",
           "bbox": null
         },
         {
@@ -3712,7 +4859,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "壓緊者、蓋欲使血管流行、俾易生肉埋口也、若外腎發炎之",
+          "text": "壓緊者、蓋欲使血管流行、俾易生肉理口也、若外腎發炎之",
           "bbox": null
         },
         {
@@ -3736,7 +4883,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "膏或能漬爛皮肉、而多用魚膠膏藥以代之者、蓋取其明亮",
+          "text": "膏或能潰爛皮肉、而多用魚膠膏藥以代之者、蓋取其明亮",
           "bbox": null
         },
         {
@@ -3760,7 +4907,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "一哥羅頓、其功力可代合口膏、製法宜用衣打酒三安士量火",
+          "text": "一哥囉顛、其功力可代合口膏、製法宜用衣打酒三安士量火",
           "bbox": null
         },
         {
@@ -3784,7 +4931,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "去、而剩下者只哥羅頓之衣、此衣固不能化去、且能光透肉",
+          "text": "去、而剩下者只哥囉顛之衣、此衣固不能化去、且能光透肉",
           "bbox": null
         },
         {
@@ -3792,7 +4939,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "肉、更見妙用、又法、或用布及絲網布、濕此哥羅頓水、即鋪在",
+          "text": "內、更見妙用、又法、或用布及絲網布、濕此哥囉顛水、即鋪在",
           "bbox": null
         },
         {
@@ -3831,8 +4978,8 @@
           "unit_id": "p19-u003",
           "start": 3,
           "end": 4,
-          "surface": "漬",
-          "reason": "原像素裁片可見氵與右旁疊筆，暫讀漬。",
+          "surface": "潰",
+          "reason": "AI修訂後暫錄「潰」；保留原疑讀「漬」及其理由：原像素裁片可見氵與右旁疊筆，暫讀漬。",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -3858,8 +5005,8 @@
           "unit_id": "p18-u004",
           "start": 3,
           "end": 4,
-          "surface": "埋",
-          "reason": "原像素裁片左旁暫讀土，保留王旁候選。",
+          "surface": "理",
+          "reason": "AI修訂後暫錄「理」；保留原疑讀「埋」及其理由：原像素裁片左旁暫讀土，保留王旁候選。",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -3872,8 +5019,8 @@
           "unit_id": "p18-u010",
           "start": 16,
           "end": 17,
-          "surface": "埋",
-          "reason": "原像素裁片左旁暫讀土，保留王旁候選。",
+          "surface": "理",
+          "reason": "AI修訂後暫錄「理」；保留原疑讀「埋」及其理由：原像素裁片左旁暫讀土，保留王旁候選。",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -3892,10 +5039,10 @@
       "official_label": "pp. [20]-[21]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/1dfcce24-72c1-45f8-872e-3201a8b80b0f.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1dfcce24-72c1-45f8-872e-3201a8b80b0f/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p20(right)、p21(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p20(right)、p21(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -3904,7 +5051,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "傷處、以手壓住、候乾後、則此布自然交粘、而較之貼合口膏",
+          "text": "傷處、以手壓住、俟乾後、則此布自然交粘、而較之貼合口膏",
           "bbox": null
         },
         {
@@ -3928,7 +5075,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "火酒濕返、自可復用也、",
+          "text": "火酒濕透、自可復用也、",
           "bbox": null
         },
         {
@@ -3976,7 +5123,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "圖見十八復加入生油或醋油在面而已、依此敷之甚妙、惟",
+          "text": "圖見十八復加入生油或豬油在面而已、依此敷之甚妙、惟",
           "bbox": null
         },
         {
@@ -4032,7 +5179,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "一發酵藥料、先將酒餅發起、次以熱水開調麥粉、然後加入酒",
+          "text": "一發酵藥料、先將酒餅發起、次以熱水開調米粉、然後加入酒",
           "bbox": null
         },
         {
@@ -4056,7 +5203,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "至敷後、另用油紙蓋護外面、免覺其硬庚、得安然、",
+          "text": "至敷後、另用油紙蓋護外面、免覺其硬、庶得安然、",
           "bbox": null
         },
         {
@@ -4120,10 +5267,10 @@
         {
           "id": "unc-0046",
           "unit_id": "p21-u010",
-          "start": 17,
-          "end": 18,
-          "surface": "庚",
-          "reason": "原像素裁片可見广內交筆，下部不明，暫讀庚。",
+          "start": 16,
+          "end": 20,
+          "surface": "硬、庶得",
+          "reason": "原疑讀字在已核定局部換序中無一對一碼點位置，整段暫錄「硬、庶得」；原疑讀「庚」及理由仍保留：原像素裁片可見广內交筆，下部不明，暫讀庚。",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -4142,10 +5289,10 @@
       "official_label": "pp. [22]-[23]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/eb2453fb-514f-46a8-a45f-89165592fdfc.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eb2453fb-514f-46a8-a45f-89165592fdfc/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p22(right)、p23(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p22(right)、p23(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -4178,7 +5325,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "相調、則功力自緩、亦在乎善用之耳、然要之醫道不能拘泥、",
+          "text": "開調、則功力自緩、亦在乎善用之耳、然要之醫道不能拘泥、",
           "bbox": null
         },
         {
@@ -4194,7 +5341,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一敷貼乳瘤藥膏、法用方布一幅、先摺成三角符樣、即將敞剪",
+          "text": "一敷貼乳瘤藥膏、法用方布一幅、先摺成三角符樣、即將絞剪",
           "bbox": null
         },
         {
@@ -4210,7 +5357,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "令其邊俱有布綹、則展開而中間便有一孔、此孔蓋用以套",
+          "text": "令其邊俱有布緒、則展開而中間便有一孔、此孔蓋用以套",
           "bbox": null
         },
         {
@@ -4306,7 +5453,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "停妥、以免卧時尚有不妥、五每逢換藥、醫者面目必須向",
+          "text": "停妥、以免卧時尚有不安、五每逢換藥、醫者面目必須向",
           "bbox": null
         },
         {
@@ -4332,8 +5479,8 @@
           "unit_id": "p22-u006",
           "start": 25,
           "end": 27,
-          "surface": "敞剪",
-          "reason": "完整原圖末兩字暫按字形實讀，未以操作語意補改。",
+          "surface": "絞剪",
+          "reason": "AI修訂後暫錄「絞剪」；保留原疑讀「敞剪」及其理由：完整原圖末兩字暫按字形實讀，未以操作語意補改。",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -4379,10 +5526,10 @@
       "official_label": "pp. [24]-[25]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/abdbb34c-e78f-441f-857d-baaf97652501.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/abdbb34c-e78f-441f-857d-baaf97652501/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p24(right)、p25(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p24(right)、p25(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -4399,7 +5546,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "醫之人亦宜小心調理、慎勿浮躁、致有疏忽之處、其餘法式、",
+          "text": "醫之人亦宜小心調理、慎勿浮躁、致有疎忽之處、其餘法式、",
           "bbox": null
         },
         {
@@ -4439,7 +5586,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "而且布帶、一長一闊、應用若干、須預先按法剪備、至于或捲",
+          "text": "而且布帶、一長一濶、應用若干、須預先按法剪備、至于或捲",
           "bbox": null
         },
         {
@@ -4503,7 +5650,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "一凡用布帶、務宜合度、其纏在身者、則長約二丈四尺、闊約二",
+          "text": "一凡用布帶、務宜合度、其纏在身者、則長約二丈四尺、濶約二",
           "bbox": null
         },
         {
@@ -4511,7 +5658,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "寸半可也、其纏在頭者、則長約丈餘、闊約一寸二可也、其纏",
+          "text": "寸半可也、其纏在頭者、則長約丈餘、濶約一寸二可也、其纏",
           "bbox": null
         },
         {
@@ -4519,7 +5666,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "在四肢者、亦長約丈餘、闊約二寸可也、至于纏在大髀等處、",
+          "text": "在四肢者、亦長約丈餘、濶約二寸可也、至于纏在大髀等處、",
           "bbox": null
         },
         {
@@ -4527,7 +5674,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "其布帶之長闊、宜酌量加之、餘則按照部位、務使合式、庶幾",
+          "text": "其布帶之長濶、宜酌量加之、餘則按照部位、務使合式、庶幾",
           "bbox": null
         },
         {
@@ -4574,10 +5721,10 @@
       "official_label": "pp. [26]-[27]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/91a36f3b-6efc-4f39-9f6c-498b6285370a.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a36f3b-6efc-4f39-9f6c-498b6285370a/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p26(right)、p27(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p26(right)、p27(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -4618,7 +5765,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "更有合埋樣、分開樣、壓實樣、發出樣、與夫還原紮實樣、其法",
+          "text": "更有合理樣、分開樣、壓實樣、發出樣、與夫還原紮實樣、其法",
           "bbox": null
         },
         {
@@ -4650,7 +5797,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "纏上也、螺紋樣者、即於傷處而纏成螺絲之狀也、合埋",
+          "text": "纏上也、螺紋樣者、即於傷處而纏成螺絲之狀也、合理",
           "bbox": null
         },
         {
@@ -4666,7 +5813,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "即從患處間疏纏去、且要畧鬆、不宜紮得太密太緊、蓋令其",
+          "text": "即從患處間疎纏去、且要畧鬆、不宜紮得太密太緊、蓋令其",
           "bbox": null
         },
         {
@@ -4698,7 +5845,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "及有跳血囊等症、當用此法紮之、發出樣者、法用布帶纏",
+          "text": "反有跳血囊等症、當用此法紮之、發出樣者、法用布帶纏",
           "bbox": null
         },
         {
@@ -4769,10 +5916,10 @@
       "official_label": "pp. [28]-[29]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f736dcb6-ff40-4dc0-8da4-59c5ad9c180b.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f736dcb6-ff40-4dc0-8da4-59c5ad9c180b/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p28(right)、p29(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p28(right)、p29(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -4805,7 +5952,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "劇、重則或致殞命、輕則以致手足腫大、甚矣醫者於此不可",
+          "text": "劇、重則或致殞命、輕則必致手足腫大、甚矣醫者於此不可",
           "bbox": null
         },
         {
@@ -5007,10 +6154,10 @@
       "official_label": "pp. [30]-[31]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e794d2df-bbed-43d8-be4e-ee14b11b3566.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e794d2df-bbed-43d8-be4e-ee14b11b3566/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p30(right)、p31(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p30(right)、p31(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -5059,7 +6206,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一反摺人字、其法有七、一先持定布輥、審視所紮之處、無論",
+          "text": "一反摺人字、其法有七、一先持定布轆、審視所紮之處、無論",
           "bbox": null
         },
         {
@@ -5091,7 +6238,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "摺時、以免下半鬆開也、四反摺人字時、其布輥須離去指",
+          "text": "摺時、以免下半鬆開也、四反摺人字時、其布轆須離去指",
           "bbox": null
         },
         {
@@ -5099,7 +6246,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "所壓處、約三四寸、方可、五反摺之時其手所持布輥、宜畧",
+          "text": "所壓處、約三四寸、方可、五反摺之時其手所持布轆、宜畧",
           "bbox": null
         },
         {
@@ -5115,7 +6262,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "轉、便可覆成直進也、七、反摺人字務宜簡簡齊整相對、尤",
+          "text": "轉、便可覆成直進也、七、反摺人字務宜箇箇齊整相對、尤",
           "bbox": null
         },
         {
@@ -5139,7 +6286,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "凡遇胷脊受患、當用此法、但先令病者端坐、方可纏紮、蓋如",
+          "text": "凡遇肩脊受患、當用此法、但先令病者端坐、方可纏紮、蓋如",
           "bbox": null
         },
         {
@@ -5147,7 +6294,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "是、而後醫者、乃易于轉運其布輥也、其纏法、先將帶尾貼住",
+          "text": "是、而後醫者、乃易於轉運其布轆也、其纏法、先將帶尾貼住",
           "bbox": null
         },
         {
@@ -5163,7 +6310,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "左胷前、纏過于右腋下、即由背而搭過左膊、仍復纏三四次、",
+          "text": "左肩前、纏過于右腋下、即由背而搭過左膊、仍復纏三四次、",
           "bbox": null
         },
         {
@@ -5171,7 +6318,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "然後將帶則纏實胷脊之間可也、圖見三十此法頗有實效、",
+          "text": "然後將帶則纏實肩脊之間可也、圖見三十此法頗有實效、",
           "bbox": null
         },
         {
@@ -5218,10 +6365,10 @@
       "official_label": "pp. [32]-[33]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d98086e2-77bd-4886-8c78-73ebcf0416f9.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d98086e2-77bd-4886-8c78-73ebcf0416f9/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p32(right)、p33(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p32(right)、p33(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -5230,7 +6377,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一纏手之法宜用布一幅長約二丈、濶約二寸、其法、先在手腕",
+          "text": "一纏手之法宜用布一幅·長約二丈、濶約二寸、其法先在手腕",
           "bbox": null
         },
         {
@@ -5238,7 +6385,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "處連纏三四次繼則由手背而覆過手心亦纏三四次、然後",
+          "text": "處連纏三四次·繼則由手背而覆過手心·亦纏三四次、然後",
           "bbox": null
         },
         {
@@ -5246,7 +6393,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "復在手背疊紮八字樣、至于直上至手肘處、亦須紮一八字",
+          "text": "復在手背連紮八字樣、至于直上至手肘處、亦須紮一八字",
           "bbox": null
         },
         {
@@ -5270,7 +6417,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "法、亦由手腕處起纏三四次繼則由手背而覆過手心、亦纏",
+          "text": "法亦由手腕處起纏三四次·繼則由手背而覆過手心、亦纏",
           "bbox": null
         },
         {
@@ -5286,7 +6433,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "上、當纏螺絲樣務宜密實至于或纏至手節處打結、或纏至",
+          "text": "上、當纏螺絲樣·務宜密實·至于或纏至手節處打結、或纏至",
           "bbox": null
         },
         {
@@ -5302,7 +6449,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一兩脚倘有受患宜用布帶二條每條長約二丈濶約二寸、纏",
+          "text": "一兩脚倘有受患·宜用布帶二條·每條長約二丈·濶約二寸、纏",
           "bbox": null
         },
         {
@@ -5318,7 +6465,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "連紮八字樣、須露出脚踭而由脚背纏至脚指處、即調轉一",
+          "text": "連紮八字樣、須露出脚踭·而由脚背纏至脚指處、即調轉一",
           "bbox": null
         },
         {
@@ -5326,7 +6473,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "直纏上、圖見三十三若至腿肚處、則要纏螺絲樣、若至膝處、",
+          "text": "直纏上、圖見三十三若至腿肚處、則要纏螺絲樣、若至膝處",
           "bbox": null
         },
         {
@@ -5350,7 +6497,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "生膿瘡、或手足浮腫等症、皆藉此纏紮即得安痊、甚矣學醫",
+          "text": "生膿瘡、或手足浮腫等症、皆藉此纏紮·即得安痊、甚矣學醫",
           "bbox": null
         },
         {
@@ -5382,7 +6529,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "緒兩條、而前之布緒、則由額頭纏至腦後處須先打一十字",
+          "text": "緒兩條、而前之布緒、則由額頭纏至腦後處·須先打一十字",
           "bbox": null
         },
         {
@@ -5442,10 +6589,10 @@
       "official_label": "pp. [34]-[35]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ed938056-3189-4da4-808f-fb3e18abb9a2.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ed938056-3189-4da4-808f-fb3e18abb9a2/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p34(right)、p35(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p34(right)、p35(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -5454,7 +6601,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "樣然後纏至下爬處、方可打結至于後之布緒、則直向下爬",
+          "text": "樣·然後纏至下爬處、方可打結·至于後之布緒、則直向下爬",
           "bbox": null
         },
         {
@@ -5478,7 +6625,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "布兩頭、用剪分開三條、而中間之一條布緒、要濶些惟剪至",
+          "text": "布兩頭用剪分開三條、而中間之一條布緒、要濶些·惟剪至",
           "bbox": null
         },
         {
@@ -5494,7 +6641,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "直運至下爬處、方可打結至前之兩條布緒、則由額頭纏至",
+          "text": "直運至下爬處、方可打結·至前之兩條布緒、則由額頭纏至",
           "bbox": null
         },
         {
@@ -5518,7 +6665,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一紮下爬之法、宜用布一幅、長約三尺、濶約二寸半即將此布",
+          "text": "一紮下爬之法、宜用布一幅、長約三尺、濶約二寸半·即將此布",
           "bbox": null
         },
         {
@@ -5542,7 +6689,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "搭過額、用大針刺緊、後之兩條布緒則由前腮處、直上腦頂、",
+          "text": "搭過額、用大針刺緊、後之兩條布緒·則由前腮處直上腦頂",
           "bbox": null
         },
         {
@@ -5550,7 +6697,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "打一交加樣、然後運落下爬處、亦用大針刺緊凡遇跌離下",
+          "text": "打一交加樣、然後運落下爬處、亦用大針刺緊·凡遇跌離下",
           "bbox": null
         },
         {
@@ -5558,7 +6705,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "爬骨與及下牙床骨跌斷即用此帶紮之、甚妙圖見三十六",
+          "text": "爬骨與及下牙床骨跌斷·即用此帶紮之、甚妙·圖見三十六",
           "bbox": null
         },
         {
@@ -5566,7 +6713,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "又下爬受患、宜用布帶一條、長約一丈二尺、濶約二寸纏法、先",
+          "text": "又下爬受患、宜用布帶一條、長約一丈二尺、濶約二寸·纏法先",
           "bbox": null
         },
         {
@@ -5582,7 +6729,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "向上腦頂、運至右耳後、直過腦後處、運落下頷、復上右耳後",
+          "text": "向上腦頂、運至右耳後、直過腦後處、運落下頷、復上右耳後·",
           "bbox": null
         },
         {
@@ -5598,7 +6745,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "實為妥、纏畢後用大針刺緊可也、圖見三十七",
+          "text": "實為妥、纏畢後用大針刺緊·可也、圖見三十七",
           "bbox": null
         },
         {
@@ -5606,7 +6753,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "一紮鎖子骨法、其應用之物有三、一、用小布袋一筒、其形直上",
+          "text": "一紮鎖子骨法、其應用之物有三、一用小布袋一箇、其形直上",
           "bbox": null
         },
         {
@@ -5637,10 +6784,10 @@
       "official_label": "pp. [36]-[37]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/611b065f-a213-439f-8e7f-8eed2157aef1.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/611b065f-a213-439f-8e7f-8eed2157aef1/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p36(right)、p37(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p36(right)、p37(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -5649,7 +6796,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "大而下尖、長四寸濶三寸、中滿以麻或爛布亦可、但上宜厚",
+          "text": "大而下尖、長四寸·濶三寸、中滿以麻或爛布亦可、但上宜厚",
           "bbox": null
         },
         {
@@ -5665,7 +6812,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "此一物也、二、用布筒一筒入滿棉花、次將兩頭縫緊使其如",
+          "text": "此一物也、二用布筒一箇入滿棉花、次將兩頭縫緊·使其如",
           "bbox": null
         },
         {
@@ -5673,7 +6820,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一圓圈樣、此二物也、三、以長布一幅、摺起兩邊、並將布之一",
+          "text": "一圓圈樣、此二物也、三以長布一幅摺起兩邊、並將布之一",
           "bbox": null
         },
         {
@@ -5681,7 +6828,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "頭、摺成一欄口樣、以線縫住其餘一頭、無庸欄口也、于是用",
+          "text": "頭、摺成一欄口樣、以線縫住·其餘一頭、無庸欄口也、于是用",
           "bbox": null
         },
         {
@@ -5705,7 +6852,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "右則釘兩布耳、各穿一帶、此三物也、凡遇鎖子骨斷如係左",
+          "text": "右則釘兩布耳、各穿一帶、此三物也、凡遇鎖子骨斷·如係左",
           "bbox": null
         },
         {
@@ -5729,7 +6876,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "背後、運至布圈處、綁緊、至于乘載其手之布、其一頭有欄口",
+          "text": "背後運至布圈處、綁緊、至于乘載其手之布、其一頭有欄口·",
           "bbox": null
         },
         {
@@ -5737,7 +6884,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "而用以裹過手肘者宜將上下兩帶運過背後綁在布圈處、",
+          "text": "而用以裹過手肘者·宜將上下兩帶運過背後·綁在布圈處、",
           "bbox": null
         },
         {
@@ -5745,7 +6892,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "餘一頭無欄口而用以裹到手眼者其左右兩帶又須運過",
+          "text": "餘一頭無欄口·而用以裹到手眼者·其左右兩帶·又須運過",
           "bbox": null
         },
         {
@@ -5753,7 +6900,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "胸前、綁在布圈處、蓋此布用以載手實令其斷骨相對、不致",
+          "text": "胸前、綁在布圈處、蓋此布用以載手·實令其斷骨相對、不致",
           "bbox": null
         },
         {
@@ -5761,7 +6908,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "有或偏或離之弊也、倘病者或尚覺纏紮未妥、則當以棉花",
+          "text": "有或偏或離之弊也、倘病者或尚覺纏紮未安、即當以棉花",
           "bbox": null
         },
         {
@@ -5769,7 +6916,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "貼護務令自然為貴應觀西國所醫鎖子骨斷者、其法甚多、",
+          "text": "貼護·務令自然為貴·應觀西國所醫鎖子骨斷者、其法甚多、",
           "bbox": null
         },
         {
@@ -5785,7 +6932,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "一紮心胸之法宜用布帶一條、長一丈二尺、濶一寸半、先在心",
+          "text": "一紮心胸之法·宜用布帶一條、長一丈二尺、濶一寸半、先在心",
           "bbox": null
         },
         {
@@ -5801,7 +6948,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "左腋下穿過、搭上左膊、如此連纏數度後再將布帶、打橫紮",
+          "text": "左腋下穿過、搭上左膊、如此連纏數度·後再將布帶、打橫紮",
           "bbox": null
         },
         {
@@ -5839,8 +6986,8 @@
         {
           "id": "unc-0056",
           "unit_id": "p36-u005",
-          "start": 20,
-          "end": 21,
+          "start": 21,
+          "end": 22,
           "surface": "欄",
           "reason": "原像素裁片見左旁近木，暫錄欄；左旁淡細筆尚不足排除襴，未依物件名稱定字。",
           "cause": "initial-reading-uncertainty",
@@ -5881,8 +7028,8 @@
         {
           "id": "unc-0059",
           "unit_id": "p37-u001",
-          "start": 25,
-          "end": 26,
+          "start": 24,
+          "end": 25,
           "surface": "欄",
           "reason": "原像素裁片見左旁近木，暫錄欄；左旁淡細筆尚不足排除襴，未依物件名稱定字。",
           "cause": "initial-reading-uncertainty",
@@ -5917,10 +7064,10 @@
       "official_label": "pp. [38]-[39]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c12dc91d-8d17-4f44-b0a3-3f154c43af3a.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12dc91d-8d17-4f44-b0a3-3f154c43af3a/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p38(right)、p39(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p38(right)、p39(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -5929,7 +7076,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "實、方得周密但同此一紮法如病者係胸前受傷、醫者則當",
+          "text": "實、方得周密·但同此一紮法·如病者係胸前受傷、醫者則當",
           "bbox": null
         },
         {
@@ -5937,7 +7084,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "向其面前、而照法紮之倘病者係背後受傷、醫者又當向其",
+          "text": "向其面前而照法紮之·倘病者係背後受傷、醫者又當向其",
           "bbox": null
         },
         {
@@ -5945,7 +7092,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "背後、而照法紮之、誠以醫道貴乎變通也、圖見三十九",
+          "text": "背後而照法紮之、誠以醫道貴乎變通也、圖見三十九",
           "bbox": null
         },
         {
@@ -5961,7 +7108,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "兩頭布角、縫之以帶俾得橫紮、於乳下處、而中間布角亦縫",
+          "text": "兩頭布角、縫之以帶·俾得橫紮、於乳下處、而中間布角·亦縫",
           "bbox": null
         },
         {
@@ -5969,7 +7116,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "之以帶、宜過膊綁實、蓋如是而後能保護、其乳體也、凡遇乳",
+          "text": "之以帶、宜過膊綁實、蓋如是而後能保護其乳體也、凡遇乳",
           "bbox": null
         },
         {
@@ -5977,7 +7124,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "頭生瘡、或發炎紅痛、敷藥後、即用此裹紮靡不應驗、",
+          "text": "頭生瘡、或發炎紅痛、敷藥後、即用此裹紮·靡不應驗、",
           "bbox": null
         },
         {
@@ -5985,7 +7132,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "又法、仍用方布一幅、長濶俱七寸即將此布連摺兩度使成一",
+          "text": "又法、仍用方布一幅、長濶俱七寸·即將此布連摺兩度·使成一",
           "bbox": null
         },
         {
@@ -6001,7 +7148,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "展開此布、而四便俱有三角之形法宜將四便三角之處、以",
+          "text": "展開此布、而四便俱有三角之形·法宜將四便三角之處、以",
           "bbox": null
         },
         {
@@ -6017,7 +7164,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "復向袋之四角各縫一帶其在上兩條布帶則宜運過頸上",
+          "text": "復向袋之四角各縫一帶·其在上兩條布帶·則宜運過頸上",
           "bbox": null
         },
         {
@@ -6025,7 +7172,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "方可打結下兩條布帶、則宜橫纏於乳下處、打結、如此自能",
+          "text": "方可打結·下兩條布帶、則宜橫纏於乳下處、打結、如此自能",
           "bbox": null
         },
         {
@@ -6049,7 +7196,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "二寸纏時、宜先在右手臂處連纏數度、即以棉花小布袋先",
+          "text": "二寸·纏時宜先在右手臂處連纏數度、即以棉花小布袋先",
           "bbox": null
         },
         {
@@ -6065,7 +7212,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "後堅實有力也由是從面前左腋下過背、纏上右膊又由右",
+          "text": "後堅實有力也·由是從面前左腋下過背纏上右膊·又由右",
           "bbox": null
         },
         {
@@ -6073,7 +7220,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "腋下、復照前法、而纏過左腋下、如此連纏數次、圖見四十凡",
+          "text": "腋下、復照前法而纏過左腋下、如此連纏數次、圖見四十凡",
           "bbox": null
         },
         {
@@ -6112,10 +7259,10 @@
       "official_label": "pp. [40]-[41]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/850ae62d-45ae-481f-916f-2fe08eccd57f.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/850ae62d-45ae-481f-916f-2fe08eccd57f/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p40(right)、p41(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p40(right)、p41(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -6124,7 +7271,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一紮下部小腸氣發、及各症之法、宜用布一幅、長約二丈濶約",
+          "text": "一紮下部小腸氣發、及各症之法、宜用布一幅、長約二丈·濶約",
           "bbox": null
         },
         {
@@ -6132,7 +7279,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "二寸四纏時、先在胯下處、橫纏數度即搭出髀外由髀外纏",
+          "text": "二寸四·纏時、先在臍下處、橫纏數度·即搭出髀外丶由髀外纏",
           "bbox": null
         },
         {
@@ -6140,7 +7287,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "入髀裏須貼近腎囊之旁、由是從面前即過背後、又復搭出",
+          "text": "入髀裏·須貼近腎囊之旁、由是從面前即過背後、又復搭出",
           "bbox": null
         },
         {
@@ -6172,7 +7319,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "又法、用布一幅長約三丈、濶約二寸半其布兩頭宜先捲定、纏",
+          "text": "又法、用布一幅丶長約三丈、濶約二寸半其布·兩頭宜先捲定、纏",
           "bbox": null
         },
         {
@@ -6180,7 +7327,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "時、兩頭布輥、即分兩手持之先在脊下處、橫纏數度運至前",
+          "text": "時、兩頭布輥、即分兩手持之丶先在脊下處、橫纏數度運至前",
           "bbox": null
         },
         {
@@ -6188,7 +7335,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "面胯下、其左帶則宜搭出右髀之外、由髀外而纏入髀裡、須",
+          "text": "面臍下、其左帶則宜搭出右髀之外、由髀外而纏入髀裡、須",
           "bbox": null
         },
         {
@@ -6196,7 +7343,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "貼近腎囊即運過背後、其右帶則宜搭出左髀之外由髀外",
+          "text": "貼近腎囊即運過背後、其右帶則宜搭出左髀之外丶由髀外",
           "bbox": null
         },
         {
@@ -6204,7 +7351,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "而纏入髀裏、亦貼近腎囊、且復運過背後、即以兩頭打結圖",
+          "text": "而纏入髀裏、亦貼近腎囊、且復運過背後、即以兩頭打結丶圖丶",
           "bbox": null
         },
         {
@@ -6228,7 +7375,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "一大髀割斷之後敷藥畢、先用棉絨布數層、包護傷口、隨即用",
+          "text": "一大髀割斷之後丶敷藥畢、先用棉絨布數層、包護傷口、隨即用",
           "bbox": null
         },
         {
@@ -6236,7 +7383,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "布帶一條在傷口之上約離三寸起、橫纏數度次用指壓住、",
+          "text": "布帶一條·在傷口之上丶約離三寸起、橫纏數度次用指壓住、",
           "bbox": null
         },
         {
@@ -6276,7 +7423,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "開兩條化一為二亦可、圖見四十五凡遇頭損傷腫痛等症",
+          "text": "開兩條化一為二丶亦可、圖見四十五凡遇頭損傷腫痛等症·",
           "bbox": null
         },
         {
@@ -6351,10 +7498,10 @@
       "official_label": "pp. [42]-[43]",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0ccc40b5-3f62-46b3-b58b-7750b5730df8.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0ccc40b5-3f62-46b3-b58b-7750b5730df8/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p42(right)、p43(left)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p42(right)、p43(left)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -6363,7 +7510,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "即以此等布帶貼住腦後處起打橫纏至前額、其餘尚剩直",
+          "text": "即以此等布帶貼住腦後處起丶打橫纏至前額、其餘尚剩直",
           "bbox": null
         },
         {
@@ -6379,7 +7526,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "自妥",
+          "text": "自安",
           "bbox": null
         },
         {
@@ -6387,7 +7534,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一紮胸前背後之法·宜用布一幅長約四五尺、濶約四寸、中間",
+          "text": "一紮胸前背後之法·宜用布一幅·長約四五尺、濶約四寸、中間",
           "bbox": null
         },
         {
@@ -6411,7 +7558,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "條直帶、則由背後搭上左右二膊並牽至纏胸之處以針刺",
+          "text": "條直帶、則由背後丶搭上左右二膊丶並牽至纏胸之處·以針刺",
           "bbox": null
         },
         {
@@ -6427,7 +7574,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "一紮肚之法其布帶樣、與及尺寸宜依照上文惟中間所縫兩",
+          "text": "一紮肚之法其布帶樣、與及尺寸丶宜依照上文·惟中間所縫兩",
           "bbox": null
         },
         {
@@ -6435,7 +7582,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "條布帶、須離開少許、纏時先從背後、運至腹處宜橫纏數度、",
+          "text": "條布帶、須離開少許、纏時先從背後、運至腹處丶宜橫纏數度、",
           "bbox": null
         },
         {
@@ -6491,7 +7638,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "腸氣痛等症即向髀下處先以布帶橫纏數度次以三角之",
+          "text": "腸氣痛等症即向臍下處先以布帶橫纏數度次以三角之",
           "bbox": null
         },
         {
@@ -6499,7 +7646,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "布蓋護患處然後將布尾之小帶運入髀裏復牽同前面纏",
+          "text": "布蓋護患處然後將布尾之小帶運入髀裏復牽囘前面纏",
           "bbox": null
         },
         {
@@ -6548,8 +7695,8 @@
           "unit_id": "p43-u007",
           "start": 7,
           "end": 8,
-          "surface": "髀",
-          "reason": "原印髀下處首字左旁與右部淡，實見近髀，保留胯候選，不依臨床詞彙改字。",
+          "surface": "臍",
+          "reason": "AI修訂後暫錄「臍」；保留原疑讀「髀」及其理由：原印髀下處首字左旁與右部淡，實見近髀，保留胯候選，不依臨床詞彙改字。",
           "cause": "initial-reading-uncertainty",
           "extent": "known",
           "candidates": [
@@ -6569,6 +7716,21 @@
           "candidates": [
             "十九"
           ]
+        },
+        {
+          "id": "unc-0071",
+          "unit_id": "p43-u008",
+          "start": 19,
+          "end": 20,
+          "surface": "囘",
+          "reason": "AI修訂後暫錄「囘」；保留原疑讀「同」及其理由：非盲來源覆核暫以囘近似原框內收筆；囘／回碼位對應仍未定，不作通行字統一。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "同",
+            "囘",
+            "回"
+          ]
         }
       ]
     },
@@ -6581,10 +7743,10 @@
       "official_label": "p. [44] and inside lower cover",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bae8eebe-a9ae-493e-84ec-ec4806203910.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bae8eebe-a9ae-493e-84ec-ec4806203910/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：p44(right)。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：p44(right)。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-assisted-source-revision-provisional",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -6608,7 +7770,7 @@
       "official_label": "Lower cover",
       "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cb611dea-4ce6-463f-b5d2-ddef89a8c585.json",
       "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb611dea-4ce6-463f-b5d2-ddef89a8c585/full/3000,/0/default.jpg",
-      "layout_note": "固定物理面讀序：無固定範圍物理面；封面另層排除。原稿版面、缺區及說明見methods.physical_faces；未列文字不自動判為空白。",
+      "layout_note": "固定物理面讀序：無固定範圍物理面；封面另層排除。初錄版面與頁註歷史見methods.physical_faces[].historical_initial_observation，本版狀態見各面revision_status；未列文字不自動判為空白。",
       "layout_reviewed": false,
       "layer_states": {
         "original-print": "excluded-described-only",

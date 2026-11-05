@@ -1,6 +1,6 @@
 {
   "dataset_id": "bodleian-sinica1826",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
     {
@@ -51,8 +51,8 @@
       "unit_id": "p06-u009",
       "start": 8,
       "end": 9,
-      "surface": "裏",
-      "reason": "圖旁下方淡印，衣部中間結構不夠清楚，保留所見候選",
+      "surface": "裹",
+      "reason": "AI修訂後暫錄「裹」；保留原疑讀「裏」及其理由：圖旁下方淡印，衣部中間結構不夠清楚，保留所見候選",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -81,8 +81,8 @@
       "unit_id": "p07-u005",
       "start": 18,
       "end": 19,
-      "surface": "胷",
-      "reason": "字上部淡印，暫以所見上下結構錄胷，未據語義定字",
+      "surface": "胃",
+      "reason": "AI修訂後暫錄「胃」；保留原疑讀「胷」及其理由：字上部淡印，暫以所見上下結構錄胷，未據語義定字",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -98,12 +98,14 @@
       "start": 22,
       "end": 23,
       "surface": "瘡",
-      "reason": "字內筆畫淡，曾查看左側三欄原像素裁片，候選仍未裁定",
+      "reason": "字內筆畫淡，曾查看左側三欄原像素裁片，候選仍未裁定；補充疑讀：Actual crop suggests another left component; no settled reading.",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
         "瘡",
-        "烟"
+        "烟",
+        "理",
+        "裡"
       ]
     },
     {
@@ -127,8 +129,8 @@
       "unit_id": "p07-u010",
       "start": 7,
       "end": 8,
-      "surface": "速",
-      "reason": "此欄第二次相近字形內件淡印，未依前欄統一裁定",
+      "surface": "遲",
+      "reason": "AI修訂後暫錄「遲」；保留原疑讀「速」及其理由：此欄第二次相近字形內件淡印，未依前欄統一裁定",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -142,13 +144,28 @@
       "unit_id": "p07-u010",
       "start": 9,
       "end": 10,
-      "surface": "蓋",
-      "reason": "艹與下部部分細筆淡，先存所見及替代候選",
+      "surface": "精",
+      "reason": "AI修訂後暫錄「精」；保留原疑讀「蓋」及其理由：艹與下部部分細筆淡，先存所見及替代候選",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
         "蓋",
         "昔"
+      ]
+    },
+    {
+      "page_id": "f005",
+      "id": "unc-0070",
+      "unit_id": "p06-u008",
+      "start": 7,
+      "end": 8,
+      "surface": "因",
+      "reason": "Pale inner strokes after 此 remain unresolved.",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "因",
+        "圖"
       ]
     },
     {
@@ -186,8 +203,8 @@
       "unit_id": "p08-u006",
       "start": 3,
       "end": 8,
-      "surface": "兩直二鉸剪",
-      "reason": "器具名稱及數字連接處有淡筆，照見字串存候選，不改寫或補入詞語",
+      "surface": "曲直二鉸剪",
+      "reason": "AI修訂後暫錄「曲直二鉸剪」；保留原疑讀「兩直二鉸剪」及其理由：器具名稱及數字連接處有淡筆，照見字串存候選，不改寫或補入詞語",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -201,8 +218,8 @@
       "unit_id": "p08-u010",
       "start": 22,
       "end": 23,
-      "surface": "趕",
-      "reason": "線即後一字細筆不清，先保留所見候選，未以後文推改",
+      "surface": "褪",
+      "reason": "AI修訂後暫錄「褪」；保留原疑讀「趕」及其理由：線即後一字細筆不清，先保留所見候選，未以後文推改",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -275,8 +292,8 @@
       "page_id": "f007",
       "id": "unc-0019",
       "unit_id": "p10-u003",
-      "start": 14,
-      "end": 15,
+      "start": 16,
+      "end": 17,
       "surface": "穰",
       "reason": "麻絲後詞第二字右部細密，先錄穰，不據現代材料名稱裁定",
       "cause": "initial-reading-uncertainty",
@@ -292,8 +309,8 @@
       "unit_id": "p10-u007",
       "start": 8,
       "end": 10,
-      "surface": "閩或",
-      "reason": "國／門框內下部細線重疊，先錄所見閩或，候選間或",
+      "surface": "間或",
+      "reason": "AI修訂後暫錄「間或」；保留原疑讀「閩或」及其理由：國／門框內下部細線重疊，先錄所見閩或，候選間或",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -305,10 +322,10 @@
       "page_id": "f007",
       "id": "unc-0021",
       "unit_id": "p11-u001",
-      "start": 21,
-      "end": 23,
-      "surface": "笋様",
-      "reason": "圖形名稱字體細筆保留笋様，不統一為現代字形；竹頭內部與様部件可再覆核",
+      "start": 22,
+      "end": 24,
+      "surface": "筍樣",
+      "reason": "AI修訂後暫錄「筍樣」；保留原疑讀「笋様」及其理由：圖形名稱字體細筆保留笋様，不統一為現代字形；竹頭內部與様部件可再覆核",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -320,10 +337,10 @@
       "page_id": "f007",
       "id": "unc-0022",
       "unit_id": "p11-u002",
-      "start": 15,
-      "end": 17,
-      "surface": "綿笋",
-      "reason": "圖形名稱第一字細筆密，暫存綿笋，候選絨笋",
+      "start": 16,
+      "end": 18,
+      "surface": "綿筍",
+      "reason": "AI修訂後暫錄「綿筍」；保留原疑讀「綿笋」及其理由：圖形名稱第一字細筆密，暫存綿笋，候選絨笋",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -335,10 +352,10 @@
       "page_id": "f007",
       "id": "unc-0023",
       "unit_id": "p11-u009",
-      "start": 20,
-      "end": 21,
-      "surface": "浸",
-      "reason": "水旁後內件細筆略糊，所見字串暫錄浸",
+      "start": 21,
+      "end": 22,
+      "surface": "淫",
+      "reason": "AI修訂後暫錄「淫」；保留原疑讀「浸」及其理由：水旁後內件細筆略糊，所見字串暫錄浸",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -394,8 +411,8 @@
       "page_id": "f008",
       "id": "unc-0027",
       "unit_id": "p12-u009",
-      "start": 15,
-      "end": 16,
+      "start": 16,
+      "end": 17,
       "surface": "然",
       "reason": "麻後字所見近然；照錄淡印所見而不以詞義正字",
       "cause": "initial-reading-uncertainty",
@@ -428,8 +445,8 @@
       "unit_id": "p13-u001",
       "start": 7,
       "end": 8,
-      "surface": "杜",
-      "reason": "原像素單欄裁片所見近木／手旁加土，照錄杜，不以語意校改",
+      "surface": "扯",
+      "reason": "AI修訂後暫錄「扯」；保留原疑讀「杜」及其理由：原像素單欄裁片所見近木／手旁加土，照錄杜，不以語意校改",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -459,8 +476,8 @@
       "unit_id": "p13-u010",
       "start": 18,
       "end": 19,
-      "surface": "俾",
-      "reason": "欄下段字印色淡，左右部件不能完全確認",
+      "surface": "俟",
+      "reason": "AI修訂後暫錄「俟」；保留原疑讀「俾」及其理由：欄下段字印色淡，左右部件不能完全確認",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -502,10 +519,10 @@
       "page_id": "f009",
       "id": "unc-0034",
       "unit_id": "p14-u005",
-      "start": 1,
+      "start": 0,
       "end": 2,
-      "surface": "安",
-      "reason": "短欄第二字薄印，獨立原像素裁片所見暫錄安，保留形近候選",
+      "surface": "安妥",
+      "reason": "原疑讀字在已核定局部換序中無一對一碼點位置，整段暫錄「安妥」；原疑讀「安」及理由仍保留：短欄第二字薄印，獨立原像素裁片所見暫錄安，保留形近候選",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -517,8 +534,8 @@
       "page_id": "f009",
       "id": "unc-0035",
       "unit_id": "p14-u003",
-      "start": 24,
-      "end": 25,
+      "start": 25,
+      "end": 26,
       "surface": "髀",
       "reason": "行尾字骨／月旁及右部細筆重疊，先存髀",
       "cause": "initial-reading-uncertainty",
@@ -548,8 +565,8 @@
       "unit_id": "p16-u002",
       "start": 6,
       "end": 7,
-      "surface": "置",
-      "reason": "字形據完整原圖實讀；不據語意更改。",
+      "surface": "單",
+      "reason": "AI修訂後暫錄「單」；保留原疑讀「置」及其理由：字形據完整原圖實讀；不據語意更改。",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -605,8 +622,8 @@
       "unit_id": "p19-u003",
       "start": 3,
       "end": 4,
-      "surface": "漬",
-      "reason": "原像素裁片可見氵與右旁疊筆，暫讀漬。",
+      "surface": "潰",
+      "reason": "AI修訂後暫錄「潰」；保留原疑讀「漬」及其理由：原像素裁片可見氵與右旁疊筆，暫讀漬。",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -634,8 +651,8 @@
       "unit_id": "p18-u004",
       "start": 3,
       "end": 4,
-      "surface": "埋",
-      "reason": "原像素裁片左旁暫讀土，保留王旁候選。",
+      "surface": "理",
+      "reason": "AI修訂後暫錄「理」；保留原疑讀「埋」及其理由：原像素裁片左旁暫讀土，保留王旁候選。",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -649,8 +666,8 @@
       "unit_id": "p18-u010",
       "start": 16,
       "end": 17,
-      "surface": "埋",
-      "reason": "原像素裁片左旁暫讀土，保留王旁候選。",
+      "surface": "理",
+      "reason": "AI修訂後暫錄「理」；保留原疑讀「埋」及其理由：原像素裁片左旁暫讀土，保留王旁候選。",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -705,10 +722,10 @@
       "page_id": "f012",
       "id": "unc-0046",
       "unit_id": "p21-u010",
-      "start": 17,
-      "end": 18,
-      "surface": "庚",
-      "reason": "原像素裁片可見广內交筆，下部不明，暫讀庚。",
+      "start": 16,
+      "end": 20,
+      "surface": "硬、庶得",
+      "reason": "原疑讀字在已核定局部換序中無一對一碼點位置，整段暫錄「硬、庶得」；原疑讀「庚」及理由仍保留：原像素裁片可見广內交筆，下部不明，暫讀庚。",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -722,8 +739,8 @@
       "unit_id": "p22-u006",
       "start": 25,
       "end": 27,
-      "surface": "敞剪",
-      "reason": "完整原圖末兩字暫按字形實讀，未以操作語意補改。",
+      "surface": "絞剪",
+      "reason": "AI修訂後暫錄「絞剪」；保留原疑讀「敞剪」及其理由：完整原圖末兩字暫按字形實讀，未以操作語意補改。",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -870,8 +887,8 @@
       "page_id": "f020",
       "id": "unc-0056",
       "unit_id": "p36-u005",
-      "start": 20,
-      "end": 21,
+      "start": 21,
+      "end": 22,
       "surface": "欄",
       "reason": "原像素裁片見左旁近木，暫錄欄；左旁淡細筆尚不足排除襴，未依物件名稱定字。",
       "cause": "initial-reading-uncertainty",
@@ -915,8 +932,8 @@
       "page_id": "f020",
       "id": "unc-0059",
       "unit_id": "p37-u001",
-      "start": 25,
-      "end": 26,
+      "start": 24,
+      "end": 25,
       "surface": "欄",
       "reason": "原像素裁片見左旁近木，暫錄欄；左旁淡細筆尚不足排除襴，未依物件名稱定字。",
       "cause": "initial-reading-uncertainty",
@@ -1009,8 +1026,8 @@
       "unit_id": "p43-u007",
       "start": 7,
       "end": 8,
-      "surface": "髀",
-      "reason": "原印髀下處首字左旁與右部淡，實見近髀，保留胯候選，不依臨床詞彙改字。",
+      "surface": "臍",
+      "reason": "AI修訂後暫錄「臍」；保留原疑讀「髀」及其理由：原印髀下處首字左旁與右部淡，實見近髀，保留胯候選，不依臨床詞彙改字。",
       "cause": "initial-reading-uncertainty",
       "extent": "known",
       "candidates": [
@@ -1030,6 +1047,22 @@
       "extent": "known",
       "candidates": [
         "十九"
+      ]
+    },
+    {
+      "page_id": "f023",
+      "id": "unc-0071",
+      "unit_id": "p43-u008",
+      "start": 19,
+      "end": 20,
+      "surface": "囘",
+      "reason": "AI修訂後暫錄「囘」；保留原疑讀「同」及其理由：非盲來源覆核暫以囘近似原框內收筆；囘／回碼位對應仍未定，不作通行字統一。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "同",
+        "囘",
+        "回"
       ]
     }
   ]

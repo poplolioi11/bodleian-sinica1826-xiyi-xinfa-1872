@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Sinica 1826 fixed initial transcription book schema, 1.0.0",
+  "title": "Sinica 1826 fixed transcription dataset schema, 1.0.0 (initial and source-revised releases)",
   "type": "object",
   "required": [
     "dataset_id",

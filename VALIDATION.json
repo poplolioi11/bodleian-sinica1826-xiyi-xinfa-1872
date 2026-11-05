@@ -13,24 +13,27 @@
     "xml-dtd-entity-prohibition": "passed",
     "tei-p5-relaxng": "passed",
     "cff-full-schema": "passed",
-    "whole-raw-44face-tuple-projection": "passed",
-    "raw-unit-bbox-side-role-order-preservation": "passed",
-    "unresolved-source-region-public-projection": "passed",
+    "whole-revised-44face-tuple-projection": "passed",
+    "revision-stage-adjudication-not-initial": "passed",
+    "original-unit-order-role-side-bbox-preservation": "passed",
+    "15-source-edge-preservation": "passed",
     "private-material-marker-scan": "passed",
+    "recorded-text-purpose-gate": "passed",
+    "historical-initial-metadata-separated-from-current-status": "passed",
     "public-whitelist-and-file-checksums": "passed"
   },
   "counts": {
     "images": 25,
     "units": 472,
-    "unicode_code_points": 9100,
-    "uncertainties": 69,
+    "unicode_code_points": 9189,
+    "uncertainties": 71,
     "physical_faces": 44,
     "unresolved_source_regions": 15
   },
   "schemas": {
     "book": {
       "file": "SCHEMA.json",
-      "sha256": "b32b5b6054a86222ed71f0abab2a7610cddea7814453758c8daf65b889f922cb",
+      "sha256": "7aa2d52495462dd8ed37a299a9d3a0646d9b8b1c61fda75ed43c6f66db890f44",
       "dialect": "https://json-schema.org/draft/2020-12/schema"
     },
     "tei": {
@@ -45,17 +48,22 @@
     }
   },
   "input_sha256": {
-    "book": "290efdc10e860b48e65515c56e9aa123d5e191e15eecd6799aa09ecc97f47248",
+    "book": "6a65c754f67bec81c09be2cccce0e0b442cfa8571d4e3f24bdc4daafb91ab3c0",
     "sources": "05e43559940473203fc2c0d760d557a2271aa4d2c5e9d7437b45836f92124700"
   },
   "quality": {
-    "status": "AI-initial-transcription-unreviewed",
-    "independent_reading_applied": false,
+    "status": "AI-assisted-source-revision-provisional",
+    "independent_reading_applied": true,
     "human_double_collation": "not-performed",
     "expert_review": "not-performed",
     "peer_review": "not-performed",
     "accuracy_measured": false,
-    "unknown_regions_are_not_unprocessed": true
+    "unknown_regions_are_not_unprocessed": true,
+    "second_observation_coverage": "44 physical faces: usable Gemini observations15 faces/10 frames; native source-only supplements29 faces",
+    "comparison_candidates": 1130,
+    "unresolved_comparison_candidates": 215,
+    "source_review": "nonblind AI source review; both readings exposed",
+    "traceability_status": "incomplete; exact native model identity and unit observation coverage for added review activities remain unknown"
   },
   "human_double_proofreading": "not-performed",
   "expert_certification": "not-performed",

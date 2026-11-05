@@ -6,7 +6,7 @@
 
 來源影像不收入本包。Bodleian manifest記載「Photo © Bodleian Libraries, University of Oxford」及[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)；影像與其裁片另依[館方利用條款](https://digital.bodleian.ox.ac.uk/terms/)。來源連結與hash不重新授權館方影像，也不消除其原有條件。
 
-本包不含館方掃描、裁片、第三方現代轉錄稿、專用程式、提示或完整私人工作紀錄；本包授權不適用於這些未收入材料。
+本包不含館方掃描、裁片、第三方現代轉錄稿、專用程式、提示或完整私人工作紀錄；本包授權不適用於這些未收入材料。Source images are excluded and retain their own rights and conditions.
 
 這是曲宸宇個人整理，不代表Bodleian Libraries、University of Oxford或其他機構背書。館藏公開可見、資料格式通過及DOI均不等於權利或品質認證。
 

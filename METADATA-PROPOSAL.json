@@ -1,8 +1,9 @@
 {
-  "status": "metadata-for-version",
+  "status": "zenodo-metadata-proposal-not-submitted",
   "type": "dataset",
   "title": "西醫新法（[1872]；Bodleian Sinica 1826） / Xi yi xin fa [New methods of Western medicine]: Transcription dataset",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "publication_date_proposal": "2026-11-05",
   "creators": [
     {
       "family_name": "Chu",
@@ -10,9 +11,9 @@
       "orcid": "https://orcid.org/0009-0003-9738-6914"
     }
   ],
-  "description": "《西醫新法》（Xi yi xin fa）是一部討論外科與包紮的晚清漢譯醫學文獻，署「美國嘉約翰口譯」「莆田林湘東筆述」；Bodleian Libraries館藏Sinica 1826的官方固定書目供定刊地[Canton]、年代[1872]。本資料集以該館數位影像為底本，提供六面圖版、三十七面正文及一面原框正文空白面的原印文字初錄，並以TXT、JSON及TEI XML保存文字、疑讀與物理面／影像幀對應，供晚清外科與包紮漢譯詞彙、圖文關係及印刷史研究。本版為保留疑讀的AI初錄，尚未經人類全文雙校或專家審定。\n\nXi yi xin fa [New methods of Western medicine] is a late-Qing Chinese medical work concerning surgery and bandaging, credited to John Glasgow Kerr (嘉約翰) for oral translation and Lin Xiangdong (林湘東) for written rendering. The official fixed catalogue for Bodleian Libraries, Sinica 1826, supplies [Canton] and [1872]. Derived from the Bodleian digital images, this dataset offers an initial transcription of original printed text across six figure faces, thirty-seven main-text faces, and one face with an original printed frame and a blank body. TXT, JSON, and TEI XML retain readings, uncertainties, and physical-face-to-image mappings for research on late-Qing surgical and bandaging terminology in translation, image-text relationships, and print history. This is an AI initial transcription with uncertainty records; full human double collation and expert review have not been performed.",
-  "notes": "Source: https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/ IIIF: https://iiif.bodleian.ox.ac.uk/iiif/manifest/d07550d1-b969-4d5a-a5f3-5bd10634b21c.json Official fixed catalogue: https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201826.xml Formats: TXT, JSON, TEI XML; scope: 25 captures, 44 numbered physical faces (six figure faces, 37 main-text faces, one original-frame/blank-body face); four cover surfaces excluded. Historical public-domain text and faithful mechanical transcription acquire no new exclusive restriction. Copyrightable original documentation and arrangement: CC BY 4.0. Bodleian images are excluded and separately carry CC BY-NC 4.0. The English bracketed title is an editorial translation. GitHub repository: https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872. Zenodo archival is pending; version and concept DOIs have not been assigned.",
-  "methods": "AI-assisted initial image transcription, preserving literal frozen strings, source-side locators and uncertainties. Viewed source marginal regions with uncertain text or page assignment remain separately documented with unknown extent; this does not mean that all such text is illegible or that every original character has been transcribed. An independent image reading has not been applied to this version. Full human double collation, expert review, peer review and accuracy measurement have not been performed. Exact model, effort and token figures are unknown. Structural, checksum, schema and export-equivalence checks assess engineering properties only. Original dots may be printed or later additions; this distinction has not been human-verified. Source images, crops, private programs, prompts and full private provenance are not distributed; a complete image-to-text reproduction method is not provided. Historical-document research only; no clinical validation or biological research is claimed.",
+  "description": "《西醫新法》（Xi yi xin fa）是一部討論外科與包紮的晚清漢譯醫學文獻，署「美國嘉約翰口譯」「莆田林湘東筆述」；Bodleian Libraries館藏Sinica 1826的官方固定書目供定刊地[Canton]、年代[1872]。本資料集以該館數位影像為底本，提供六面圖版、三十七面正文及一面原框正文空白面的原印文字轉錄，並以TXT、JSON及TEI XML保存文字、疑讀與物理面／影像幀對應，供晚清外科與包紮漢譯詞彙、圖文關係及印刷史研究。本版在固定初錄與第二輪影像觀察比對後進行AI來源覆核修訂，疑讀及未解處仍保留；未經人類全文雙校或專家審定。\n\nXi yi xin fa [New methods of Western medicine] is a late-Qing Chinese medical work concerning surgery and bandaging, credited to John Glasgow Kerr (嘉約翰) for oral translation and Lin Xiangdong (林湘東) for written rendering. The official fixed catalogue for Bodleian Libraries, Sinica 1826, supplies [Canton] and [1872]. Derived from the Bodleian digital images, this dataset provides an AI-assisted transcription of original printed text across six figure faces, thirty-seven main-text faces, and one face with an original printed frame and a blank body. TXT, JSON, and TEI XML retain readings, uncertainties, and physical-face-to-image mappings for research on late-Qing surgical and bandaging terminology in translation, image-text relationships, and print history. This AI-assisted revised edition follows comparison with second image observations and source review; uncertainty and unresolved cases remain. Full human double collation and expert review have not been performed.",
+  "notes": "Source: https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/ IIIF: https://iiif.bodleian.ox.ac.uk/iiif/manifest/d07550d1-b969-4d5a-a5f3-5bd10634b21c.json Official fixed catalogue: https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201826.xml Formats: TXT, JSON, TEI XML; scope: 25 captures, 44 numbered physical faces (six figure faces, 37 main-text faces, one original-frame/blank-body face); four cover surfaces excluded. Historical public-domain text and faithful mechanical transcription acquire no new exclusive restriction. Copyrightable original documentation and arrangement: CC BY 4.0. Bodleian images are excluded and separately carry CC BY-NC 4.0. The English bracketed title is an editorial translation. Repository: https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872",
+  "methods": "# Methods / 處理方法\n\nThe fixed initial transcription was preserved as the v0.1.0 baseline. Separate source-only second image observations were collected, then compared over the 44 physical faces using literal page streams while retaining both original unit segmentations. No Unicode, variant-character or punctuation normalization was applied.\n\nNine Gemini jobs were submitted. Four yielded usable body transcription covering 10 source captures and 15 physical faces; five did not yield usable body transcription. The reported actual Gemini model was `gemini-3.8-flash-high`. Native source-only supplements supplied the remaining 29 faces. Exact native model identities, effort and complete counters are unknown and are not recorded as zero. This mixed observation coverage must not be described as a successful complete Gemini transcription or a guarantee from different models.\n\nSubsequent AI source adjudication was nonblind: both readings and their differences were exposed. The resulting edition applies 215 literal operations in 154 original units. The initial 472 identifiers, ordering and all source hashes are retained. All 1,130 comparison decisions are preserved privately; 215 candidates remain unresolved. Source-visible marks, their approximate Unicode representation, and their printed or later-added origin are separate questions.\n\nThe 69 initial uncertainty declarations retain their original strings and positions in private revision history. Current ranges derive from the actual operations. Two reordered cases retain a broader, explicitly provisional replacement context rather than a guessed one-to-one glyph location. Two further uncertainty records were added, and one existing record gained candidates, giving 71 current records. The 15 original edge observations retain unknown extent and uncertain ownership where applicable.\n\nJSON, TXT and TEI XML are deterministic exports of the fixed revised strings. Source identity, schema, round-trip, privacy and package checks evaluate engineering properties, not reading correctness. No human full-text double collation, expert approval, peer review or accuracy measurement has been performed.\n\nSource scans, crops, dedicated programs, prompts and complete private working records are not distributed. A complete method for rerunning image-to-text transcription from source images is not provided. The public revision summary is deliberately limited to text changes, source references and evidence scope.\n\n本版為 AI 輔助歷史文獻修訂。兩稿已曝光的回圖判斷，不屬盲校或人類審定；未解點位、字形與頁邊歸屬仍保留。本工作沒有進行生物研究或現代臨床推導。\n\nThe per-face `historical_initial_observation` preserves initial-reader metadata verbatim, including old glyph descriptions, batch limits and pending statements. It is historical evidence rather than the status of this revision. The adjacent `revision_status` records the present provisional edition and counts; unresolved source-edge locator labels do not establish page ownership.\n\n各面 historical_initial_observation 原樣保存初錄頁註；其中舊字形、批次範圍與 pending 只描述初錄當時，不代表本版現況。本版狀態另列 revision_status，未因此清除疑讀、比較未解處或邊區歸屬。\n",
   "keywords": [
     "西醫新法",
     "Xi yi xin fa",
@@ -55,6 +56,11 @@
       "identifier": "https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201826.xml",
       "relation": "References",
       "resource_role": "fixed-official-catalogue"
+    },
+    {
+      "identifier": "https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872",
+      "relation": "IsSupplementTo",
+      "resource_role": "repository"
     }
   ],
   "rights_layers": [
@@ -81,8 +87,8 @@
     "original_frame_body_blank_faces": 1,
     "excluded_cover_faces": 4,
     "units": 472,
-    "codepoints": 9100,
-    "uncertainty_records": 69,
+    "codepoints": 9189,
+    "uncertainty_records": 71,
     "unresolved_source_regions": 15,
     "unit_source_regions": 1,
     "square_placeholders": 0,
@@ -97,7 +103,5 @@
       "title": 1
     }
   },
-  "version_date": "2026-11-05",
-  "repository_url": "https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872",
-  "zenodo_status": "archival-pending-no-doi-assigned"
+  "status_scope": "This proposal concerns a later Zenodo deposit only; it does not declare the publication status of a GitHub release."
 }

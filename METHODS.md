@@ -1,16 +1,19 @@
-# 方法與可重跑界線 / Methods and reproduction limits
+# Methods / 處理方法
 
-本版在固定的Bodleian 3000px寬影像上進行AI初錄，按44編號物理面記錄原印文字、角色、來源側、疑讀、缺區與版面說明。封裝將同幀物理面合併為25個fNNN來源影像記錄，保留pNN單位識別碼與物理面順序。封裝不重新讀字、不正規化Unicode、不默補字、不改句讀，不採用他稿訂正。
+The fixed initial transcription was preserved as the v0.1.0 baseline. Separate source-only second image observations were collected, then compared over the 44 physical faces using literal page streams while retaining both original unit segmentations. No Unicode, variant-character or punctuation normalization was applied.
 
-The initial transcription was made with AI assistance. The exact executed model identity, effort setting and token figures cannot be verified from the available execution record and remain unknown; they are not reported as zero. Private agent/session identifiers are not model evidence. The initial version has no applied independent image reading, full human double collation, expert review, peer review or accuracy measurement.
+Nine Gemini jobs were submitted. Four yielded usable body transcription covering 10 source captures and 15 physical faces; five did not yield usable body transcription. The reported actual Gemini model was `gemini-3.8-flash-high`. Native source-only supplements supplied the remaining 29 faces. Exact native model identities, effort and complete counters are unknown and are not recorded as zero. This mixed observation coverage must not be described as a successful complete Gemini transcription or a guarantee from different models.
 
-疑讀target只有唯一出現時才自動定位；重複target必須由凍結稿明示0起算occurrence_index。候選與理由不替換正文。已查看、文字或歸頁尚未確定的來源邊區獨立保存extent=unknown及必要來源定位；部分邊條是否屬本頁或鄰頁尚未裁定，不能一概稱其文字不可辨。不捏造碼點區間或單字占位，也不因此宣稱所有原字已收錄。原稿非null bbox另存source-regions.json；core unit bbox仍為null。
+Subsequent AI source adjudication was nonblind: both readings and their differences were exposed. The resulting edition applies 215 literal operations in 154 original units. The initial 472 identifiers, ordering and all source hashes are retained. All 1,130 comparison decisions are preserved privately; 215 candidates remain unresolved. Source-visible marks, their approximate Unicode representation, and their printed or later-added origin are separate questions.
 
-原點號原刻／後加的性質尚未人工核定。現有字串中的點號、空白、罕字與異體原樣保存；字元編碼不是字形摹本，也不證明讀法正確。
+The 69 initial uncertainty declarations retain their original strings and positions in private revision history. Current ranges derive from the actual operations. Two reordered cases retain a broader, explicitly provisional replacement context rather than a guessed one-to-one glyph location. Two further uncertainty records were added, and one existing record gained candidates, giving 71 current records. The 15 original edge observations retain unknown extent and uncertain ownership where applicable.
 
-工程封裝沿用既有固定schema、TEI與CFF驗證及匯出程序，並增加對實際44面凍結稿的全量字串、順序、角色、物理定位與bbox投影檢核。格式驗證、來源連結及checksum只證明資料一致與可核對性。
+JSON, TXT and TEI XML are deterministic exports of the fixed revised strings. Source identity, schema, round-trip, privacy and package checks evaluate engineering properties, not reading correctness. No human full-text double collation, expert approval, peer review or accuracy measurement has been performed.
 
-The package excludes source images, crops, private programs, prompts and complete private source-reading activity/provenance. It does not provide a full reproducible image-to-text production method. Public JSON/TXT/TEI and checksums permit inspection of the delivered fixed data and export equivalence, not reconstruction of every private production step.
+Source scans, crops, dedicated programs, prompts and complete private working records are not distributed. A complete method for rerunning image-to-text transcription from source images is not provided. The public revision summary is deliberately limited to text changes, source references and evidence scope.
 
-本資源的用途限於歷史文獻、翻譯與印刷研究；沒有進行現代臨床驗證或生物研究。
+本版為 AI 輔助歷史文獻修訂。兩稿已曝光的回圖判斷，不屬盲校或人類審定；未解點位、字形與頁邊歸屬仍保留。本工作沒有進行生物研究或現代臨床推導。
 
+The per-face `historical_initial_observation` preserves initial-reader metadata verbatim, including old glyph descriptions, batch limits and pending statements. It is historical evidence rather than the status of this revision. The adjacent `revision_status` records the present provisional edition and counts; unresolved source-edge locator labels do not establish page ownership.
+
+各面 historical_initial_observation 原樣保存初錄頁註；其中舊字形、批次範圍與 pending 只描述初錄當時，不代表本版現況。本版狀態另列 revision_status，未因此清除疑讀、比較未解處或邊區歸屬。

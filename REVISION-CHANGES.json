@@ -1,0 +1,89 @@
+{
+  "dataset_id": "bodleian-sinica1826",
+  "version": "0.2.0",
+  "base_version": "0.1.0",
+  "summary": {
+    "stable_units": 472,
+    "changed_units": 154,
+    "selected_local_operations": 215,
+    "initial_codepoints": 9100,
+    "revised_codepoints": 9189,
+    "current_uncertainty_records": 71,
+    "original_uncertainty_histories_preserved": 69,
+    "unresolved_source_edges": 15,
+    "unresolved_comparison_candidates": 215
+  },
+  "source_identity": "Same original25 capture bytes and44-face scope. Images and private processing records excluded.",
+  "method": "Separate source observations, literal comparison and nonblind AI source review; no global normalization.",
+  "uncertainty_note": "Two reordered original glyph cases retain explicitly expanded local replacement contexts; two additional uncertainty records and one candidate extension are preserved. No new-string fuzzy relocation.",
+  "representative_text_corrections": [
+    {
+      "unit_id": "p06-u006",
+      "before": "脚生瘡先敷以合口膏",
+      "after": "腳生瘡先敷以合口膏",
+      "source_capture": "f005",
+      "source_image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5b364793-0be8-4be9-9416-196051aeddd4/full/3000,/0/default.jpg",
+      "source_image_sha256": "9a4d85838d66f86774b0de963685d2018062199e929da2c0ebed2f4033f76003",
+      "evidence_scope": "AI nonblind source-image review; provisional, not human approval"
+    },
+    {
+      "unit_id": "p14-u005",
+      "before": "妥安",
+      "after": "安妥",
+      "source_capture": "f009",
+      "source_image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9ebf6f24-d1c1-4164-aed6-56deedc0dd83/full/3000,/0/default.jpg",
+      "source_image_sha256": "6c14858723a5de4896c99b8f5855f8d20973e926c9b4830931bdd6f160d24eda",
+      "evidence_scope": "AI nonblind source-image review; provisional, not human approval"
+    },
+    {
+      "unit_id": "p21-u010",
+      "before": "至敷後、另用油紙蓋護外面、免覺其硬庚、得安然、",
+      "after": "至敷後、另用油紙蓋護外面、免覺其硬、庶得安然、",
+      "source_capture": "f012",
+      "source_image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1dfcce24-72c1-45f8-872e-3201a8b80b0f/full/3000,/0/default.jpg",
+      "source_image_sha256": "197a6632177437bce8ab37d7cdda610137774401caf05f1583fde3e7512de324",
+      "evidence_scope": "AI nonblind source-image review; provisional, not human approval"
+    },
+    {
+      "unit_id": "p32-u003",
+      "before": "復在手背疊紮八字樣、至于直上至手肘處、亦須紮一八字",
+      "after": "復在手背連紮八字樣、至于直上至手肘處、亦須紮一八字",
+      "source_capture": "f018",
+      "source_image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d98086e2-77bd-4886-8c78-73ebcf0416f9/full/3000,/0/default.jpg",
+      "source_image_sha256": "a0e59f43c0415fbc2cc944beb44ed398031aac6a2a7d92d434b4aedc00e57ede",
+      "evidence_scope": "AI nonblind source-image review; provisional, not human approval"
+    },
+    {
+      "unit_id": "p40-u002",
+      "before": "二寸四纏時、先在胯下處、橫纏數度即搭出髀外由髀外纏",
+      "after": "二寸四·纏時、先在臍下處、橫纏數度·即搭出髀外丶由髀外纏",
+      "source_capture": "f022",
+      "source_image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/850ae62d-45ae-481f-916f-2fe08eccd57f/full/3000,/0/default.jpg",
+      "source_image_sha256": "0d87d95d52dc5b3cfac3a5a4b0bcf466be9272f29878535b8abe6439c2577bf1",
+      "evidence_scope": "AI nonblind source-image review; provisional, not human approval"
+    },
+    {
+      "unit_id": "p42-u001",
+      "before": "即以此等布帶貼住腦後處起打橫纏至前額、其餘尚剩直",
+      "after": "即以此等布帶貼住腦後處起丶打橫纏至前額、其餘尚剩直",
+      "source_capture": "f023",
+      "source_image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0ccc40b5-3f62-46b3-b58b-7750b5730df8/full/3000,/0/default.jpg",
+      "source_image_sha256": "1b63f7f4f3e323bc5ea1182512dc2ad4d7b9b09e33ae0718da832db6207f90ee",
+      "evidence_scope": "AI nonblind source-image review; provisional, not human approval"
+    },
+    {
+      "unit_id": "p43-u008",
+      "before": "布蓋護患處然後將布尾之小帶運入髀裏復牽同前面纏",
+      "after": "布蓋護患處然後將布尾之小帶運入髀裏復牽囘前面纏",
+      "source_capture": "f023",
+      "source_image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0ccc40b5-3f62-46b3-b58b-7750b5730df8/full/3000,/0/default.jpg",
+      "source_image_sha256": "1b63f7f4f3e323bc5ea1182512dc2ad4d7b9b09e33ae0718da832db6207f90ee",
+      "evidence_scope": "AI nonblind source-image review; provisional, not human approval"
+    }
+  ],
+  "full_private_worklog_distributed": false,
+  "human_fulltext_double_collation": false,
+  "expert_review": false,
+  "peer_review": false,
+  "accuracy_measured": false
+}
