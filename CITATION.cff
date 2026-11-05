@@ -10,18 +10,17 @@ authors:
   website: https://github.com/poplolioi11
 version: 0.2.0
 date-released: '2026-11-05'
-abstract: Xi yi xin fa [New methods of Western medicine] is a late-Qing Chinese medical
-  work concerning surgery and bandaging, credited to John Glasgow Kerr (嘉約翰) for oral
-  translation and Lin Xiangdong (林湘東) for written rendering. The official fixed catalogue
-  for Bodleian Libraries, Sinica 1826, supplies [Canton] and [1872]. Derived from
-  the Bodleian digital images, this dataset provides an AI-assisted transcription
-  of original printed text across six figure faces, thirty-seven main-text faces,
-  and one face with an original printed frame and a blank body. TXT, JSON, and TEI
-  XML retain readings, uncertainties, and physical-face-to-image mappings for research
-  on late-Qing surgical and bandaging terminology in translation, image-text relationships,
-  and print history. This AI-assisted revised edition follows comparison with second
-  image observations and source review; uncertainty and unresolved cases remain. Full
-  human double collation and expert review have not been performed.
+abstract: Xi yi xin fa [New methods of Western medicine] is a late-Qing Chinese medical work
+  concerning surgery and bandaging, credited to John Glasgow Kerr (嘉約翰) for oral translation
+  and Lin Xiangdong (林湘東) for written rendering. The official fixed catalogue for Bodleian Libraries,
+  Sinica 1826, supplies [Canton] and [1872]. Derived from the Bodleian digital images, this
+  dataset provides an AI-assisted transcription of original printed text across six figure faces,
+  thirty-seven main-text faces, and one face with an original printed frame and a blank body.
+  TXT, JSON, and TEI XML retain readings, uncertainties, and physical-face-to-image mappings
+  for research on late-Qing surgical and bandaging terminology in translation, image-text relationships,
+  and print history. This AI-assisted revised edition follows comparison with second image observations
+  and source review; uncertainty and unresolved cases remain. Full human double collation and
+  expert review have not been performed.
 keywords:
 - 西醫新法
 - Xi yi xin fa
@@ -41,3 +40,4 @@ keywords:
 - print history
 - Sinica 1826
 url: https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872
+doi: 10.5281/zenodo.23971701
