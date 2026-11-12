@@ -1,3 +1,5 @@
+> 本文件原有的 v0.2.0 校讀與數量敘述保留為歷史；本版 v0.2.1 的局部非盲覆核、現行數量及未解狀態見 [METHODS.md](METHODS.md) 與 [TARGETED-CORRECTIONS.md](TARGETED-CORRECTIONS.md)。
+
 # Data dictionary / 欄位說明
 
 `book.json` is the fixed text master for this release. `pages[]` follows the 25 official image captures (`fNNN`); unit IDs beginning `pNN` refer to the 44 physical faces. Units retain ID, text, role, side and order. Core unit bounding boxes are null; the one previously observed unit region and unresolved edge regions are in `source-regions.json`. Region boxes do not imply glyph boundaries.

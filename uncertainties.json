@@ -1,6 +1,6 @@
 {
   "dataset_id": "bodleian-sinica1826",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
     {
@@ -169,6 +169,21 @@
       ]
     },
     {
+      "page_id": "f005",
+      "id": "reader-b3-07",
+      "unit_id": "p07-u010",
+      "start": 15,
+      "end": 16,
+      "surface": "待",
+      "candidates": [
+        "待",
+        "存"
+      ],
+      "reason": "本輪讀者提案回原像素後仍未定待/存，保留現錄，待局部人核。",
+      "cause": "targeted-reader-source-review-unresolved",
+      "extent": "known"
+    },
+    {
       "page_id": "f006",
       "id": "unc-0011",
       "unit_id": "p08-u011",
@@ -180,21 +195,6 @@
       "extent": "known",
       "candidates": [
         "一"
-      ]
-    },
-    {
-      "page_id": "f006",
-      "id": "unc-0012",
-      "unit_id": "p08-u004",
-      "start": 7,
-      "end": 8,
-      "surface": "窘",
-      "reason": "臨時後一字印色極淡，原像素單欄裁片仍有組件缺筆",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "窘",
-        "望"
       ]
     },
     {

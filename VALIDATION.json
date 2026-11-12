@@ -13,27 +13,18 @@
     "xml-dtd-entity-prohibition": "passed",
     "tei-p5-relaxng": "passed",
     "cff-full-schema": "passed",
-    "whole-revised-44face-tuple-projection": "passed",
-    "revision-stage-adjudication-not-initial": "passed",
-    "original-unit-order-role-side-bbox-preservation": "passed",
-    "15-source-edge-preservation": "passed",
-    "private-material-marker-scan": "passed",
-    "recorded-text-purpose-gate": "passed",
-    "historical-initial-metadata-separated-from-current-status": "passed",
     "public-whitelist-and-file-checksums": "passed"
   },
   "counts": {
     "images": 25,
     "units": 472,
     "unicode_code_points": 9189,
-    "uncertainties": 71,
-    "physical_faces": 44,
-    "unresolved_source_regions": 15
+    "uncertainties": 71
   },
   "schemas": {
     "book": {
       "file": "SCHEMA.json",
-      "sha256": "7aa2d52495462dd8ed37a299a9d3a0646d9b8b1c61fda75ed43c6f66db890f44",
+      "sha256": "dc0037cc34f62bdb830e39c13c8bdf183b9133d4dd617f46ef42c44f07e2ef8c",
       "dialect": "https://json-schema.org/draft/2020-12/schema"
     },
     "tei": {
@@ -48,7 +39,7 @@
     }
   },
   "input_sha256": {
-    "book": "6a65c754f67bec81c09be2cccce0e0b442cfa8571d4e3f24bdc4daafb91ab3c0",
+    "book": "31931db75309bdca74de3f4c1e3cffe15b05c0213c209c7113d60786d8414d8a",
     "sources": "05e43559940473203fc2c0d760d557a2271aa4d2c5e9d7437b45836f92124700"
   },
   "quality": {
@@ -63,7 +54,8 @@
     "comparison_candidates": 1130,
     "unresolved_comparison_candidates": 215,
     "source_review": "nonblind AI source review; both readings exposed",
-    "traceability_status": "incomplete; exact native model identity and unit observation coverage for added review activities remain unknown"
+    "traceability_status": "incomplete; exact native model identity and unit observation coverage for added review activities remain unknown",
+    "targeted_review_status": "selected-nonblind-source-review-with-unresolved-retained"
   },
   "human_double_proofreading": "not-performed",
   "expert_certification": "not-performed",

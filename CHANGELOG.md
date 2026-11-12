@@ -1,3 +1,11 @@
+# Changes
+
+## v0.2.1 — 2026-11-12 — unreleased local candidate
+
+Selected nonblind source-image review: 12 adopted literal operations / 12 codepoints; original unit IDs, source mappings, retained readings, gaiji and unresolved questions preserved. All core questions, including retained and unresolved cases, are listed in TARGETED-CORRECTIONS.json. Current uncertainty count: 71. Metadata and book-first bilingual summaries follow the current public catalogue and repository evidence. DOI not assigned.
+
+## Earlier published history
+
 # Changelog
 
 ## 0.2.0 — 2026-11-05

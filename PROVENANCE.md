@@ -1,3 +1,5 @@
+本包為 v0.2.1 本機審閱候選，DOI 尚未取得。沿用下述 v0.2.0 的同一底本、指定範圍、來源影像及分層權利；歷史版本連結不代表本版已發布。
+
 # Provenance / 原件與來源
 
 Work: 西醫新法 / Xi yi xin fa [New methods of Western medicine]. Bodleian Libraries, Sinica 1826. Official fixed catalogue supplies [Canton] and [1872]; the original imprint or publisher has not been independently established. Attribution: 美國嘉約翰口譯；莆田林湘東筆述.

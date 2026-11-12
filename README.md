@@ -1,19 +1,19 @@
-# 西醫新法（[1872]；Bodleian Sinica 1826） / Xi yi xin fa [New methods of Western medicine]: Transcription dataset
+# 西醫新法([1872];Bodleian Sinica 1826) / Xi yi xin fa [New methods of Western medicine]: Transcription dataset
 
-v0.2.0 · 曲宸宇（Chu, Chen-Yu）
+《西醫新法》（Xi yi xin fa）是討論外科與包紮的晚清漢譯醫學文獻，署嘉約翰（John Glasgow Kerr）口譯、林湘東筆述；Bodleian Sinica 1826 的館目供定刊地 [Canton]、年代 [1872]。本資料集依25幅影像提供44個指定物理面的 TXT、JSON、TEI XML、疑讀與來源對應，可供晚清醫學翻譯、包紮史及圖文關係研究。文字為 AI 暫定轉錄並經局部原圖修訂，未經人類全文雙校或專家審定。
 
-《西醫新法》（Xi yi xin fa）是一部討論外科與包紮的晚清漢譯醫學文獻，署「美國嘉約翰口譯」「莆田林湘東筆述」；Bodleian Libraries館藏Sinica 1826的官方固定書目供定刊地[Canton]、年代[1872]。本資料集以該館數位影像為底本，提供六面圖版、三十七面正文及一面原框正文空白面的原印文字轉錄，並以TXT、JSON及TEI XML保存文字、疑讀與物理面／影像幀對應，供晚清外科與包紮漢譯詞彙、圖文關係及印刷史研究。本版在固定初錄與第二輪影像觀察比對後進行AI來源覆核修訂，疑讀及未解處仍保留；未經人類全文雙校或專家審定。
+Xi yi xin fa [New methods of Western medicine] is a late-Qing Chinese work on surgery and bandaging, credited to John Glasgow Kerr for oral translation and Lin Xiangdong for written rendering. The catalogue for Bodleian Sinica 1826 supplies [Canton] and [1872]. Based on 25 images, the dataset provides TXT, JSON and TEI XML for 44 designated physical faces, with uncertainties and source mappings for research on medical translation, bandaging history and image-text relationships. The provisional AI transcription includes selected source-image corrections; full human double collation and expert review have not been performed.
 
-44 面、472 個單位、9,189 個 Unicode 碼點、71 筆現在疑讀；另保留 15 個文字或歸頁未定的來源邊區。碼點數不等於漢字數，疑讀數不等於錯誤率。
+v0.2.1 固定發布製備包；2026-11-12。整理：曲宸宇／Chu, Chen-Yu（[ORCID](https://orcid.org/0009-0003-9738-6914)；帳號 poplolioi11）。本版 DOI：[10.5281/zenodo.24156810](https://doi.org/10.5281/zenodo.24156810)。製備時 DOI 狀態為 reserved（已預留，尚未確認正式發布）；發布狀態須由公開端讀回確認。
 
-下載文字與資料：`book.txt`、`book.json`、`book.tei.xml`；原件、IIIF 與館藏目錄見 [PROVENANCE.md](PROVENANCE.md)。使用本資料時請核對館方影像，引用固定版本；修訂版 DOI：[10.5281/zenodo.23971701](https://doi.org/10.5281/zenodo.23971701)。公開作品入口：https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872。
+25 幅固定影像，44 個指定物理面，472 個穩定單位，9189 個 Unicode 碼點，71 筆現行疑讀。這些是資料量與標記數量，不是原書漢字數或準確率。
 
-本版保留固定初錄的單位識別與順序，套用 215 個已記錄的局部修訂，另有 215 處比較差異仍未解。修訂範圍與文字例見 [REVISION-CHANGES.json](REVISION-CHANGES.json)；方法與限制見 [METHODS.md](METHODS.md) 及 [QUALITY.md](QUALITY.md)。
+[TXT](book.txt) · [JSON](book.json) · [TEI XML](book.tei.xml) · [來源](source-pages.json) · [疑讀](uncertainties.json) · [本次訂正](TARGETED-CORRECTIONS.md) · [Methods](METHODS.md) · [文字政策](TRANSCRIPTION-POLICY.md) · [權利](RIGHTS.md) · [引用](CITATION.cff)
 
-歷史原文及忠實機械轉錄不新增專有權；自有原創說明與編排採 CC BY 4.0。原館影像未包含，權利分層見 [RIGHTS.md](RIGHTS.md)。本資料供醫學史與數位人文文獻使用，不是現代醫療指導。
+[官方原件](https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/) · [IIIF](https://iiif.bodleian.ox.ac.uk/iiif/manifest/d07550d1-b969-4d5a-a5f3-5bd10634b21c.json) · [前版 v0.2.0](https://doi.org/10.5281/zenodo.23971701)（前版 DOI，非本版 DOI）。
 
-[English](README.en.md) · [引用](CITATION.cff) · [更正方式](CORRECTIONS.md)
+來源影像與裁片未收入本包；歷史原文、自有說明及館方影像條款分別適用，詳 RIGHTS.md／LICENSE.md。引用原文請回官方影像核對。
 
-封存版本：[初錄 v0.1.0](https://doi.org/10.5281/zenodo.23971330) · [修訂 v0.2.0](https://doi.org/10.5281/zenodo.23971701) · [全版本](https://doi.org/10.5281/zenodo.23971329) · [醫學史社群](https://zenodo.org/communities/late-qing-medical-history/)
+Keywords: 西醫新法; Xi yi xin fa; 嘉約翰; John Glasgow Kerr; 林湘東; Lin Xiangdong; 晚清醫學翻譯; late-Qing medical translation; 包紮史; history of bandaging; 外科史; history of surgery; 圖文關係; image-text relationships; 印刷史; print history; Sinica 1826.
 
-`SHA256SUMS` 核對固定發行包；目前 main 的引用連結與 CFF 已在封存後補上，既有 tag 與發行附件保留。
+[METADATA-PROPOSAL.json](METADATA-PROPOSAL.json) 是前版提案／製備快照；現行題名、版號與引用以本版 CITATION.cff、README 及正式平台紀錄為準。[HISTORICAL-METHODS-v0.2.0.md](HISTORICAL-METHODS-v0.2.0.md) 保留前版方法說明。

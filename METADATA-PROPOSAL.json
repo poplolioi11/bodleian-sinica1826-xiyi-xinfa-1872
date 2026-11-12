@@ -1,19 +1,23 @@
 {
-  "status": "zenodo-metadata-proposal-not-submitted",
-  "type": "dataset",
-  "title": "西醫新法（[1872]；Bodleian Sinica 1826） / Xi yi xin fa [New methods of Western medicine]: Transcription dataset",
-  "version": "0.2.0",
-  "publication_date_proposal": "2026-11-05",
+  "status": "unreleased-local-review-candidate",
+  "version": "0.2.1",
+  "title": "西醫新法([1872];Bodleian Sinica 1826) / Xi yi xin fa [New methods of Western medicine]: Transcription dataset",
   "creators": [
     {
-      "family_name": "Chu",
-      "given_name": "Chen-Yu",
-      "orcid": "https://orcid.org/0009-0003-9738-6914"
+      "person_or_org": {
+        "type": "personal",
+        "name": "Chu, Chen-Yu",
+        "given_name": "Chen-Yu",
+        "family_name": "Chu",
+        "identifiers": [
+          {
+            "identifier": "0009-0003-9738-6914",
+            "scheme": "orcid"
+          }
+        ]
+      }
     }
   ],
-  "description": "《西醫新法》（Xi yi xin fa）是一部討論外科與包紮的晚清漢譯醫學文獻，署「美國嘉約翰口譯」「莆田林湘東筆述」；Bodleian Libraries館藏Sinica 1826的官方固定書目供定刊地[Canton]、年代[1872]。本資料集以該館數位影像為底本，提供六面圖版、三十七面正文及一面原框正文空白面的原印文字轉錄，並以TXT、JSON及TEI XML保存文字、疑讀與物理面／影像幀對應，供晚清外科與包紮漢譯詞彙、圖文關係及印刷史研究。本版在固定初錄與第二輪影像觀察比對後進行AI來源覆核修訂，疑讀及未解處仍保留；未經人類全文雙校或專家審定。\n\nXi yi xin fa [New methods of Western medicine] is a late-Qing Chinese medical work concerning surgery and bandaging, credited to John Glasgow Kerr (嘉約翰) for oral translation and Lin Xiangdong (林湘東) for written rendering. The official fixed catalogue for Bodleian Libraries, Sinica 1826, supplies [Canton] and [1872]. Derived from the Bodleian digital images, this dataset provides an AI-assisted transcription of original printed text across six figure faces, thirty-seven main-text faces, and one face with an original printed frame and a blank body. TXT, JSON, and TEI XML retain readings, uncertainties, and physical-face-to-image mappings for research on late-Qing surgical and bandaging terminology in translation, image-text relationships, and print history. This AI-assisted revised edition follows comparison with second image observations and source review; uncertainty and unresolved cases remain. Full human double collation and expert review have not been performed.",
-  "notes": "Source: https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/ IIIF: https://iiif.bodleian.ox.ac.uk/iiif/manifest/d07550d1-b969-4d5a-a5f3-5bd10634b21c.json Official fixed catalogue: https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201826.xml Formats: TXT, JSON, TEI XML; scope: 25 captures, 44 numbered physical faces (six figure faces, 37 main-text faces, one original-frame/blank-body face); four cover surfaces excluded. Historical public-domain text and faithful mechanical transcription acquire no new exclusive restriction. Copyrightable original documentation and arrangement: CC BY 4.0. Bodleian images are excluded and separately carry CC BY-NC 4.0. The English bracketed title is an editorial translation. Repository: https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872",
-  "methods": "# Methods / 處理方法\n\nThe fixed initial transcription was preserved as the v0.1.0 baseline. Separate source-only second image observations were collected, then compared over the 44 physical faces using literal page streams while retaining both original unit segmentations. No Unicode, variant-character or punctuation normalization was applied.\n\nNine Gemini jobs were submitted. Four yielded usable body transcription covering 10 source captures and 15 physical faces; five did not yield usable body transcription. The reported actual Gemini model was `gemini-3.8-flash-high`. Native source-only supplements supplied the remaining 29 faces. Exact native model identities, effort and complete counters are unknown and are not recorded as zero. This mixed observation coverage must not be described as a successful complete Gemini transcription or a guarantee from different models.\n\nSubsequent AI source adjudication was nonblind: both readings and their differences were exposed. The resulting edition applies 215 literal operations in 154 original units. The initial 472 identifiers, ordering and all source hashes are retained. All 1,130 comparison decisions are preserved privately; 215 candidates remain unresolved. Source-visible marks, their approximate Unicode representation, and their printed or later-added origin are separate questions.\n\nThe 69 initial uncertainty declarations retain their original strings and positions in private revision history. Current ranges derive from the actual operations. Two reordered cases retain a broader, explicitly provisional replacement context rather than a guessed one-to-one glyph location. Two further uncertainty records were added, and one existing record gained candidates, giving 71 current records. The 15 original edge observations retain unknown extent and uncertain ownership where applicable.\n\nJSON, TXT and TEI XML are deterministic exports of the fixed revised strings. Source identity, schema, round-trip, privacy and package checks evaluate engineering properties, not reading correctness. No human full-text double collation, expert approval, peer review or accuracy measurement has been performed.\n\nSource scans, crops, dedicated programs, prompts and complete private working records are not distributed. A complete method for rerunning image-to-text transcription from source images is not provided. The public revision summary is deliberately limited to text changes, source references and evidence scope.\n\n本版為 AI 輔助歷史文獻修訂。兩稿已曝光的回圖判斷，不屬盲校或人類審定；未解點位、字形與頁邊歸屬仍保留。本工作沒有進行生物研究或現代臨床推導。\n\nThe per-face `historical_initial_observation` preserves initial-reader metadata verbatim, including old glyph descriptions, batch limits and pending statements. It is historical evidence rather than the status of this revision. The adjacent `revision_status` records the present provisional edition and counts; unresolved source-edge locator labels do not establish page ownership.\n\n各面 historical_initial_observation 原樣保存初錄頁註；其中舊字形、批次範圍與 pending 只描述初錄當時，不代表本版現況。本版狀態另列 revision_status，未因此清除疑讀、比較未解處或邊區歸屬。\n",
   "keywords": [
     "西醫新法",
     "Xi yi xin fa",
@@ -34,51 +38,120 @@
     "Sinica 1826"
   ],
   "languages": [
-    "lzh",
-    "eng"
+    {
+      "id": "lzh",
+      "title": {
+        "en": "Literary Chinese"
+      }
+    },
+    {
+      "id": "eng",
+      "title": {
+        "en": "English"
+      }
+    }
   ],
-  "source_publication": {
-    "place_catalogue": "[Canton]",
-    "year_catalogue": "[1872]"
+  "description": "<p>《西醫新法》（Xi yi xin fa）是討論外科與包紮的晚清漢譯醫學文獻，署嘉約翰（John Glasgow Kerr）口譯、林湘東筆述；Bodleian Sinica 1826 的館目供定刊地 [Canton]、年代 [1872]。本資料集依25幅影像提供44個指定物理面的 TXT、JSON、TEI XML、疑讀與來源對應，可供晚清醫學翻譯、包紮史及圖文關係研究。文字為 AI 暫定轉錄並經局部原圖修訂，未經人類全文雙校或專家審定。</p><p>Xi yi xin fa [New methods of Western medicine] is a late-Qing Chinese work on surgery and bandaging, credited to John Glasgow Kerr for oral translation and Lin Xiangdong for written rendering. The catalogue for Bodleian Sinica 1826 supplies [Canton] and [1872]. Based on 25 images, the dataset provides TXT, JSON and TEI XML for 44 designated physical faces, with uncertainties and source mappings for research on medical translation, bandaging history and image-text relationships. The provisional AI transcription includes selected source-image corrections; full human double collation and expert review have not been performed.</p>",
+  "additional_descriptions": [
+    {
+      "type": {
+        "id": "notes"
+      },
+      "description": "Source: https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/ IIIF: https://iiif.bodleian.ox.ac.uk/iiif/manifest/d07550d1-b969-4d5a-a5f3-5bd10634b21c.json Formats: TXT, JSON, TEI XML. Scope: 25 fixed images / 44 designated physical faces. Literary Chinese text with English documentation. Historical text and faithful mechanical transcription receive no new exclusive restriction; copyrightable original documentation and arrangement are CC BY 4.0. Source scans/crops are excluded and retain the separate Bodleian terms in RIGHTS.md and LICENSE.md, including CC BY-NC 4.0 where recorded. Bracketed English titles are editorial translations. Prior v0.2.0 DOI: 10.5281/zenodo.23971701; this proposed v0.2.1 DOI is unknown and omitted."
+    },
+    {
+      "type": {
+        "id": "methods"
+      },
+      "description": "# Methods / 處理方法\n\nv0.2.1 applies a targeted, nonblind review of 9 selected reader questions against the same fixed Bodleian images. Proposed readings and their rationale were already known before image review. Full parent frames were viewed together with original-pixel details where needed. 12 individually specified literal operations (12 codepoints) are adopted; retained and unresolved proposals are listed with source references in TARGETED-CORRECTIONS.json. This round is not a fresh whole-book independent collation.\n\n\n\nThe previous v0.2.0 whole-book AI observation, comparison and source-adjudication history remains preserved in HISTORICAL-METHODS-v0.2.0.md and the existing JSON history. Its coverage and failed or incomplete activities are not upgraded by this selected review. Historical count statements describe that version; current counts are 472 units, 9189 literal Unicode codepoints and 71 active uncertainty declarations. Codepoint counts include reference strings where present and are not source character counts or error rates.\n\nNo Unicode normalization, global variant or punctuation replacement, reading-order change, gaiji-ID change, or modernization is applied. Fixed unit strings drive the JSON, TXT and TEI XML exports without new model rewriting. Unknown glyph extent remains unknown; original uncertainties and superseded readings remain in version history. The two current gaiji reference notations, where present, remain unchanged.\n\nFull human double collation, expert review, peer review and accuracy measurement have not been performed. Exact model identifiers, reasoning settings and complete token counters for the native AI review were not reported and remain unknown. Format, schema, hash and round-trip checks establish engineering properties only. The minimal TEI P5 projection is not a complete scholarly apparatus; no custom ODD or Schematron is claimed.\n\nSource scans and crops, dedicated programs, prompts and complete private working records are excluded. The complete image-to-text production method is not publicly reproducible from this package. See RIGHTS.md and LICENSE.md for the distinct historical-text, original-documentation and Bodleian-image terms. This is historical-document transcription; no biological research or modern clinical instructions are provided.\n"
+    }
+  ],
+  "rights": [
+    {
+      "id": "cc-by-4.0",
+      "title": {
+        "en": "Creative Commons Attribution 4.0 International"
+      },
+      "description": {
+        "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+      },
+      "icon": "cc-by-icon",
+      "props": {
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "scheme": "spdx"
+      }
+    }
+  ],
+  "rights_scope": "Machine-readable CC BY 4.0 is for copyrightable original documentation and arrangement; historical text and source-image rights remain separately described in RIGHTS.md/LICENSE.md.",
+  "source": {
+    "object_url": "https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/",
+    "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/d07550d1-b969-4d5a-a5f3-5bd10634b21c.json",
+    "shelfmark": "Bodleian Libraries, Sinica 1826",
+    "edition": "官方固定書目供定[Canton]、[1872]；未核定原印刊記或出版者。封面手寫年份另屬後加層，不作原刊紀年。",
+    "author_attribution": "美國嘉約翰口譯；莆田林湘東筆述。官方書目作者欄：Kerr, John Glasgow。"
   },
   "related_identifiers": [
     {
       "identifier": "https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/",
-      "relation": "IsDerivedFrom",
-      "resource_role": "source-object"
+      "scheme": "url",
+      "relation_type": {
+        "id": "isderivedfrom",
+        "title": {
+          "de": "Wird abgeleitet von",
+          "en": "Is derived from"
+        }
+      }
     },
     {
       "identifier": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/d07550d1-b969-4d5a-a5f3-5bd10634b21c.json",
-      "relation": "References",
-      "resource_role": "iiif-manifest"
+      "scheme": "url",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      }
     },
     {
       "identifier": "https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201826.xml",
-      "relation": "References",
-      "resource_role": "fixed-official-catalogue"
+      "scheme": "url",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      }
     },
     {
       "identifier": "https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872",
-      "relation": "IsSupplementTo",
-      "resource_role": "repository"
-    }
-  ],
-  "rights_layers": [
-    {
-      "scope": "historical text and faithful mechanical transcription",
-      "statement": "No new exclusive restriction"
+      "scheme": "url",
+      "relation_type": {
+        "id": "issupplementto",
+        "title": {
+          "de": "Ergänzt",
+          "en": "Is supplement to"
+        }
+      }
     },
     {
-      "scope": "copyrightable original documentation and arrangement",
-      "id": "cc-by-4.0"
+      "identifier": "https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872/releases/tag/v0.2.0",
+      "scheme": "url",
+      "relation_type": {
+        "id": "isnewversionof"
+      }
     },
     {
-      "scope": "source images excluded from this package",
-      "id": "cc-by-nc-4.0"
+      "identifier": "10.5281/zenodo.23971701",
+      "scheme": "doi",
+      "relation_type": {
+        "id": "isnewversionof"
+      }
     }
   ],
-  "doi": null,
-  "concept_doi": null,
+  "prior_version_doi": "10.5281/zenodo.23971701",
+  "repository": "https://github.com/poplolioi11/bodleian-sinica1826-xiyi-xinfa-1872",
   "counts": {
     "canvases": 25,
     "target_physical_faces": 44,
@@ -102,6 +175,5 @@
       "running-title": 22,
       "title": 1
     }
-  },
-  "status_scope": "This proposal concerns a later Zenodo deposit only; it does not declare the publication status of a GitHub release."
+  }
 }

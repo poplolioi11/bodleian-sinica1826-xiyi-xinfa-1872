@@ -1,7 +1,7 @@
 {
   "dataset_id": "bodleian-sinica1826",
-  "version": "0.2.0",
-  "title": "西醫新法（[1872]；Bodleian Sinica 1826） / Xi yi xin fa [New methods of Western medicine]: Transcription dataset",
+  "version": "0.2.1",
+  "title": "西醫新法([1872];Bodleian Sinica 1826) / Xi yi xin fa [New methods of Western medicine]: Transcription dataset",
   "quality": {
     "status": "AI-assisted-source-revision-provisional",
     "independent_reading_applied": true,
@@ -14,7 +14,8 @@
     "comparison_candidates": 1130,
     "unresolved_comparison_candidates": 215,
     "source_review": "nonblind AI source review; both readings exposed",
-    "traceability_status": "incomplete; exact native model identity and unit observation coverage for added review activities remain unknown"
+    "traceability_status": "incomplete; exact native model identity and unit observation coverage for added review activities remain unknown",
+    "targeted_review_status": "selected-nonblind-source-review-with-unresolved-retained"
   },
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/",
@@ -2518,7 +2519,40 @@
         "human_review": false
       }
     },
-    "uncertainty_remapping": "Original uncertainty occurrences were fixed in the initial text and remapped through applied operations. Two reordered cases retain an explicitly expanded selected replacement context; no fuzzy relocation by searching the revised text."
+    "uncertainty_remapping": "Original uncertainty occurrences were fixed in the initial text and remapped through applied operations. Two reordered cases retain an explicitly expanded selected replacement context; no fuzzy relocation by searching the revised text.",
+    "targeted_corrections_20261112": {
+      "version": "0.2.1",
+      "base_version": "0.2.0",
+      "core_reader_questions": 9,
+      "literal_operations": 12,
+      "literal_codepoints_replaced": 12,
+      "blinded": false,
+      "public_decision_table": "TARGETED-CORRECTIONS.json",
+      "summary": "Selected reader questions were checked against the fixed source images with candidates already known. This round is not a new full-book independent collation. Previous whole-book AI reading history remains separately preserved.",
+      "limits": "No human double collation, expert review or measured accuracy. Detailed programs, prompts, crops and complete private working records are excluded."
+    },
+    "targeted_reader_correction_round": {
+      "base_version": "0.2.0",
+      "role": "nonblind targeted source review",
+      "human_double_collation": "not-performed",
+      "expert_review": "not-performed",
+      "changed_units": [
+        "p08-u001",
+        "p08-u004",
+        "p11-u004",
+        "p11-u006",
+        "p11-u008",
+        "p18-u006",
+        "p18-u009",
+        "p26-u005",
+        "p26-u009",
+        "p27-u005",
+        "p36-u002",
+        "p40-u008"
+      ],
+      "candidate_not_published": true,
+      "remaining_reader_proposals_unresolved": true
+    }
   },
   "position_convention": "公開pages[]依25官方幀fNNN排列；unit ID的pNN是44個物理面。疑讀以Unicode碼點0起半開區間定位；raw occurrence_index為0起算。core bbox固定null，原稿非null框另存source-regions.json，未知extent不造一字□。",
   "pages": [
@@ -3346,6 +3380,20 @@
             "因",
             "圖"
           ]
+        },
+        {
+          "id": "reader-b3-07",
+          "unit_id": "p07-u010",
+          "start": 15,
+          "end": 16,
+          "surface": "待",
+          "candidates": [
+            "待",
+            "存"
+          ],
+          "reason": "本輪讀者提案回原像素後仍未定待/存，保留現錄，待局部人核。",
+          "cause": "targeted-reader-source-review-unresolved",
+          "extent": "known"
         }
       ]
     },
@@ -3370,7 +3418,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "帶尤貴爛熟、試以此中治法概宜精細也、學醫者欲知其詳須",
+          "text": "帶尤貴爛熟、誠以此中治法概宜精細也、學醫者欲知其詳須",
           "bbox": null
         },
         {
@@ -3394,7 +3442,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "預備、以免臨時窘手、",
+          "text": "預備、以免臨時窒手、",
           "bbox": null
         },
         {
@@ -3562,20 +3610,6 @@
           "extent": "known",
           "candidates": [
             "一"
-          ]
-        },
-        {
-          "id": "unc-0012",
-          "unit_id": "p08-u004",
-          "start": 7,
-          "end": 8,
-          "surface": "窘",
-          "reason": "臨時後一字印色極淡，原像素單欄裁片仍有組件缺筆",
-          "cause": "initial-reading-uncertainty",
-          "extent": "known",
-          "candidates": [
-            "窘",
-            "望"
           ]
         },
         {
@@ -3785,7 +3819,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "至線條、則用以塞入傷口·令其口漸漸生潤俾易發膿也、",
+          "text": "至線條、則用以塞入傷口·令其口漸漸生濶俾易發膿也、",
           "bbox": null
         },
         {
@@ -3801,7 +3835,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "乾後、則驗傷口之潤若干、即將刀切此蠟綿務使合度、然後",
+          "text": "乾後、則驗傷口之濶若干、即將刀切此蠟綿務使合度、然後",
           "bbox": null
         },
         {
@@ -3817,7 +3851,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "內、未幾又復發開、而自然撐潤傷口、亦一善法也、凡撚絨",
+          "text": "內、未幾又復發開、而自然撐濶傷口、亦一善法也、凡撚絨",
           "bbox": null
         },
         {
@@ -4827,7 +4861,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "貼之法、又須先向傷口之邊下貼、而牽連合理、惟須留一隙、",
+          "text": "貼之法、又須先向傷口之邊下貼、而牽連合埋、惟須留一隙、",
           "bbox": null
         },
         {
@@ -4851,7 +4885,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "潤傷口、或並傷其肉芽可也、圖見十六間有爛瘡而用貼膏",
+          "text": "濶傷口、或並傷其肉芽可也、圖見十六間有爛瘡而用貼膏",
           "bbox": null
         },
         {
@@ -5765,7 +5799,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "更有合理樣、分開樣、壓實樣、發出樣、與夫還原紮實樣、其法",
+          "text": "更有合埋樣、分開樣、壓實樣、發出樣、與夫還原紮實樣、其法",
           "bbox": null
         },
         {
@@ -5797,7 +5831,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "纏上也、螺紋樣者、即於傷處而纏成螺絲之狀也、合理",
+          "text": "纏上也、螺紋樣者、即於傷處而纏成螺絲之狀也、合埋",
           "bbox": null
         },
         {
@@ -5845,7 +5879,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "反有跳血囊等症、當用此法紮之、發出樣者、法用布帶纏",
+          "text": "及有跳血囊等症、當用此法紮之、發出樣者、法用布帶纏",
           "bbox": null
         },
         {
@@ -6804,7 +6838,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "些、下宜薄此、然後縫了袋口、其袋頭左右兩角、宜各釘一帶、",
+          "text": "些、下宜薄些、然後縫了袋口、其袋頭左右兩角、宜各釘一帶、",
           "bbox": null
         },
         {
@@ -7327,7 +7361,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "時、兩頭布輥、即分兩手持之丶先在脊下處、橫纏數度運至前",
+          "text": "時、兩頭布轆、即分兩手持之丶先在脊下處、橫纏數度運至前",
           "bbox": null
         },
         {

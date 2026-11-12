@@ -1,0 +1,559 @@
+{
+  "schema": "targeted-nonblind-source-corrections/1",
+  "dataset_id": "bodleian-sinica1826",
+  "base_version": "0.2.0",
+  "result_version": "0.2.1",
+  "review_role": "targeted nonblind source review; candidates already exposed; not a new whole-book independent collation",
+  "cases": [
+    {
+      "issue_id": "reader-note-b3-01",
+      "decision": "accept",
+      "occurrence_count": 4,
+      "occurrences": [
+        {
+          "unit_id": "p11-u004",
+          "range": {
+            "start": 18,
+            "end": 19,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "潤",
+          "after": "濶",
+          "full_unit_before": "至線條、則用以塞入傷口·令其口漸漸生潤俾易發膿也、",
+          "full_unit_after": "至線條、則用以塞入傷口·令其口漸漸生濶俾易發膿也、",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7b87d46a-ce98-4380-9b71-5eeb58cf79d8/full/3000,/0/default.jpg",
+            "sha256": "268c34d4fe09214f3cf71ffcdf7af99f6cd68fc9f6af8e77eaffc6f144d4945d",
+            "width": 3000,
+            "height": 2726
+          },
+          "bbox": [
+            555,
+            910,
+            1100,
+            1780
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "原像素放大來源可見氵旁、門框及門內舌：上部有短撇及十，下有口；不作門內王。3000寬縮圖初觀曾混淆，最終依同母圖原像素裁定。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p11-u006",
+          "range": {
+            "start": 8,
+            "end": 9,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "潤",
+          "after": "濶",
+          "full_unit_before": "乾後、則驗傷口之潤若干、即將刀切此蠟綿務使合度、然後",
+          "full_unit_after": "乾後、則驗傷口之濶若干、即將刀切此蠟綿務使合度、然後",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7b87d46a-ce98-4380-9b71-5eeb58cf79d8/full/3000,/0/default.jpg",
+            "sha256": "268c34d4fe09214f3cf71ffcdf7af99f6cd68fc9f6af8e77eaffc6f144d4945d",
+            "width": 3000,
+            "height": 2726
+          },
+          "bbox": [
+            555,
+            910,
+            1100,
+            1780
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "原像素放大來源可見氵旁、門框及門內舌：上部有短撇及十，下有口；不作門內王。3000寬縮圖初觀曾混淆，最終依同母圖原像素裁定。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p11-u008",
+          "range": {
+            "start": 13,
+            "end": 14,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "潤",
+          "after": "濶",
+          "full_unit_before": "內、未幾又復發開、而自然撐潤傷口、亦一善法也、凡撚絨",
+          "full_unit_after": "內、未幾又復發開、而自然撐濶傷口、亦一善法也、凡撚絨",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7b87d46a-ce98-4380-9b71-5eeb58cf79d8/full/3000,/0/default.jpg",
+            "sha256": "268c34d4fe09214f3cf71ffcdf7af99f6cd68fc9f6af8e77eaffc6f144d4945d",
+            "width": 3000,
+            "height": 2726
+          },
+          "bbox": [
+            555,
+            910,
+            1100,
+            1780
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "原像素放大來源可見氵旁、門框及門內舌：上部有短撇及十，下有口；不作門內王。3000寬縮圖初觀曾混淆，最終依同母圖原像素裁定。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p18-u009",
+          "range": {
+            "start": 0,
+            "end": 1,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "潤",
+          "after": "濶",
+          "full_unit_before": "潤傷口、或並傷其肉芽可也、圖見十六間有爛瘡而用貼膏",
+          "full_unit_after": "濶傷口、或並傷其肉芽可也、圖見十六間有爛瘡而用貼膏",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e9f30f8a-35f1-48d4-8df7-a9d19876abc9/full/3000,/0/default.jpg",
+            "sha256": "a70bc5bb5e9fca3bacaa9ebff3d33e376ac94cd2934c38ce9b5002aaf1e99e5c",
+            "width": 3000,
+            "height": 2688
+          },
+          "bbox": [
+            1700,
+            510,
+            1820,
+            850
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "同母圖原像素可見氵旁、門框，門內為上撇十下口的舌；非閏。第一裁片切到右緣，已改用完整框。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-02",
+      "decision": "accept",
+      "occurrence_count": 3,
+      "occurrences": [
+        {
+          "unit_id": "p18-u006",
+          "range": {
+            "start": 19,
+            "end": 20,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "理",
+          "after": "埋",
+          "full_unit_before": "貼之法、又須先向傷口之邊下貼、而牽連合理、惟須留一隙、",
+          "full_unit_after": "貼之法、又須先向傷口之邊下貼、而牽連合埋、惟須留一隙、",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e9f30f8a-35f1-48d4-8df7-a9d19876abc9/full/3000,/0/default.jpg",
+            "sha256": "a70bc5bb5e9fca3bacaa9ebff3d33e376ac94cd2934c38ce9b5002aaf1e99e5c",
+            "width": 3000,
+            "height": 2688
+          },
+          "bbox": [
+            1995,
+            1360,
+            2100,
+            1920
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "里左為土：上短橫穿豎、下長橫，沒有王旁的第三橫；每處分別回圖，非按同書詞例統一。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p26-u005",
+          "range": {
+            "start": 3,
+            "end": 4,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "理",
+          "after": "埋",
+          "full_unit_before": "更有合理樣、分開樣、壓實樣、發出樣、與夫還原紮實樣、其法",
+          "full_unit_after": "更有合埋樣、分開樣、壓實樣、發出樣、與夫還原紮實樣、其法",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a36f3b-6efc-4f39-9f6c-498b6285370a/full/3000,/0/default.jpg",
+            "sha256": "415675836b6783297c367ddd311723ff94eb2b14b074ccb4e43366fc07860a42",
+            "width": 3000,
+            "height": 2688
+          },
+          "bbox": [
+            2160,
+            665,
+            2290,
+            1060
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "里左為土：上短橫穿豎、下長橫，沒有王旁的第三橫；每處分別回圖，非按同書詞例統一。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p26-u009",
+          "range": {
+            "start": 23,
+            "end": 24,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "理",
+          "after": "埋",
+          "full_unit_before": "纏上也、螺紋樣者、即於傷處而纏成螺絲之狀也、合理",
+          "full_unit_after": "纏上也、螺紋樣者、即於傷處而纏成螺絲之狀也、合埋",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a36f3b-6efc-4f39-9f6c-498b6285370a/full/3000,/0/default.jpg",
+            "sha256": "415675836b6783297c367ddd311723ff94eb2b14b074ccb4e43366fc07860a42",
+            "width": 3000,
+            "height": 2688
+          },
+          "bbox": [
+            1660,
+            1920,
+            1840,
+            2310
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "里左為土：上短橫穿豎、下長橫，沒有王旁的第三橫；每處分別回圖，非按同書詞例統一。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-03",
+      "decision": "accept",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p08-u001",
+          "range": {
+            "start": 6,
+            "end": 7,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "試",
+          "after": "誠",
+          "full_unit_before": "帶尤貴爛熟、試以此中治法概宜精細也、學醫者欲知其詳須",
+          "full_unit_after": "帶尤貴爛熟、誠以此中治法概宜精細也、學醫者欲知其詳須",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d9105892-5cfd-46db-a345-4d3bb42a60b4/full/3000,/0/default.jpg",
+            "sha256": "45c1607b5b66e97fb924dd3b8e0b2b1372a8853c06c51bb2ba25871d00f0e77f",
+            "width": 3000,
+            "height": 2726
+          },
+          "bbox": [
+            2610,
+            740,
+            2730,
+            1070
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "言旁右部可見成的斜戈及內折筆，沒有式下的工；採誠。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-04",
+      "decision": "accept",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p36-u002",
+          "range": {
+            "start": 5,
+            "end": 6,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "此",
+          "after": "些",
+          "full_unit_before": "些、下宜薄此、然後縫了袋口、其袋頭左右兩角、宜各釘一帶、",
+          "full_unit_after": "些、下宜薄些、然後縫了袋口、其袋頭左右兩角、宜各釘一帶、",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/611b065f-a213-439f-8e7f-8eed2157aef1/full/3000,/0/default.jpg",
+            "sha256": "03390d77dcc4d5aa3c93d487a6f819d76a8a3a325df097974dd4d196fd206acc",
+            "width": 3000,
+            "height": 2688
+          },
+          "bbox": [
+            2515,
+            510,
+            2625,
+            1050
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "薄後字此下另有兩筆短橫，與同欄頂端些的下二可對照；不是僅此。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-05",
+      "decision": "accept",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p40-u008",
+          "range": {
+            "start": 5,
+            "end": 6,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "輥",
+          "after": "轆",
+          "full_unit_before": "時、兩頭布輥、即分兩手持之丶先在脊下處、橫纏數度運至前",
+          "full_unit_after": "時、兩頭布轆、即分兩手持之丶先在脊下處、橫纏數度運至前",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/850ae62d-45ae-481f-916f-2fe08eccd57f/full/3000,/0/default.jpg",
+            "sha256": "0d87d95d52dc5b3cfac3a5a4b0bcf466be9272f29878535b8abe6439c2577bf1",
+            "width": 3000,
+            "height": 2688
+          },
+          "bbox": [
+            1850,
+            510,
+            1970,
+            1150
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "車旁右部可見鹿的上點廣形、內框及下部比；不是昆上日。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-06",
+      "decision": "accept",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p27-u005",
+          "range": {
+            "start": 0,
+            "end": 1,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "反",
+          "after": "及",
+          "full_unit_before": "反有跳血囊等症、當用此法紮之、發出樣者、法用布帶纏",
+          "full_unit_after": "及有跳血囊等症、當用此法紮之、發出樣者、法用布帶纏",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a36f3b-6efc-4f39-9f6c-498b6285370a/full/3000,/0/default.jpg",
+            "sha256": "415675836b6783297c367ddd311723ff94eb2b14b074ccb4e43366fc07860a42",
+            "width": 3000,
+            "height": 2688
+          },
+          "bbox": [
+            880,
+            520,
+            980,
+            1020
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "頂部為向下回折的橫折折撇，右下交叉捺承接；不是反的厂覆又。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-07",
+      "decision": "unresolved",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p07-u010",
+          "range": {
+            "start": 15,
+            "end": 16,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "待",
+          "after": "待",
+          "full_unit_before": "者、有不宜於太遲、精神而明之、待乎其人、至裹以布包、紮以布",
+          "full_unit_after": "者、有不宜於太遲、精神而明之、待乎其人、至裹以布包、紮以布",
+          "decision": "unresolved",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5b364793-0be8-4be9-9416-196051aeddd4/full/3000,/0/default.jpg",
+            "sha256": "9a4d85838d66f86774b0de963685d2018062199e929da2c0ebed2f4033f76003",
+            "width": 3000,
+            "height": 2726
+          },
+          "bbox": [
+            330,
+            1260,
+            445,
+            1540
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "本次讀者在原像素仍無法穩定判定淡印左側短撇及右下折鉤究竟屬彳寺或ナ子；存為成語候選，但成語不能替代本處字形。暫存現錄待，交主代理或後續人核。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": "本次讀者在原像素仍無法穩定判定淡印左側短撇及右下折鉤究竟屬彳寺或ナ子；存為成語候選，但成語不能替代本處字形。暫存現錄待，交主代理或後續人核。"
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-08",
+      "decision": "accept",
+      "occurrence_count": 2,
+      "occurrences": [
+        {
+          "unit_id": "p08-u004",
+          "range": {
+            "start": 7,
+            "end": 8,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "窘",
+          "after": "窒",
+          "full_unit_before": "預備、以免臨時窘手、",
+          "full_unit_after": "預備、以免臨時窒手、",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d9105892-5cfd-46db-a345-4d3bb42a60b4/full/3000,/0/default.jpg",
+            "sha256": "45c1607b5b66e97fb924dd3b8e0b2b1372a8853c06c51bb2ba25871d00f0e77f",
+            "width": 3000,
+            "height": 2726
+          },
+          "bbox": [
+            2290,
+            930,
+            2420,
+            1330
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "穴下可見至的上層折筆及下層土底，未見尹下口；與p15分別回圖後同讀窒。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p15-u009",
+          "range": {
+            "start": 1,
+            "end": 2,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "窒",
+          "after": "窒",
+          "full_unit_before": "無窒手之弊、",
+          "full_unit_after": "無窒手之弊、",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9ebf6f24-d1c1-4164-aed6-56deedc0dd83/full/3000,/0/default.jpg",
+            "sha256": "6c14858723a5de4896c99b8f5855f8d20973e926c9b4830931bdd6f160d24eda",
+            "width": 3000,
+            "height": 2726
+          },
+          "bbox": [
+            435,
+            500,
+            545,
+            1000
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "穴下至的上層折筆、橫及土底清楚；保留窒。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-09",
+      "decision": "unresolved-encoding",
+      "scope": "whole-book symbol-encoding question; program inventory is location evidence, not visual proof",
+      "counts": {
+        "、": 980,
+        "·": 99,
+        "丶": 14
+      },
+      "total_occurrences": 1093,
+      "image_diagnostic_sample_count": 7,
+      "text_change": false,
+      "reason": "統計確認三種碼位分布，但原書影像沒有Unicode碼位。抽核只見點形、墨色、大小與位置有差異，不能證成某一碼一律錯；全量碼位統一屬表示政策變更，若需檢索正規化須另層投影，不覆寫忠實層。1093處未逐一作原像素判讀，不宣稱此案全量圖像裁定完成。",
+      "unresolved_reason": "三碼的原訂選碼理由與全量逐點對照尚缺；p41圖後點另有存在性疑義，未作本輪正文改字。",
+      "source_object_url": "https://digital.bodleian.ox.ac.uk/objects/d07550d1-b969-4d5a-a5f3-5bd10634b21c/",
+      "source_index": "source-pages.json",
+      "encoding_policy": "Existing codepoints retained; no global replacement. No claim that every printed mark was individually adjudicated."
+    }
+  ],
+  "extra_preface_operations": [],
+  "extra_preface_scope": null,
+  "core_case_states": {
+    "accept": 7,
+    "retain": 0,
+    "unresolved": 2
+  },
+  "literal_operations": 12,
+  "literal_codepoints_replaced": 12,
+  "normalization": "none",
+  "source_images_included": false,
+  "human_double_collation": "not-performed",
+  "expert_review": "not-performed",
+  "accuracy_measured": false
+}

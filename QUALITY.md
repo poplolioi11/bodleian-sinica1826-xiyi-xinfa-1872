@@ -1,3 +1,9 @@
+這是依古籍影像整理的 AI 轉錄，仍有疑讀及可能誤讀。
+本版只核對訂正紀錄所列位置，沒有完成人類全文雙校或專家審定。
+閱讀與引用請對照原館藏影像；未解處及採改、保留結果見本包疑讀表與訂正紀錄。
+
+> 本文件原有的 v0.2.0 校讀與數量敘述保留為歷史；本版 v0.2.1 的局部非盲覆核、現行數量及未解狀態見 [METHODS.md](METHODS.md) 與 [TARGETED-CORRECTIONS.md](TARGETED-CORRECTIONS.md)。
+
 # Quality and limits / 品質與限制
 
 Status: AI-assisted source revision, provisional. Independent source-only second observations cover 44 physical faces through mixed Gemini and native roles; subsequent source review was nonblind. Native identities, effort and complete usage are unknown.
